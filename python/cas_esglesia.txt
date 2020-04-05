@@ -1,0 +1,10 @@
+=================================
+name: Santa Maria de Corroncui (nova) (784837403)
+(42.3338651,0.8523137)
+municipi: el Pont de Suert
+---
+bd: Santa Maria de Corroncui (nova)
+(mun: Viu de Llevata)
+wik: ca:Santa Maria de Corroncui II (viquipèdia)
+coincidència: 100 %
+-----------

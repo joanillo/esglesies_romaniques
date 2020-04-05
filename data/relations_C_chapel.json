@@ -1,0 +1,40 @@
+[
+{
+  "type": "relation",
+  "id": 6213434,
+  "timestamp": "2018-08-16T09:03:58Z",
+  "version": 4,
+  "changeset": 61708780,
+  "user": "ccamara",
+  "uid": 423535,
+  "members": [
+    {
+      "type": "way",
+      "ref": 418040956,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 418040957,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "alt_name": "Capella del Remei",
+    "building": "chapel",
+    "building:levels": "1",
+    "building:material": "stone",
+    "denomination": "catholic",
+    "heritage:ipac": "28680",
+    "heritage:operator": "Generalitat de Catalunya",
+    "historic": "wayside_shrine",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Esgl%C3%A9sia_de_Sant_Miquel_del_Castell_%28Castellter%C3%A7ol%29_-_1.jpg/1280px-Esgl%C3%A9sia_de_Sant_Miquel_del_Castell_%28Castellter%C3%A7ol%29_-_1.jpg",
+    "name": "Ermita de Sant Miquel",
+    "religion": "christian",
+    "roof:material": "roof_tiles",
+    "type": "multipolygon",
+    "wikidata": "Q18007173",
+    "wikipedia": "ca:Sant Miquel del Castell (Castellterçol)"
+  }
+}
+]

@@ -1,0 +1,260 @@
+Tinc el llistat de totes les esglésies romàniques (només el nom, que també és la referència a la viquipèdia): esglesies_romaniques_viquipedia
+
+Puc saber les esglésies que hi ha a Catalunya, siguin romàniques o no.
+area["name"="Catalunya"]->.boundaryarea;
+(
+nwr(area.boundaryarea)[amenity=place_of_worship];
+);
+out meta;
+
+nodes: 854, vies: 2735, relacions: 120
+
+COMPTE!! També s'ha de cercar per building=chapel
+
+De moment, el que farem és cercar les esglésies que hi ha a OSM, i actualitzar la informació en els dos sentits: a OSM posaré que són romàniques, i a la meva bd posaré la info que està a OSM.
+
+0) crear una base de dades mysql per gestionar les meves esglésies romàniques.
+dades_inicials.sql
+
+Primer començarem pels nodes; després les àrees; després les relacions.
+
+1) nodes_C.xml
+2) areas_C.xml
+3) relations_C.xml
+
+1) nodes_C.json
+---------------
+creuar_nodes.py
+recorro tots els nodes i cerco la similitud (automàtica o manual) entre el valor del node xml i una de les entrades a la meva bd. Actualitzo la informació. Hi haurà molts nodes que no es corresponen a una esglèsia romànica.
+creuar_nodes.py
+
+
+Actualització OSM:
+*TODO S'haurà d'actualitzar els noms. En molts casos només posa sant pere, santa maria, i hauria de ser:
+ermita de Sant Bernabé -> Sant Bernabé d'Aguilera
+
+*TODO Haurem de passar els nodes a vies.
+canviar Ermita de Sant Miquel (Ruinas) -> runes
+
+2) areas_C.xml
+---------------
+creuar_arees.py
+
+TODO-OK: tinc esglesies (vies o nodes) sense el municipi, per un error. S'haurà de fer una select, tinc el osm_id -> municipi, i fer un update. script: cercar_municipi_from_osm_id_node.py
+
+
+TODO
+-------
+Afegir a la wikipedia (esglésies romàniques de Catalunya):
+*Sant Esteve de Tubau
+*Santa Eugènia de la Móra Comdal
+*Santa Magdalena del Sàlzer
+*Sant Joan de Cornudell
+*Santa Maria de la Tossa de Montbui
+*Mare de Déu de la Roca
+*Sant Andreu de Biscarri
+*Santa Magdalena de Mendrat
+*Santa Maria del Castell de Miralles
+*Sant Jaume de Sant Cristòfol
+*Sant Iscle i Santa Victòria de Casa Llobeta
+*Sant Julià de Basturs
+*Santa_Maria_de_la_Torre (Alins, Àreu)
+	https://ca.wikipedia.org/wiki/Santa_Maria_de_la_Torre
+*Sant Salvador de la Serra
+*Mare de Déu de la Posa
+
+TODO
+-----
+*a la bd tinc esglésies que no hi són a OSM
+*Les esglésies que són nodes, les hauria de fer ways
+*Cercar les esglésies que tenen per nom 'Església', Esglèsia, Esglesia, Iglesia
+*Quan actualitzi OSM, en ppi els meus noms són millors que els que hi ha a OSM. Però s'haurà d'anar cas per cas, i sobretot anar en compte a la Vall d'Aran.
+*wikipedia: n'hi ha que tenen ca:, i d'altres no
+*Més que building=yes, hauria d'especificar cathedral, church, chapel o religious (més genèric)
+
+3) relations_C.xml
+------------------
+Les relations estan formades per vàries vies. L'estratègia és seleccionar la primera via, i cercar els nodes d'aquesta via. Del primer node, ja podré trobar les coordenades i el municipi.
+
+TODO
+Després d'acabar el creuament de nodes, vies i relacions de OSM amb les esglésies romàniques que tinc a la base de dades, de 1808 esglésies he fet l'emparellament de 1017, i en queden 791. Què passa amb aquestes. Doncs senzillament, en la majoria dels casos, que no hi són a OSM. Per exemple, Sant Climent de la Torre de Foix.
+
+Si aconseguís les coordenades, es podria fer una importació automàtica dels nodes. Ara bé, si el que vull és definir les superfícies (ways), no queda altra manera de fer que fer una inserció manual. A més, com en el cas de Sant Climent de la Torre de Foix, s'aprofita per fer el mapping de la Torre de Foix. Malauradament, és una feina molt manual.
+
+Això sí, hauré de pensar en la manera de fer-ho el més ràpid possible.
+
+amenity=place_of_worship
+building=yes
+name=Sant Climent de la Torre de Foix
+religion=christian
+wikidata=Q21604426
+wikipedia=ca:Sant Climent de la Torre de Foix
+note=importacio_esglesies_romaniques_prov
+
+note=* - for adding notes to yourself and your fellow mappers.
+Com que quan gravo el way encara no sé el osm_id de la way, deixo una nota, i més tard ja faré l'aparellament.
+
+---
+TODO:
+quan hagi acabat tot, actualitzar la base de dades amb el camp: estat
+per saber les esglésies que estan en estat ruïnós
+---
+
+Cas d'ús: (exemple de per què val la pena fer aquesta migració)
+Església de Marata -> Santa Coloma de Marata
+Ermita Sant Miquel -> Sant Miquel del Pla de Manlleu
+---
+Per què l'emparellament no funcionava. Un cas és que una mateixa església es pot anomenar de dues maneres diferents. Per ex:
+Sant Llorenç del Mont = Monestir de Sant Llorenç de Sous
+Sant Andreu de Llorona = Sant Andreu de Lliorona
+Sant Feliu de Carbonils = Sant Feliu de Carbonills
+En aquest cas utilitzem alt_name, i es mira de respectar el nom que ja hi havia a OSM, perquè se suposa que l'edició ve d'alguna persona amb un coneixement local de la zona.
+---
+Si vull cercar esglésies per cathedral, church, chapel o religious
+aleshores una església en runes, si poso 
+building=ruins, no la trobaria. És millor posar la combinació:
+building=church
+ruined:building=*
+per indicar que és una església, i que el seu estat és abandonat.
+El que no podem fer és posar: amenity=place_of_worship
+doncs com que està en runes, no és lloc de culte.
+---
+Cas: Santa Maria d'Alcover
+És una església en runes. Evidentment no s'oficia missa. Per tant, no té sentit posar: amenity=place_of_worship
+i posem:
+building=ruins
+Això voldrà dir que per cercar les esglésies romàniques no em valdrà amenity=place_of_worship
+doncs no totes les esglésies faran missa.
+---
+
+script esglesies_que_falten.py
+------------------------------
+Un cop hem acabat de fer tots els emparellaments, queden unes 700 esglésies.
+Poden passar dues coses: 1) que existeixin a OSM; 2) o que no
+1) He d'anar a cercar-les a OSM, i editar i posar els tags, per ex:
+<pre>
+amenity=place_of_worship
+building=church
+name=Sant Joan
+wikipedia=ca:Sant Joan (Llaberia)
+wikidata=
+religion=christian
+denomination=catholic
+note=importacio_esglesies_romaniques_prov
+</pre>
+a posteriori, el tag ''note=importacio_esglesies_romaniques_prov'' em servirà per cercar-lo, trobar el osm_id, i actualitzar la bd. (encara no dic res que arquitectura és romànica, això ho faré al final quan tingui totes les esglésies a la bd i a OSM).
+
+Normalment, el fet de que no les pugués emparellar és perquè el nom estava molt mal posat.
+
+2) si l'església és nova, doncs l'hauré de crear.
+
+
+====
+https://wiki.openstreetmap.org/wiki/Category:Buildings
+building=yes
+building=house no seria el més indicat per a cases de pagès, crec.
+Tag:building=abandoned
+Tag:building=farm
+Tag:building=ruins
+
+
+En canvi, també existeix el tag:
+place=isolated_dwelling, que la traducció al català que fa el iD és casa aïllada.
+que s'utilitza a nodes. Es podria utilitzar per exemple en una masia aïllada, si volem fer un node. Ara bé, si la definim com a àrea és millor utilitzar building.
+
+Segurament la manera correcta de classificar una casa aïllada seria:
+building=yes + place=isolated_dwelling
+i si aquesta casa està en mal estat es pot utilitzar
+Tag:building=ruins o abandoned
+
+
+========
+UPDATE esglesia set osm_id=NULL where id=164;
+UPDATE esglesia set lat=NULL where id=164;
+UPDATE esglesia set lon=NULL where id=164;
+UPDATE esglesia set municipi=NULL where id=164;
+UPDATE esglesia set osm_tipus=NULL where id=164;
+UPDATE esglesia set wikipedia=NULL where id=164;
+UPDATE esglesia set wikidata=NULL where id=164;
+
+UPDATE esglesia set osm_id='781857646' where id=621;
+UPDATE esglesia set lat=42.2090827 where id=621;
+UPDATE esglesia set lon=1.8579011 where id=621;
+UPDATE esglesia set municipi='Guardiola de Berguedà' where id=621;
+UPDATE esglesia set osm_tipus='way' where id=621;
+UPDATE esglesia set wikipedia='ca:Sant Climent de la Torre de Foix' where id=621;
+UPDATE esglesia set wikidata='Q21604426' where id=621;
+
+====
+Casa abandonada:
+building=yes
+name=Cal Pere Joan
+ruins=yes
+building:condition=ruinous
+===
+building=church
+ruins=yes
+building:condition=ruinous
+===
+Sant Maximí de Sallent
+tenia aquest tag
+architectural style=Romanesque
+
+però aquest tag no existeix, el correcte és:
+building:architecture=romanesque
+===
+(llogaret, aldea, caseriu)
+place=hamlet
+===
+Si una església està en runes, criteri:
+
+building=church o chapel o ...
+religion=christian
+denomination=catholic
+
+Ja no val aquest tag
+amenity=place_of_worship
+
+Posar:
+ruins=yes
+building:condition=ruinous
+===
+Es deia maproulette
+====
+Si s'ha de substituir un nom, es mirarà de posar a alt_name
+Per ex:
+name=Sant Pere de Vilademàger
+alt_name=Sant Pere de Vila de Màger
+
+name=Sant Jaume de Queralt
+alt_name=Sant Cristòfol de Queralt
+http://invarquit.cultura.gencat.cat/Cerca/Fitxa?index=0&consulta=&codi=4005
+====
+TODO: jo a la bd també hauria de tenir el alt_name (ho faré a posteriori)
+===
+Evidentment s'aprofita per corregir faltes d'ortografia (moltes)
+i posar algun edifici o edifici de granja que siguin fàcils.
+===
+més important, en algun cas s'aprofita per definit el llogaret (hamlet?)
+
+===
+TODO:
+ens hem basat en la Viquipèdia
+
+però una altra font de consulta pot ser el Patrimoni de la Generalitat, on fent cerca avançada d'estil romànic trobem 1984 entrades (compte, no totes les entrades són esglésies romàniques)
+http://invarquit.cultura.gencat.cat/Cerca/Llista?Consulta=MCU4K1JvbcOgbmljJQ%3D%3D
+===
+Criteri:
+si tenim una església ruïnosa, i realment es fa molt difícil definir el seu poligon, no posar-la com a poligon sinó com a node. Per tant, la idea de què totes les esglésies seran ways no és certa.
+===
+building=chapel
+name=Sant Cristòfol d'Erill la Vall
+wikipedia=ca:Sant Cristòfol d'Erill la Vall
+wikidata=Q18006703
+religion=christian
+denomination=catholic
+note=importacio_esglesies_romaniques_prov
+ruins=yes
+building:condition=ruinous
+
+són unes runes, i estava catalogat senzillament com a building=yes

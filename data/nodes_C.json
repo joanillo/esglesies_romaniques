@@ -1,0 +1,40 @@
+  [
+  {
+  "type": "node",
+  "id": 2358837677,
+  "lat": 41.7519248,
+  "lon": 1.2032497,
+  "timestamp": "2017-09-25T03:25:53Z",
+  "version": 2,
+  "changeset": 52343157,
+  "user": "nyuriks",
+  "uid": 339581,
+  "tags": {
+    "amenity": "place_of_worship",
+    "denomination": "catholic",
+    "name": "Sant Esteve",
+    "religion": "christian",
+    "wikidata": "Q11947005",
+    "wikipedia": "ca:Sant Esteve de Pelagalls"
+  }},
+  {
+  "type": "node",
+  "id": 3461722203,
+  "lat": 42.2877206,
+  "lon": 0.8128793,
+  "timestamp": "2017-09-25T03:19:14Z",
+  "version": 3,
+  "changeset": 52343088,
+  "user": "nyuriks",
+  "uid": 339581,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Sant Climent",
+    "religion": "christian",
+    "tourism": "attraction",
+    "wikidata": "Q18006688",
+    "wikipedia": "ca:Sant Climent de Torogó"
+  }}
+]

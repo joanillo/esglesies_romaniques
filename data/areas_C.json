@@ -1,0 +1,129 @@
+[
+{
+  "type": "way",
+  "id": 79911510,
+  "timestamp": "2020-03-16T22:19:18Z",
+  "version": 4,
+  "changeset": 82275768,
+  "user": "joanillo-import",
+  "uid": 10436216,
+  "nodes": [
+    1134085721,
+    932863754,
+    932863755,
+    932863792,
+    1134086707,
+    1134082083,
+    1134090310,
+    1134085721
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Sant Pere de Vilanova de Bellpuig",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q18007286",
+    "wikipedia": "ca:Sant Pere de Vilanova de Bellpuig"
+  }
+},
+{
+  "type": "way",
+  "id": 584475957,
+  "timestamp": "2020-03-16T22:10:21Z",
+  "version": 3,
+  "changeset": 82275627,
+  "user": "joanillo-import",
+  "uid": 10436216,
+  "nodes": [
+    5586989489,
+    5586989488,
+    5586989487,
+    5586989486,
+    5586989485,
+    5586989484,
+    5586989483,
+    5586989458,
+    5586989482,
+    5586989481,
+    5586989480,
+    5586989479,
+    5586989478,
+    5586989477,
+    5586989476,
+    5586989475,
+    5586989474,
+    5586989473,
+    5586989472,
+    5586989471,
+    5586989470,
+    5586989469,
+    5586989489
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Església de Santa Maria",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "website": "http://www.palmadebre.cat/producte/esglesia-romanica-s-xii-xiii-placeta-de-la-romanica-1/",
+    "wikidata": "Q20985764",
+    "wikipedia": "ca:Església de Santa Maria (la Palma d'Ebre)"
+  }
+},
+{
+  "type": "way",
+  "id": 781927878,
+  "timestamp": "2020-03-16T22:10:27Z",
+  "version": 1,
+  "changeset": 82275628,
+  "user": "joanillo-import",
+  "uid": 10436216,
+  "nodes": [
+    7300436141,
+    7300436142,
+    7300436143,
+    7300436144,
+    7300436141
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "name": "Santa Maria de Margalef",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q18007619",
+    "wikipedia": "ca:Santa Maria de Margalef"
+  }
+},
+{
+  "type": "way",
+  "id": 781928164,
+  "timestamp": "2020-03-16T22:14:44Z",
+  "version": 1,
+  "changeset": 82275695,
+  "user": "joanillo-import",
+  "uid": 10436216,
+  "nodes": [
+    7300409663,
+    7300409664,
+    7300409665,
+    7300409666,
+    7300409663
+  ],
+  "tags": {
+    "addr:housenumber": "16",
+    "addr:postcode": "08800",
+    "addr:street": "Carrer de la Torre d'Enveja",
+    "amenity": "place_of_worship",
+    "building": "yes",
+    "disused:amenity": "place_of_worship",
+    "name": "Sant Joan d'Enveja",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q18006934",
+    "wikipedia": "ca:Sant Joan d'Enveja"
+  }
+}
+]
+

@@ -1,0 +1,21 @@
+  [
+
+{
+  "type": "node",
+  "id": 7074445985,
+  "lat": 41.4604250,
+  "lon": 2.1811017,
+  "timestamp": "2019-12-21T18:21:17Z",
+  "version": 2,
+  "changeset": 78718656,
+  "user": "Toni Serra",
+  "uid": 3859465,
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "roman_catholic",
+    "name": "Capella de Sant Lluc",
+    "religion": "christian"
+  }
+}
+]

@@ -1,0 +1,57 @@
+[
+{
+  "type": "way",
+  "id": 284235970,
+  "timestamp": "2020-03-26T23:30:36Z",
+  "version": 4,
+  "changeset": 82686059,
+  "user": "joanillo",
+  "uid": 10376780,
+  "nodes": [
+    2879855654,
+    2879855648,
+    2879855646,
+    2879855652,
+    2879855654
+  ],
+  "tags": {
+    "alt_name": "Sant Cristòfol de Queralt",
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Sant Jaume de Queralt",
+    "name:es": "San Cristóbal",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q8342513",
+    "wikipedia": "ca:Castell de Queralt"
+  }
+},
+{
+  "type": "way",
+  "id": 784837403,
+  "timestamp": "2020-03-26T16:39:45Z",
+  "version": 1,
+  "changeset": 82673096,
+  "user": "joanillo",
+  "uid": 10376780,
+  "nodes": [
+    7332260735,
+    7332260736,
+    7332260737,
+    7332260738,
+    7332260735
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Santa Maria de Corroncui (nova)",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q11947594",
+    "wikipedia": "ca:Santa Maria de Corroncui II"
+  }
+}
+]
+

@@ -1,0 +1,139 @@
+
+amenity	place_of_worship (capella cristiana)
+denomination	catholic
+name	Sant Romà d'Oreig
+religion	christian
+building:architecture=romanesque
+building=ruins
+
+Pot ser que les esglésies estiguin com a node o com a àrea.
+---
+https://ca.wikipedia.org/wiki/Categoria:Esgl%C3%A9sies_rom%C3%A0niques_de_Catalunya
+https://ca.wikipedia.org/wiki/Categoria:Esgl%C3%A9sies_rom%C3%A0niques_d%27Andorra
+
+Inventari del Patrimoni Arquitectònic de Catalunya
+*https://cultura.gencat.cat/ca/departament/estructura_i_adreces/organismes/dgpc/temes/patrimoni_arquitectonic/inventari_del_patrimoni_arquitectonic_de_catalunya/
+Cercant per romànic, tenim 2433 entrades (no tot són esglésies)
+
+Puc cercar pel codi:
+http://invarquit.cultura.gencat.cat/Cerca/FitxaGeneral?index=1&consulta=MSUxK3JvbcOgbmljJTIrLTEl&codi=3
+---
+Via
+amenity	place_of_worship
+denomination	catholic
+name	Sant Quirze de Pedret
+religion	christian
+tourism	attraction
+wikidata	Q950772
+wikipedia	ca:Sant Quirze de Pedret
+no hi ha cap referència a arquitectura romànica
+---
+Via
+amenity	place_of_worship
+building	church
+denomination	catholic
+name	Sant Romà de la Clusa
+religion	christian
+wikidata	Q11947382
+---
+Via
+amenity	place_of_worship
+building	yes
+denomination	catholic
+heritage	1
+heritage:operator	whc
+historic	heritage
+name	Sant Climent de Taüll
+religion	christian
+wikidata	Q2117586
+wikipedia	ca:Sant Climent de Taüll
+---
+Via
+amenity	place_of_worship
+building	yes
+denomination	catholic
+heritage	1
+heritage:operator	whc
+historic	heritage
+name	Santa Maria de Taüll
+religion	christian
+wikidata	Q1278218
+wikipedia	ca:Santa Maria de Taüll
+---
+Via
+amenity	place_of_worship
+building	church
+denomination	roman_catholic
+name	Sant Pere de Graudescales
+religion	christian
+tourism	attraction
+wikidata	Q9034423
+---
+Relació
+compte! és una relació format per dues vies (l'exterior i la interior)
+amenity	place_of_worship
+building	yes
+denomination	catholic
+name	Sant Pere de Casserres
+religion	christian
+type	multipolygon
+wikidata	Q1738829
+
+----
+Via
+amenity	place_of_worship
+building	church
+denomination	catholic
+name	Sant Jaume
+religion	christian
+wikidata	Q3573923
+wikimedia_commons	Category:Monestir de Sant Jaume de Frontanyà
+wikipedia	ca:Monestir de Sant Jaume de Frontanyà
+---
+{{geocodeArea:"Catalunya"}}->.boundaryarea;
+(
+node["building:architecture"="romanesque"](area.boundaryarea);
+);
+out meta;
+
+només n'hi ha un, el que acabo de posar a Sant Romà d'Oreis
+
+---
+[out:json];
+area["name"="Catalunya"]->.boundaryarea;
+(
+nwr(area.boundaryarea)[amenity=place_of_worship];
+);
+out meta;
+
+nodes: 854, vies: 2735, relacions: 120
+---
+[out:json];
+area["name"="Catalunya"]->.boundaryarea;
+(
+nwr(area.boundaryarea)[amenity=place_of_worship][religion=christian];
+);
+out meta;
+nodes: 748, vies: 2693, relacions: 120
+---
+[out:json];
+area["name"="Catalunya"]->.boundaryarea;
+(
+nwr(area.boundaryarea)[amenity=place_of_worship][religion=christian][denomination=catholic];
+);
+out meta;
+nodes: 423, vies: 1981, relacions: 93
+---
+TAG building
+------------
+https://wiki.openstreetmap.org/wiki/Key:building
+
+De forma genèrica:
+*building=yes
+Ara bé, de forma específica per a religió, i encara més tenint en compte que estem fent esglésies romàniques, ens podem trobar (o podem posar):
+building=cathedral
+building=church
+building=chapel (seria una ermita)
+building=religious (és genèric)
+
+Potser el millor és posar building=church de forma genèrica, a no ser que sàpiga que és una ermita.

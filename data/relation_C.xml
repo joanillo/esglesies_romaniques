@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="Overpass API 0.7.55.9 ab41fea6">
+<note>The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.</note>
+<meta osm_base="2020-02-27T20:07:02Z" areas="2020-02-27T19:57:02Z"/>
+
+  <relation id="166399" version="4" timestamp="2016-11-18T01:27:28Z" changeset="43751106" uid="339581" user="nyuriks">
+    <member type="way" ref="37207529" role="outer"/>
+    <member type="way" ref="37207530" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="name" v="Església de Sant Pau del Camp"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q2101038"/>
+    <tag k="wikipedia" v="ca:Sant Pau del Camp"/>
+  </relation>
+  <relation id="1005213" version="7" timestamp="2019-02-07T07:37:15Z" changeset="66985528" uid="100124" user="Xevi">
+    <member type="way" ref="63933195" role="outer"/>
+    <member type="way" ref="63922587" role="outer"/>
+    <member type="way" ref="302233139" role="outer"/>
+    <member type="way" ref="302233118" role="outer"/>
+    <tag k="addr:city" v="Girona"/>
+    <tag k="addr:country" v="ES"/>
+    <tag k="addr:housenumber" v="216"/>
+    <tag k="addr:postcode" v="17006"/>
+    <tag k="addr:street" v="Carrer de Santa Eugènia"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="apartments"/>
+    <tag k="building:levels" v="5"/>
+    <tag k="local_code" v="5402"/>
+    <tag k="name" v="Iglesia de Cristo la salvación del hombre"/>
+    <tag k="religion" v="christian"/>
+    <tag k="roof:levels" v="1"/>
+    <tag k="roof:shape" v="gabled"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1006178" version="4" timestamp="2017-09-22T08:11:18Z" changeset="52267966" uid="13446" user="lluisvicens">
+    <member type="way" ref="63927308" role="outer"/>
+    <member type="way" ref="63913188" role="outer"/>
+    <member type="way" ref="63929620" role="outer"/>
+    <member type="way" ref="63918889" role="outer"/>
+    <tag k="addr:postcode" v="17005"/>
+    <tag k="addr:street" v="Plaça de l'Assumpció"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="local_code" v="4470"/>
+    <tag k="name" v="Parroquia de Sant Narcis"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1009233" version="6" timestamp="2018-03-29T04:05:49Z" changeset="57619228" uid="7637564" user="rusefkuma">
+    <member type="way" ref="63939126" role="outer"/>
+    <member type="way" ref="63968899" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes;public"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="local_code" v="6036"/>
+    <tag k="name" v="Basilica de Sant Feliu"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona;UMAT - Aj. de Girona (2017)"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q9007068"/>
+    <tag k="wikipedia" v="ca:Església de Sant Feliu de Girona"/>
+  </relation>
+  <relation id="1009963" version="3" timestamp="2018-10-20T19:59:53Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="63919238" role="outer"/>
+    <member type="way" ref="63913142" role="outer"/>
+    <member type="way" ref="63935730" role="outer"/>
+    <member type="way" ref="63925056" role="outer"/>
+    <member type="way" ref="63914302" role="outer"/>
+    <member type="way" ref="63930753" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="local_code" v="100"/>
+    <tag k="name" v="Església del Sagrat Cor"/>
+    <tag k="name:ca" v="Església del Sagrat Cor"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q19368236"/>
+  </relation>
+  <relation id="1010561" version="3" timestamp="2018-09-22T20:44:38Z" changeset="62836014" uid="1624486" user="thetornado76">
+    <member type="way" ref="63933214" role="outer"/>
+    <member type="way" ref="63920236" role="outer"/>
+    <member type="way" ref="63936598" role="outer"/>
+    <member type="way" ref="63925952" role="outer"/>
+    <member type="way" ref="63915167" role="outer"/>
+    <tag k="addr:city" v="Girona"/>
+    <tag k="addr:country" v="ES"/>
+    <tag k="addr:housenumber" v="23B"/>
+    <tag k="addr:postcode" v="17002"/>
+    <tag k="addr:street" v="Carrer de Joan Maragall"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="local_code" v="1346"/>
+    <tag k="name" v="Església dels Pares Claretians"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona;UMAT - Aj. de Girona (2017);UMAT - Ajuntament de Girona (2017)"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1011169" version="4" timestamp="2015-03-29T17:45:25Z" changeset="29833241" uid="100124" user="Xevi">
+    <member type="way" ref="63933711" role="outer"/>
+    <member type="way" ref="63923098" role="outer"/>
+    <member type="way" ref="63912373" role="outer"/>
+    <member type="way" ref="63928767" role="outer"/>
+    <member type="way" ref="63926814" role="outer"/>
+    <member type="way" ref="63934483" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="local_code" v="3760"/>
+    <tag k="name" v="Església Santa Susanna del Mercadal"/>
+    <tag k="name:ca" v="Església Santa Susanna del Mercadal"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1011556" version="2" timestamp="2010-07-08T07:35:13Z" changeset="5164018" uid="15535" user="Blazejos">
+    <member type="way" ref="63914211" role="outer"/>
+    <member type="way" ref="63930663" role="outer"/>
+    <member type="way" ref="63920045" role="outer"/>
+    <member type="way" ref="63936422" role="outer"/>
+    <member type="way" ref="63925757" role="outer"/>
+    <member type="way" ref="63914980" role="outer"/>
+    <member type="way" ref="63928535" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="local_code" v="5866"/>
+    <tag k="name" v="Església del Carme"/>
+    <tag k="name:ca" v="Església del Carme"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1012115" version="6" timestamp="2017-03-20T07:46:29Z" changeset="47004146" uid="339581" user="nyuriks">
+    <member type="way" ref="63932761" role="outer"/>
+    <member type="way" ref="63925507" role="outer"/>
+    <member type="way" ref="63936212" role="outer"/>
+    <member type="way" ref="63931216" role="outer"/>
+    <member type="way" ref="63922844" role="outer"/>
+    <member type="way" ref="63938833" role="outer"/>
+    <member type="way" ref="65666112" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="local_code" v="5926"/>
+    <tag k="name" v="Catedral de Girona"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="www.catedraldegirona.org"/>
+    <tag k="wikidata" v="Q2261322"/>
+    <tag k="wikipedia" v="ca:Catedral de Girona"/>
+  </relation>
+  <relation id="1019239" version="5" timestamp="2019-07-20T13:15:31Z" changeset="72460453" uid="423520" user="cucafera">
+    <member type="way" ref="63912713" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="local_code" v="6356"/>
+    <tag k="name" v="Església de Sant Pere de Galligants"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="Ajuntament de Girona"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q932383"/>
+    <tag k="wikipedia" v="ca:Sant Pere de Galligants"/>
+  </relation>
+  <relation id="1280056" version="2" timestamp="2019-02-10T15:40:59Z" changeset="67074701" uid="100124" user="Xevi">
+    <member type="way" ref="85864589" role="outer"/>
+    <member type="way" ref="85332859" role="outer"/>
+    <member type="way" ref="85864583" role="outer"/>
+    <member type="way" ref="85864579" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Esglesia de la Cellera de Ter"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="PNOA"/>
+    <tag k="source:date" v="20/11/2010"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1529713" version="4" timestamp="2019-08-03T17:56:32Z" changeset="72974469" uid="4774483" user="elpata33">
+    <member type="way" ref="64923275" role=""/>
+    <member type="way" ref="107423333" role=""/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:street" v="Plaça de les Missions"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santuari de Santa Teresina"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="WalkingPapers;PNOA"/>
+    <tag k="source:date" v="2008"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1659215" version="3" timestamp="2019-07-03T12:29:16Z" changeset="71857892" uid="9608209" user="dguerra28">
+    <member type="way" ref="121208881" role="outer"/>
+    <member type="way" ref="121208878" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="house"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Esglesia de Sant Julia de Llor"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="PNOA"/>
+    <tag k="source:date" v="11/7/2011"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="1751672" version="8" timestamp="2019-11-18T10:48:22Z" changeset="77221151" uid="10306664" user="Xavi92">
+    <member type="way" ref="129872706" role="outer"/>
+    <member type="way" ref="129872708" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Santuari de la Misericòrdia"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q5641426"/>
+  </relation>
+  <relation id="2337364" version="6" timestamp="2018-09-07T11:01:46Z" changeset="62371678" uid="3859465" user="Toni Serra">
+    <member type="way" ref="77162089" role="outer"/>
+    <member type="way" ref="174921077" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Basílica de la Mare de Déu de Montserrat"/>
+    <tag k="name:es" v="Monasterio de Montserrat"/>
+    <tag k="name:it" v="Monastero Montserrat"/>
+    <tag k="name:ru" v="Монтсеррат"/>
+    <tag k="name:zh" v="蒙瑟拉特修道院"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q771935"/>
+    <tag k="wikipedia" v="ca:Monestir de Montserrat"/>
+  </relation>
+  <relation id="2364063" version="4" timestamp="2019-04-04T20:22:16Z" changeset="68898353" uid="3436983" user="idrissi">
+    <member type="way" ref="176922401" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Esteve"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="PNOA"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="2380035" version="3" timestamp="2019-12-31T03:04:21Z" changeset="79038037" uid="91490" user="Heinz_V">
+    <member type="way" ref="178314232" role="outer"/>
+    <member type="way" ref="178314233" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Santa Cecília"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikipedia" v="ca:Santa Cecília de Montserrat"/>
+  </relation>
+  <relation id="2380036" version="2" timestamp="2017-04-17T15:45:52Z" changeset="47876008" uid="91490" user="Heinz_V">
+    <member type="way" ref="178314229" role="outer"/>
+    <member type="way" ref="178314231" role="inner"/>
+    <member type="way" ref="178314230" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Sant Benet"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikipedia" v="ca:Monestir de Sant Benet de Montserrat"/>
+  </relation>
+  <relation id="2550441" version="2" timestamp="2017-03-20T10:49:57Z" changeset="47008753" uid="339581" user="nyuriks">
+    <member type="way" ref="35407869" role="outer"/>
+    <member type="way" ref="188910875" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de les Avellanes"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q6421861"/>
+    <tag k="wikipedia" v="ca:Monestir de Santa Maria de Bellpuig de les Avellanes"/>
+  </relation>
+  <relation id="2593620" version="3" timestamp="2017-02-27T14:15:55Z" changeset="46443260" uid="38313" user="SKald">
+    <member type="way" ref="477499726" role="outer"/>
+    <member type="way" ref="192283058" role="outer"/>
+    <member type="way" ref="477499725" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Bartomeu i Sant Roc"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="2613634" version="1" timestamp="2012-12-02T16:24:52Z" changeset="14126957" uid="469238" user="pitort">
+    <member type="way" ref="168860743" role="outer"/>
+    <member type="way" ref="168860760" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Francesc d'Assís"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="2641678" version="3" timestamp="2018-10-24T11:55:04Z" changeset="63829505" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="196601260" role="inner"/>
+    <member type="way" ref="196601167" role="outer"/>
+    <tag k="alt_name" v="Santuari de Sant Ramon Nonat"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="temple"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Convent de Sant Ramon de Portell"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q9034387"/>
+    <tag k="wikipedia" v="ca:Convent de Sant Ramon de Portell"/>
+  </relation>
+  <relation id="2828320" version="2" timestamp="2017-04-16T12:17:13Z" changeset="47837013" uid="91490" user="Heinz_V">
+    <member type="way" ref="210938141" role="outer"/>
+    <member type="way" ref="210938368" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Convent de la Mercè"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikipedia" v="ca:Convent de la Mercè de Montblanc"/>
+  </relation>
+  <relation id="2851951" version="2" timestamp="2017-04-14T18:08:45Z" changeset="47789305" uid="91490" user="Heinz_V">
+    <member type="way" ref="214475933" role="inner"/>
+    <member type="way" ref="214475924" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Convent de les Mínimes"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="2873443" version="7" timestamp="2016-11-18T01:29:54Z" changeset="43751106" uid="339581" user="nyuriks">
+    <member type="way" ref="128637150" role="outer"/>
+    <member type="way" ref="151458297" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="name" v="Parròquia Major de Santa Anna"/>
+    <tag k="name:ca" v="Parròquia Major de Santa Anna"/>
+    <tag k="religion" v="christian"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q5117140"/>
+    <tag k="wikipedia" v="ca:Santa Anna de Barcelona"/>
+  </relation>
+  <relation id="2910855" version="3" timestamp="2018-10-24T12:00:19Z" changeset="63829505" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="155340429" role="inner"/>
+    <member type="way" ref="155340401" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Santuari de Lord"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q18092595"/>
+  </relation>
+  <relation id="2929628" version="2" timestamp="2017-04-18T05:23:44Z" changeset="47892651" uid="91490" user="Heinz_V">
+    <member type="way" ref="221568382" role="outer"/>
+    <member type="way" ref="221568418" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Santa Clara"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="2952104" version="2" timestamp="2017-04-17T14:43:51Z" changeset="47873871" uid="91490" user="Heinz_V">
+    <member type="way" ref="222603167" role="inner"/>
+    <member type="way" ref="180721858" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Grau de L'Ardenya"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="3083717" version="8" timestamp="2019-06-28T16:48:05Z" changeset="71714999" uid="8403" user="moray">
+    <member type="way" ref="229995175" role="outline"/>
+    <member type="way" ref="542294356" role="part"/>
+    <member type="way" ref="542294353" role="part"/>
+    <member type="way" ref="542294358" role="part"/>
+    <member type="way" ref="542294354" role="part"/>
+    <member type="way" ref="542294357" role="part"/>
+    <member type="way" ref="542294355" role="part"/>
+    <member type="way" ref="579728368" role="inner"/>
+    <tag k="addr:city" v="Vic"/>
+    <tag k="addr:postcode" v="08500"/>
+    <tag k="addr:street" v="Plaça de la Catedral"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Catedral de Sant Pere"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="building"/>
+  </relation>
+  <relation id="3235818" version="5" timestamp="2018-10-24T11:54:25Z" changeset="63829505" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="239926157" role="inner"/>
+    <member type="way" ref="387667849" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Catedral de Santa Maria d'Urgell"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source:date" v="2008"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q951104"/>
+  </relation>
+  <relation id="3298476" version="16" timestamp="2019-07-29T16:46:44Z" changeset="72778938" uid="3878864" user="paleshukgeo">
+    <member type="way" ref="37428414" role="inner"/>
+    <member type="way" ref="37427928" role="outer"/>
+    <tag k="alt_name:en" v="Barcelona Cathedral"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="cathedral"/>
+    <tag k="building:part" v="no"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="description:en" v="Gothic cathedral was constructed from the 13th to 15th centuries. (source: Wikipedia:en)"/>
+    <tag k="name" v="Catedral de la Santa Creu i Santa Eulàlia"/>
+    <tag k="name:be" v="Сабор Святога Крыжа і Святой Яўлаліі"/>
+    <tag k="name:ca" v="Catedral de la Santa Creu i Santa Eulàlia"/>
+    <tag k="name:en" v="Cathedral of Santa Eulalia"/>
+    <tag k="name:ko" v="바르셀로나 대성당"/>
+    <tag k="name:ru" v="Собор Святого Креста и Святой Евлалии"/>
+    <tag k="name:zh" v="巴塞罗那大教堂"/>
+    <tag k="note" v="Opening times: free of charge: 8:00-12:45 and 17:45-19:30 7€ admission fee: 13:00-17:00"/>
+    <tag k="religion" v="christian"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="https://www.catedralbcn.org/"/>
+    <tag k="wikidata" v="Q17155"/>
+    <tag k="wikipedia" v="ca:Catedral de Barcelona"/>
+  </relation>
+  <relation id="3714469" version="2" timestamp="2017-04-17T15:45:54Z" changeset="47876008" uid="91490" user="Heinz_V">
+    <member type="way" ref="279322664" role="outer"/>
+    <member type="way" ref="279322724" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Magdalena"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="3714849" version="3" timestamp="2018-10-24T09:48:21Z" changeset="63825592" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="279336339" role="inner"/>
+    <member type="way" ref="279336274" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Pere de Casserres"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q1738829"/>
+  </relation>
+  <relation id="3905861" version="1" timestamp="2014-07-23T10:22:03Z" changeset="24308226" uid="573582" user="DanielBautista">
+    <member type="way" ref="293967725" role="outer"/>
+    <member type="way" ref="293967724" role="outer"/>
+    <member type="way" ref="293967726" role="outer"/>
+    <member type="way" ref="293967727" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="name" v="Parròquia de la Mercè"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="3908926" version="2" timestamp="2019-06-10T11:03:46Z" changeset="71097943" uid="9965586" user="psaguer">
+    <member type="way" ref="294214720" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Esglesia de Sant Miquel"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="3914899" version="3" timestamp="2017-04-28T13:22:02Z" changeset="48228350" uid="5197539" user="mapsosmmapsmaps">
+    <member type="way" ref="34116302" role="outer"/>
+    <member type="way" ref="294583355" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Sant Pere de les Puel·les"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://benedictinessantperepuelles.cat/"/>
+  </relation>
+  <relation id="3922692" version="1" timestamp="2014-07-30T12:09:46Z" changeset="24441583" uid="573582" user="DanielBautista">
+    <member type="way" ref="295083164" role="outer"/>
+    <member type="way" ref="116715835" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Sant Pere i Sant Pau"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4008211" version="4" timestamp="2019-08-05T16:01:28Z" changeset="73031472" uid="4774483" user="elpata33">
+    <member type="way" ref="48495190" role="outer"/>
+    <member type="way" ref="196006368" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="heritage" v="3"/>
+    <tag k="heritage:operator" v="Generalitat de Catalunya"/>
+    <tag k="name" v="la Seu Vella"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q2204013"/>
+    <tag k="wikipedia" v="ca:La Seu Vella de Lleida"/>
+  </relation>
+  <relation id="4024951" version="2" timestamp="2017-10-05T21:09:17Z" changeset="52666883" uid="605366" user="EliziR">
+    <member type="way" ref="186778231" role="outer"/>
+    <member type="way" ref="302583157" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="name" v="Sant Salvador"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4180987" version="2" timestamp="2014-11-10T14:35:46Z" changeset="26689271" uid="613253" user="Ishero">
+    <member type="way" ref="191737398" role="outer"/>
+    <member type="way" ref="312070143" role="inner"/>
+    <member type="way" ref="312070144" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Esglesia Sagrada Familia"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4427050" version="2" timestamp="2017-07-24T17:42:57Z" changeset="50535161" uid="2096551" user="mcompte">
+    <member type="way" ref="318917982" role="outer"/>
+    <member type="way" ref="318918694" role="outer"/>
+    <member type="way" ref="318918692" role="outer"/>
+    <member type="way" ref="318918007" role="outer"/>
+    <member type="way" ref="318918707" role="outer"/>
+    <member type="way" ref="318919286" role="outer"/>
+    <member type="way" ref="318918704" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església del Sagrat Cor"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4455461" version="1" timestamp="2015-01-03T18:09:07Z" changeset="27892551" uid="100124" user="Xevi">
+    <member type="way" ref="65617102" role="outer"/>
+    <member type="way" ref="320252330" role="outer"/>
+    <member type="way" ref="320252333" role="outer"/>
+    <member type="way" ref="320252332" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Esglèsia de Sant Cugat"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4478547" version="11" timestamp="2018-10-20T19:56:10Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="321489626" role="outer"/>
+    <member type="way" ref="321489627" role="outer"/>
+    <member type="way" ref="321489623" role="outer"/>
+    <member type="way" ref="321489636" role="outer"/>
+    <member type="way" ref="321489628" role="outer"/>
+    <member type="way" ref="312810334" role="outer"/>
+    <member type="way" ref="321489639" role="outer"/>
+    <member type="way" ref="322512915" role="outer"/>
+    <member type="way" ref="322512911" role="outer"/>
+    <member type="way" ref="322512920" role="outer"/>
+    <member type="way" ref="322512917" role="outer"/>
+    <member type="way" ref="312810330" role="outer"/>
+    <member type="way" ref="321489637" role="outer"/>
+    <member type="way" ref="321489625" role="outer"/>
+    <member type="way" ref="321489635" role="outer"/>
+    <member type="way" ref="312810329" role="outer"/>
+    <member type="way" ref="312810331" role="outer"/>
+    <member type="way" ref="321489620" role="outer"/>
+    <member type="way" ref="496500857" role="outer"/>
+    <member type="way" ref="312810336" role="outer"/>
+    <member type="way" ref="321489634" role="outer"/>
+    <member type="way" ref="312810333" role="outer"/>
+    <member type="way" ref="321489633" role="outer"/>
+    <member type="way" ref="321489618" role="outer"/>
+    <member type="way" ref="321489632" role="outer"/>
+    <member type="way" ref="321489624" role="outer"/>
+    <member type="way" ref="312810328" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="temple"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="landuse" v="religious"/>
+    <tag k="name" v="Monestir de Sant Esteve"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q3510006"/>
+  </relation>
+  <relation id="4481571" version="5" timestamp="2017-07-24T17:42:58Z" changeset="50535161" uid="2096551" user="mcompte">
+    <member type="way" ref="313189094" role="outer"/>
+    <member type="way" ref="441518500" role="outer"/>
+    <member type="way" ref="313189091" role="outer"/>
+    <member type="way" ref="313189093" role="outer"/>
+    <member type="way" ref="321630343" role="outer"/>
+    <member type="way" ref="313189092" role="outer"/>
+    <member type="way" ref="322321662" role="outer"/>
+    <member type="way" ref="322321656" role="outer"/>
+    <member type="way" ref="322321661" role="outer"/>
+    <member type="way" ref="321630345" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="landuse" v="religious"/>
+    <tag k="name" v="Església de Santa Maria de Banyoles"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4558881" version="5" timestamp="2017-03-20T10:49:58Z" changeset="47008753" uid="339581" user="nyuriks">
+    <member type="way" ref="210938151" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Maria"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q5577183"/>
+    <tag k="wikipedia" v="ca:Santa Maria de Montblanc"/>
+  </relation>
+  <relation id="4613387" version="3" timestamp="2018-10-24T11:55:16Z" changeset="63829505" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="329497418" role="outer"/>
+    <member type="way" ref="329497411" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir del Miracle"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q11693423"/>
+  </relation>
+  <relation id="4635384" version="1" timestamp="2015-02-28T10:38:38Z" changeset="29152548" uid="100124" user="Xevi">
+    <member type="way" ref="330630425" role="outer"/>
+    <member type="way" ref="330630422" role="outer"/>
+    <member type="way" ref="220315786" role="outer"/>
+    <member type="way" ref="330630408" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4647847" version="3" timestamp="2015-03-05T20:57:05Z" changeset="29276400" uid="100124" user="Xevi">
+    <member type="way" ref="104539289" role="outer"/>
+    <member type="way" ref="331275181" role="outer"/>
+    <member type="way" ref="331276113" role="outer"/>
+    <member type="way" ref="331439700" role="outer"/>
+    <member type="way" ref="331269842" role="outer"/>
+    <member type="way" ref="331269835" role="outer"/>
+    <member type="way" ref="331269838" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Feliu"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="4716921" version="2" timestamp="2015-10-21T19:25:31Z" changeset="34786249" uid="55987" user="Jaume Figueras">
+    <member type="way" ref="334201976" role="inner"/>
+    <member type="way" ref="182198012" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Sant Benet de Bages"/>
+    <tag k="religion" v="christian"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5320448" version="2" timestamp="2019-07-20T16:56:56Z" changeset="72465487" uid="708973" user="SerV">
+    <member type="way" ref="356429559" role="outer"/>
+    <member type="way" ref="356429604" role="outer"/>
+    <member type="way" ref="356429600" role="outer"/>
+    <tag k="addr:city" v="Figueres"/>
+    <tag k="addr:country" v="ES"/>
+    <tag k="addr:housenumber" v="10"/>
+    <tag k="addr:postcode" v="17600"/>
+    <tag k="addr:street" v="Carrer Manuel de Falla"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="evangelical"/>
+    <tag k="name" v="Església Evangèlica Baptista de Figueres"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://iebfigueres.com"/>
+    <tag k="wheelchair" v="yes"/>
+  </relation>
+  <relation id="5597240" version="3" timestamp="2018-10-24T11:59:37Z" changeset="63829505" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="375841241" role="inner"/>
+    <member type="way" ref="375841247" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Convent de Sant Domènec de Balaguer"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q18003931"/>
+    <tag k="wikipedia" v="ca:Convent de Sant Domènec de Balaguer"/>
+  </relation>
+  <relation id="5655027" version="2" timestamp="2015-11-11T07:41:37Z" changeset="35233566" uid="605366" user="EliziR">
+    <member type="way" ref="379700616" role="outer"/>
+    <member type="way" ref="379700617" role="outer"/>
+    <member type="way" ref="379700615" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Oleguer"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5694201" version="1" timestamp="2015-11-25T14:32:20Z" changeset="35572276" uid="2130444" user="Jose Antonio Fontaneda">
+    <member type="way" ref="203755083" role="outer"/>
+    <member type="way" ref="382675756" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="name" v="Parròquia de Sant Josep"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5867432" version="3" timestamp="2018-10-20T20:00:31Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="305282381" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Andreu de Mata"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q47170907"/>
+  </relation>
+  <relation id="5900762" version="3" timestamp="2018-10-20T19:59:15Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="393281825" role="outer"/>
+    <member type="way" ref="172949956" role="outer"/>
+    <member type="way" ref="393281815" role="outer"/>
+    <member type="way" ref="393280590" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Sant Climent de Tor"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q18006687"/>
+  </relation>
+  <relation id="5926457" version="2" timestamp="2018-05-02T19:52:20Z" changeset="58626046" uid="3735848" user="lanxana">
+    <member type="way" ref="394890750" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Capella de Sant Llorenç de Perles"/>
+    <tag k="religion" v="christian"/>
+    <tag k="start_date" v="C12"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926469" version="1" timestamp="2016-01-30T12:07:25Z" changeset="36897047" uid="2096551" user="mcompte">
+    <member type="way" ref="394891489" role="outer"/>
+    <member type="way" ref="394891490" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Ermita de Sant Pere de Juïgues"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926525" version="2" timestamp="2018-05-01T19:00:47Z" changeset="58593428" uid="3735848" user="lanxana">
+    <member type="way" ref="394894235" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Esteve de Guialbes"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 04-52/4 Su 10:00"/>
+    <tag k="start_date" v="C13"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926548" version="2" timestamp="2018-04-30T20:36:27Z" changeset="58567168" uid="3735848" user="lanxana">
+    <member type="way" ref="394895689" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Julià de Galliners"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 4-52/4 Su 12:30"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926553" version="2" timestamp="2018-05-02T13:17:00Z" changeset="58615066" uid="3735848" user="lanxana">
+    <member type="way" ref="394896544" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Martí de Terradelles"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 03-51/3 Su 10:00"/>
+    <tag k="start_date" v="1730"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926566" version="1" timestamp="2016-01-30T13:06:53Z" changeset="36897835" uid="2096551" user="mcompte">
+    <member type="way" ref="394897125" role="outer"/>
+    <member type="way" ref="394897124" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Martí d'Ollers"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926795" version="2" timestamp="2018-05-02T19:22:02Z" changeset="58624957" uid="3735848" user="lanxana">
+    <member type="way" ref="394915750" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Sadurní de Vilafreser"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 01-53/2 Su 11:30"/>
+    <tag k="start_date" v="C13"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926935" version="2" timestamp="2018-05-01T13:02:10Z" changeset="58583590" uid="3735848" user="lanxana">
+    <member type="way" ref="394915752" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Santa Llogaia de Parets d'Empordà"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 01-53/2 Su 10:00"/>
+    <tag k="start_date" v="C18"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926936" version="2" timestamp="2018-04-30T21:04:14Z" changeset="58568005" uid="3735848" user="lanxana">
+    <member type="way" ref="394922814" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Santa Maria d'Olives"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 2-50/4 Su 11:30"/>
+    <tag k="start_date" v="C 18"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5926937" version="2" timestamp="2018-05-01T10:15:57Z" changeset="58580191" uid="3735848" user="lanxana">
+    <member type="way" ref="394922815" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Santa Maria d'Orfes"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="week 02-52/4 Su 10:00"/>
+    <tag k="start_date" v="1146"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5974332" version="2" timestamp="2018-11-04T10:19:06Z" changeset="64161754" uid="2096551" user="mcompte">
+    <member type="way" ref="640814425" role="outer"/>
+    <member type="way" ref="397669819" role="outer"/>
+    <member type="way" ref="640814426" role="outer"/>
+    <member type="way" ref="640814428" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Andreu"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="5988609" version="2" timestamp="2018-10-20T19:59:50Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="398570539" role="outer"/>
+    <member type="way" ref="398570551" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Julià de Corts"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q19257440"/>
+  </relation>
+  <relation id="5988757" version="2" timestamp="2018-10-20T20:00:12Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="398575775" role="outer"/>
+    <member type="way" ref="398579710" role="outer"/>
+    <member type="way" ref="398575784" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Miquel de Palol de Revardit"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q22893572"/>
+  </relation>
+  <relation id="6002785" version="3" timestamp="2019-07-25T19:49:41Z" changeset="72660514" uid="49351" user="Dieter Schmeer">
+    <member type="way" ref="188131984" role="outer"/>
+    <member type="way" ref="399588560" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Sant Pere de Rodes"/>
+    <tag k="religion" v="christian"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q798606"/>
+    <tag k="wikipedia" v="ca:Sant Pere de Rodes"/>
+  </relation>
+  <relation id="6102826" version="2" timestamp="2016-12-08T13:41:28Z" changeset="44258330" uid="500572" user="yopaseopor">
+    <member type="way" ref="407544541" role="outer"/>
+    <member type="way" ref="407544542" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Canonica de Santa Maria de Vilabertran"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6109806" version="1" timestamp="2016-04-05T20:38:08Z" changeset="38330604" uid="3735848" user="lanxana">
+    <member type="way" ref="408042713" role="outer"/>
+    <member type="way" ref="408042737" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Esglèsia de Sant Climent"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6474891" version="2" timestamp="2018-10-20T19:57:00Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="251825270" role="outer"/>
+    <member type="way" ref="436143477" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Mare de Déu del Mont"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q11935353"/>
+  </relation>
+  <relation id="6704504" version="1" timestamp="2016-11-11T22:44:20Z" changeset="43571857" uid="2096551" user="mcompte">
+    <member type="way" ref="252125918" role="outer"/>
+    <member type="way" ref="452784629" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església Vella de Sant Salvador"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6722224" version="2" timestamp="2016-11-19T17:57:09Z" changeset="43806583" uid="2096551" user="mcompte">
+    <member type="way" ref="454546262" role="outer"/>
+    <member type="way" ref="454546247" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Santa Maria del Collell"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6745586" version="2" timestamp="2016-11-28T11:05:22Z" changeset="44004363" uid="691360" user="moderg">
+    <member type="way" ref="456352259" role="outer"/>
+    <member type="way" ref="456352260" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església Nostra Senyora de l'Assumpció"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6831408" version="4" timestamp="2017-07-20T11:24:45Z" changeset="50429944" uid="85218" user="Aleks-Berlin">
+    <member type="way" ref="462568484" role="outer"/>
+    <member type="way" ref="462568480" role="outer"/>
+    <member type="way" ref="462568482" role="outer"/>
+    <member type="way" ref="462568481" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Maria de Pujals dels Pagesos"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q22893598"/>
+    <tag k="wikipedia" v="ca:Santa Maria de Pujals dels Pagesos"/>
+  </relation>
+  <relation id="6831544" version="2" timestamp="2017-07-18T08:43:09Z" changeset="50372537" uid="85218" user="Aleks-Berlin">
+    <member type="way" ref="462572850" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Eulàlia de Pujals dels Cavallers"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q22893587"/>
+    <tag k="wikipedia" v="ca:Santa Eulàlia de Pujals dels Cavallers"/>
+  </relation>
+  <relation id="6837375" version="2" timestamp="2018-10-20T20:00:08Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="207721774" role="outer"/>
+    <member type="way" ref="462980054" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="name" v="Església de Santa Maria de Tortellà"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q21604610"/>
+  </relation>
+  <relation id="6888482" version="1" timestamp="2017-01-17T15:35:01Z" changeset="45245767" uid="3188422" user="ansuta">
+    <member type="way" ref="466685207" role="outer"/>
+    <member type="way" ref="466685208" role="outer"/>
+    <tag k="addr:postcode" v="43780"/>
+    <tag k="addr:street" v="Plaça de l'Esglèsia"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="man_made" v="tower"/>
+    <tag k="name" v="Església de l'Assumpció"/>
+    <tag k="religion" v="christian"/>
+    <tag k="tower:type" v="bell_tower"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6921176" version="1" timestamp="2017-01-27T19:11:21Z" changeset="45571151" uid="2096551" user="mcompte">
+    <member type="way" ref="469530540" role="outer"/>
+    <member type="way" ref="469530556" role="outer"/>
+    <member type="way" ref="469530537" role="outer"/>
+    <member type="way" ref="469530568" role="outer"/>
+    <member type="way" ref="469530541" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="6921218" version="1" timestamp="2017-01-27T19:11:23Z" changeset="45571151" uid="2096551" user="mcompte">
+    <member type="way" ref="469530636" role="outer"/>
+    <member type="way" ref="469530623" role="outer"/>
+    <member type="way" ref="469530626" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Pere"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7118521" version="1" timestamp="2017-03-29T16:54:06Z" changeset="47266205" uid="461005" user="cronoser">
+    <member type="way" ref="483490709" role="outer"/>
+    <member type="way" ref="483490708" role="inner"/>
+    <member type="way" ref="483490707" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="temple"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Monestir de Sta. Maria de Montsió"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7118576" version="2" timestamp="2017-03-29T17:11:46Z" changeset="47266778" uid="423535" user="ccamara">
+    <member type="way" ref="419257593" role="outer"/>
+    <member type="way" ref="419257585" role="outer"/>
+    <member type="way" ref="419257601" role="outer"/>
+    <member type="way" ref="483493369" role="outer"/>
+    <tag k="addr:city" v="Castellterçol"/>
+    <tag k="addr:country" v="ES"/>
+    <tag k="addr:housenumber" v="1"/>
+    <tag k="addr:place" v="Esglèsia de Sant Francesc"/>
+    <tag k="addr:postcode" v="08183"/>
+    <tag k="addr:street" v="Plaça de Sant Francesc"/>
+    <tag k="alt_name" v="Capella Nova"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/010_Capella_Sant_Francesc.jpg/300px-010_Capella_Sant_Francesc.jpg"/>
+    <tag k="name" v="Sant Francesc d'Assís"/>
+    <tag k="religion" v="christian"/>
+    <tag k="roof:orientation" v="along"/>
+    <tag k="roof:shape" v="gabled"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q18006794"/>
+    <tag k="wikipedia" v="ca:Sant Francesc d'Assís de Castellterçol"/>
+  </relation>
+  <relation id="7118618" version="6" timestamp="2018-08-15T21:32:11Z" changeset="61697843" uid="423535" user="ccamara">
+    <member type="way" ref="594662109" role="outer"/>
+    <member type="way" ref="419828949" role="outer"/>
+    <member type="way" ref="594662118" role="outer"/>
+    <member type="way" ref="594662120" role="outer"/>
+    <member type="way" ref="594662112" role="outer"/>
+    <member type="way" ref="483497650" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="heritage:operator" v="Generalitat de Catalunya"/>
+    <tag k="historic" v="heritage"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Esgl%C3%A9sia_de_Sant_Fruit%C3%B3s_%28Castellter%C3%A7ol%29_-_1.jpg/800px-Esgl%C3%A9sia_de_Sant_Fruit%C3%B3s_%28Castellter%C3%A7ol%29_-_1.jpg"/>
+    <tag k="material" v="stone"/>
+    <tag k="name" v="Sant Fruitós"/>
+    <tag k="protection_title" v="Inventari del Patrimoni Arquitectònic de Catalunya"/>
+    <tag k="ref:ipac" v="28678"/>
+    <tag k="religion" v="christian"/>
+    <tag k="start_date" v="1111"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wheelchair" v="no"/>
+    <tag k="wikidata" v="Q11947048"/>
+    <tag k="wikipedia" v="ca:Sant Fruitós de Castellterçol"/>
+  </relation>
+  <relation id="7157497" version="2" timestamp="2018-10-12T11:02:49Z" changeset="63451282" uid="102162" user="-WI-">
+    <member type="way" ref="486759610" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="name" v="Temple Expiatori del Sagrat Cor"/>
+    <tag k="name:he" v="בזיליקת הלב הקדוש"/>
+    <tag k="name:ru" v="храм Святого Сердца"/>
+    <tag k="name:uk" v="храм Святого Серця"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://www.templotibidabo.info/"/>
+    <tag k="wikidata" v="Q1189293"/>
+    <tag k="wikipedia" v="ca:Temple Expiatori del Sagrat Cor"/>
+    <tag k="wikipedia:en" v="Sagrat Cor"/>
+  </relation>
+  <relation id="7164472" version="6" timestamp="2018-10-24T09:51:18Z" changeset="63825592" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="487496845" role="outer"/>
+    <member type="way" ref="487496841" role="outer"/>
+    <member type="way" ref="487496840" role="outer"/>
+    <member type="way" ref="487496843" role="outer"/>
+    <tag k="alt_name" v="Esglèsia parroquial de Santa Coloma"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="heritage" v="7"/>
+    <tag k="historic" v="church"/>
+    <tag k="image" v="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Castellcir._Santa_Coloma_Sasserra_7.JPG/1280px-Castellcir._Santa_Coloma_Sasserra_7.JPG"/>
+    <tag k="name" v="Santa Coloma de Sasserra"/>
+    <tag k="protection_title" v="Inventari del Patrimoni Arquitectònic de Catalunya"/>
+    <tag k="ref:ipac" v="28655"/>
+    <tag k="religion" v="christian"/>
+    <tag k="short_name" v="Santa Coloma"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q11947500"/>
+    <tag k="wikipedia" v="ca:Església de Santa Coloma Sasserra"/>
+  </relation>
+  <relation id="7242110" version="1" timestamp="2017-05-13T17:49:10Z" changeset="48655566" uid="2096551" user="mcompte">
+    <member type="way" ref="493286871" role="outer"/>
+    <member type="way" ref="493286872" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Patllari"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7305390" version="1" timestamp="2017-06-03T13:58:02Z" changeset="49221258" uid="2096551" user="mcompte">
+    <member type="way" ref="497883054" role="outer"/>
+    <member type="way" ref="497883053" role="outer"/>
+    <member type="way" ref="497883057" role="outer"/>
+    <member type="way" ref="497883052" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7318020" version="2" timestamp="2019-04-15T07:05:00Z" changeset="69223337" uid="9137444" user="ccamara_import">
+    <member type="way" ref="498870626" role="outer"/>
+    <member type="way" ref="498870625" role="outer"/>
+    <member type="way" ref="498870623" role="outer"/>
+    <tag k="addr:housenumber" v="190"/>
+    <tag k="addr:postcode" v="08020"/>
+    <tag k="addr:street" v="Selva De Mar"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="2"/>
+    <tag k="building:levels:underground" v="1"/>
+    <tag k="name" v="Parroquia Sant LLuís Gonzaga"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7359570" version="4" timestamp="2018-12-28T19:21:16Z" changeset="65850667" uid="5126253" user="jqngarcia">
+    <member type="way" ref="503545144" role="outer"/>
+    <member type="way" ref="503545143" role="outer"/>
+    <member type="way" ref="477871548" role="outer"/>
+    <member type="way" ref="503545142" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Parroquia de Santa Joaquima de Vedruna"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7431083" version="2" timestamp="2019-01-22T14:59:52Z" changeset="66540530" uid="9137444" user="ccamara_import">
+    <member type="way" ref="511646965" role="outer"/>
+    <member type="way" ref="191460476" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7488654" version="1" timestamp="2017-08-19T22:14:45Z" changeset="51266326" uid="3735848" user="lanxana">
+    <member type="way" ref="386053270" role="outer"/>
+    <member type="way" ref="516912029" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de la Inmaculada Concepció"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7530349" version="3" timestamp="2019-06-01T18:45:22Z" changeset="70841689" uid="9137444" user="ccamara_import">
+    <member type="way" ref="520469404" role="outer"/>
+    <member type="way" ref="220149049" role="outer"/>
+    <member type="way" ref="520469403" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església i parròquia de Sant Pancraç"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7539830" version="1" timestamp="2017-09-03T20:49:04Z" changeset="51702553" uid="2096551" user="mcompte">
+    <member type="way" ref="406007436" role="outer"/>
+    <member type="way" ref="521095634" role="outer"/>
+    <member type="way" ref="521095618" role="outer"/>
+    <member type="way" ref="521095635" role="outer"/>
+    <member type="way" ref="521095637" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Romà de Miànigues"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7564308" version="1" timestamp="2017-09-11T07:55:13Z" changeset="51930601" uid="423535" user="ccamara">
+    <member type="way" ref="174173348" role="outer"/>
+    <member type="way" ref="523624679" role="outer"/>
+    <member type="way" ref="523624691" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Capella de Sant Jordi"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7668940" version="1" timestamp="2017-10-21T14:37:24Z" changeset="53129759" uid="3188422" user="ansuta">
+    <member type="way" ref="534043566" role="outer"/>
+    <member type="way" ref="534043569" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="name" v="Mare de Déu de la Misericòrdia"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7668941" version="1" timestamp="2017-10-21T14:37:24Z" changeset="53129759" uid="3188422" user="ansuta">
+    <member type="way" ref="534043576" role="outer"/>
+    <member type="way" ref="534043577" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Sant Andreu"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="7682316" version="1" timestamp="2017-10-26T06:18:44Z" changeset="53254172" uid="605366" user="EliziR">
+    <member type="way" ref="535467158" role="outer"/>
+    <member type="way" ref="535467160" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Sant Bartomeu"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q18006656"/>
+    <tag k="wikipedia" v="ca:Sant Bartomeu de la Baronia de Sant Oïsme"/>
+  </relation>
+  <relation id="7711302" version="2" timestamp="2019-05-12T19:41:26Z" changeset="70169330" uid="423520" user="cucafera">
+    <member type="way" ref="538575702" role="outer"/>
+    <member type="way" ref="538575698" role="outer"/>
+    <member type="way" ref="538575703" role="outer"/>
+    <member type="way" ref="538575699" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Parròquia de Sant Pere de les Puel·les"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q11693387"/>
+    <tag k="wikipedia" v="ca:Sant Pere de les Puel•les"/>
+  </relation>
+  <relation id="8262092" version="2" timestamp="2018-10-20T19:59:58Z" changeset="63713096" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="584957867" role="outer"/>
+    <member type="way" ref="584957865" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Maria de Castellar de Muntanya"/>
+    <tag k="religion" v="christian"/>
+    <tag k="source" v="ICGC 2017"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q20108849"/>
+  </relation>
+  <relation id="8342415" version="2" timestamp="2018-06-04T12:53:38Z" changeset="59536861" uid="423535" user="ccamara">
+    <member type="way" ref="417928541" role="outer"/>
+    <member type="way" ref="592423906" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="height" v="4"/>
+    <tag k="name" v="Sant Crist de Castellterçol"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q11946967"/>
+    <tag k="wikipedia" v="ca:Sant Crist de Castellterçol"/>
+  </relation>
+  <relation id="8606741" version="2" timestamp="2018-10-24T09:54:31Z" changeset="63825592" uid="6389" user="Jesús Gómez">
+    <member type="way" ref="620606849" role="outer"/>
+    <member type="way" ref="620606850" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Parròquia de Sant Medir"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q20108604"/>
+  </relation>
+  <relation id="8700435" version="4" timestamp="2018-11-12T17:24:24Z" changeset="64413995" uid="9055946" user="lanxana_imports">
+    <member type="way" ref="220165131" role="outer"/>
+    <member type="way" ref="625714633" role="outer"/>
+    <member type="way" ref="625714634" role="outer"/>
+    <member type="way" ref="625714644" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Maria del Taulat"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="8790183" version="2" timestamp="2020-01-20T12:13:23Z" changeset="79796199" uid="1759299" user="Haloox">
+    <member type="way" ref="631952353" role="inner"/>
+    <member type="way" ref="631952354" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Convent de la Santíssima Trinitat"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="8908328" version="2" timestamp="2019-03-27T09:17:51Z" changeset="68578482" uid="9451067" user="b-jazz-bot">
+    <member type="way" ref="642906313" role="inner"/>
+    <member type="way" ref="154045329" role="outer"/>
+    <tag k="addr:postcode" v="08002"/>
+    <tag k="addr:street" v="Carrer de Rere Sant Just"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="5"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="email" v="info@basilicasantjust.cat"/>
+    <tag k="name" v="Basílica dels Sants Màrtirs Just i Pastor"/>
+    <tag k="name:ru" v="Базилика дельс Сантс мартиры Джастин-пастор"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="https://www.basilicasantjust.cat/"/>
+    <tag k="wikipedia" v="ca:Església dels Sants Just i Pastor"/>
+  </relation>
+  <relation id="8911376" version="2" timestamp="2018-11-14T20:16:41Z" changeset="64501046" uid="6176145" user="doktorpixel14_import">
+    <member type="way" ref="643138713" role="outer"/>
+    <member type="way" ref="167043736" role="outer"/>
+    <member type="way" ref="643138714" role="outer"/>
+    <member type="way" ref="643138735" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="5"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="name" v="Església de Sant Felip Neri"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q11682842"/>
+    <tag k="wikipedia" v="ca:Església de Sant Felip Neri de Barcelona"/>
+  </relation>
+  <relation id="8941302" version="1" timestamp="2018-11-14T22:26:33Z" changeset="64505698" uid="423535" user="ccamara">
+    <member type="way" ref="156739056" role="outer"/>
+    <member type="way" ref="644575954" role="inner"/>
+    <member type="way" ref="644575955" role="inner"/>
+    <tag k="addr:city" v="Barcelona"/>
+    <tag k="addr:housenumber" v="167"/>
+    <tag k="addr:postcode" v="08025"/>
+    <tag k="addr:street" v="Carrer de Sant Antoni Maria Claret"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="architect" v="Pere Domènech i Roura"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="5"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de l'hospital de la Santa Creu i Santa Pau"/>
+    <tag k="phone" v="+34 932 91 90 00"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://desantacreuasantpau.blogspot.com"/>
+  </relation>
+  <relation id="8974060" version="1" timestamp="2018-11-18T08:56:18Z" changeset="64614272" uid="8079002" user="jqngarcia_import">
+    <member type="way" ref="476699612" role="outer"/>
+    <member type="way" ref="645892173" role="inner"/>
+    <tag k="addr:housenumber" v="63"/>
+    <tag k="addr:postcode" v="08030"/>
+    <tag k="addr:street" v="Carrer d'Estadella"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="name" v="Esglesia del Bon Pastor"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="9036251" version="2" timestamp="2019-11-12T12:07:24Z" changeset="76958596" uid="3859465" user="Toni Serra">
+    <member type="way" ref="647510857" role="outer"/>
+    <member type="way" ref="647510880" role="inner"/>
+    <member type="way" ref="647510877" role="inner"/>
+    <member type="way" ref="647510874" role="inner"/>
+    <tag k="addr:housenumber" v="16"/>
+    <tag k="addr:postcode" v="08034"/>
+    <tag k="addr:street" v="Carrer de Montevideo"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="public"/>
+    <tag k="building:levels" v="5"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Reial Monestir de Santa Maria de Pedralbes"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://monestirpedralbes.bcn.cat/"/>
+    <tag k="wikidata" v="Q1321526"/>
+    <tag k="wikipedia" v="ca:Monestir de Pedralbes"/>
+  </relation>
+  <relation id="9050116" version="1" timestamp="2018-11-26T19:45:15Z" changeset="64909808" uid="9051400" user="illot">
+    <member type="way" ref="649263724" role="outer"/>
+    <member type="way" ref="649263929" role="inner"/>
+    <member type="way" ref="649263928" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="public"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="name" v="Religioses de l'Assumpció"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="9056446" version="1" timestamp="2018-11-28T15:39:03Z" changeset="64976140" uid="9051400" user="illot">
+    <member type="way" ref="650110304" role="outer"/>
+    <member type="way" ref="650110299" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="5"/>
+    <tag k="building:levels:underground" v="1"/>
+    <tag k="name" v="Caputxins de Sarrià"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q17593024"/>
+    <tag k="wikipedia" v="ca:Caputxins de Sarrià"/>
+  </relation>
+  <relation id="9070326" version="1" timestamp="2018-12-02T15:24:49Z" changeset="65097929" uid="423535" user="ccamara">
+    <member type="way" ref="651714370" role="outer"/>
+    <member type="way" ref="476913062" role="outer"/>
+    <member type="way" ref="651714368" role="outer"/>
+    <member type="way" ref="651714367" role="outer"/>
+    <tag k="addr:city" v="Barcelona"/>
+    <tag k="addr:housenumber" v="175"/>
+    <tag k="addr:postcode" v="08037"/>
+    <tag k="addr:street" v="Carrer de Bailèn"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="1"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="entrance" v="yes"/>
+    <tag k="name" v="Església Parroquial de Corpus Christi"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="9157966" version="2" timestamp="2019-03-11T08:33:05Z" changeset="68013616" uid="423535" user="ccamara">
+    <member type="way" ref="658504975" role="outer"/>
+    <member type="way" ref="658504948" role="inner"/>
+    <tag k="addr:city" v="Barcelona"/>
+    <tag k="addr:housenumber" v="68"/>
+    <tag k="addr:postcode" v="08006"/>
+    <tag k="addr:street" v="Via Augusta"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="4"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Parròquia de Santa Teresa del Nen Jesús"/>
+    <tag k="name:es" v="Parroquia de Santa Teresa del Niño Jesús"/>
+    <tag k="note" v="misas Domingos y Festivos: 11h (castellano) 12h y 20h (catalán) Sábados y vigilias: 10h (castellano) 18.30h (castellano y lenguaje de signos para sordos) y 20h (catalán)"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="Sa 10:00-10:45,18:30-19:15,20:00-20:45; Su 11:00-11:45,12:00-12:45,20:00-20:45"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="9194723" version="6" timestamp="2019-12-30T11:53:23Z" changeset="79011841" uid="8739197" user="bboure">
+    <member type="way" ref="359086841" role="outer"/>
+    <tag k="addr:city" v="Barcelona"/>
+    <tag k="addr:housenumber" v="403"/>
+    <tag k="addr:street" v="Carrer de Mallorca"/>
+    <tag k="alt_name" v="Sagrada Família"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="architect" v="Antoni Gaudí i Cornet"/>
+    <tag k="architect:wikidata" v="Q25328"/>
+    <tag k="building" v="basilica"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="heritage" v="1"/>
+    <tag k="heritage:operator" v="whc"/>
+    <tag k="historic" v="heritage"/>
+    <tag k="importance" v="international"/>
+    <tag k="int_name" v="Sagrada Familia"/>
+    <tag k="name" v="Basílica de la Sagrada Família"/>
+    <tag k="name:be" v="Збавіцельны храм Святой Сям'і"/>
+    <tag k="name:en" v="Sagrada Família"/>
+    <tag k="name:es" v="Basílica de la Sagrada Familia"/>
+    <tag k="name:fr" v="Basilique de la Sagrada Família"/>
+    <tag k="name:he" v="סגרדה פמיליה"/>
+    <tag k="name:hu" v="Szent Család-templom"/>
+    <tag k="name:ja" v="サグラダ・ファミリア"/>
+    <tag k="name:ko" v="사그라다 파밀리아 성당"/>
+    <tag k="name:nl" v="Sagrada Familia"/>
+    <tag k="name:pt" v="Basílica da Sagrada Família"/>
+    <tag k="name:ru" v="Храм Святого Семейства"/>
+    <tag k="name:zh" v="圣家堂"/>
+    <tag k="official_name:hu" v="A szent család engesztelő temploma"/>
+    <tag k="opening_hours" v="Mo-Su 09:00-20:00"/>
+    <tag k="ref:whc" v="320-005"/>
+    <tag k="religion" v="christian"/>
+    <tag k="toilets:wheelchair" v="yes"/>
+    <tag k="tourism" v="attraction"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="url" v="http://www.sagradafamilia.cat"/>
+    <tag k="website" v="http://www.sagradafamilia.org"/>
+    <tag k="whc:inscription_date" v="2005"/>
+    <tag k="wheelchair" v="yes"/>
+    <tag k="wheelchair:description" v="Nur die Türme können nicht besichtigt werden"/>
+    <tag k="wikidata" v="Q48435"/>
+    <tag k="wikipedia" v="ca:Temple Expiatori de la Sagrada Família"/>
+    <tag k="wikipedia:hu" v="Szent Család-templom (Barcelona)"/>
+  </relation>
+  <relation id="9199742" version="3" timestamp="2019-01-09T14:51:57Z" changeset="66164927" uid="423535" user="ccamara">
+    <member type="way" ref="391326223" role="outer"/>
+    <member type="way" ref="661741141" role="inner"/>
+    <tag k="addr:housenumber" v="41"/>
+    <tag k="addr:postcode" v="08027"/>
+    <tag k="addr:street" v="Carrer de Martí Molins"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="6"/>
+    <tag k="building:levels:underground" v="1"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="el Crist Rei"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="9523332" version="1" timestamp="2019-04-28T07:28:11Z" changeset="69656421" uid="8079002" user="jqngarcia_import">
+    <member type="way" ref="119230717" role="outer"/>
+    <member type="way" ref="686391788" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Parròquia Sant Carles"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="9597090" version="1" timestamp="2019-05-17T07:14:53Z" changeset="70345255" uid="2096551" user="mcompte">
+    <member type="way" ref="690651334" role="outer"/>
+    <member type="way" ref="406008576" role="outer"/>
+    <member type="way" ref="690651338" role="outer"/>
+    <member type="way" ref="690651340" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Església de Santa Maria de Camós"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="10331044" version="1" timestamp="2019-11-24T19:29:06Z" changeset="77490734" uid="2096551" user="mcompte">
+    <member type="way" ref="234889237" role="outer"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="chapel"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Santa Maria de Finestres"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="wikidata" v="Q21853459"/>
+  </relation>
+  <relation id="10620740" version="1" timestamp="2020-01-23T19:36:47Z" changeset="79994351" uid="201013" user="whochismo">
+    <member type="way" ref="766071507" role="outer"/>
+    <member type="way" ref="766071506" role="outer"/>
+    <tag k="addr:city" v="Ministrells"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="yes"/>
+    <tag k="denomination" v="roman_catholic"/>
+    <tag k="name" v="Sant Jaume de Ministrells"/>
+    <tag k="religion" v="christian"/>
+    <tag k="type" v="multipolygon"/>
+  </relation>
+  <relation id="10743906" version="1" timestamp="2020-02-23T10:33:49Z" changeset="81363186" uid="8079002" user="jqngarcia_import">
+    <member type="way" ref="435984818" role="outer"/>
+    <member type="way" ref="435984815" role="inner"/>
+    <tag k="amenity" v="place_of_worship"/>
+    <tag k="building" v="church"/>
+    <tag k="building:levels" v="3"/>
+    <tag k="denomination" v="catholic"/>
+    <tag k="name" v="Parròquia del Sagrat Cor de Jesús"/>
+    <tag k="phone" v="+34 933071417"/>
+    <tag k="religion" v="christian"/>
+    <tag k="service_times" v="Mo-Fr 08:00,20:00; Sa 20:00; Su 12:00"/>
+    <tag k="type" v="multipolygon"/>
+    <tag k="website" v="http://www.esglesiapoblenou.cat/index.php/informacio-sagrat-cor/219-informacio-basica"/>
+  </relation>
+
+</osm>

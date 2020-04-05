@@ -1,0 +1,1533 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.1002 b121d216",
+  "osm3s": {
+    "timestamp_osm_base": "2020-03-16T23:19:02Z",
+    "timestamp_areas_base": "2020-03-06T11:03:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 2805964093,
+  "lat": 41.2454237,
+  "lon": 0.8669207,
+  "timestamp": "2014-04-21T12:05:50Z",
+  "version": 1,
+  "changeset": 21836257,
+  "user": "geritsel",
+  "uid": 159027,
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de Maria Assumpta"
+  }
+},
+{
+  "type": "node",
+  "id": 4004384254,
+  "lat": 41.6486831,
+  "lon": 2.4802104,
+  "timestamp": "2017-04-04T21:26:23Z",
+  "version": 3,
+  "changeset": 47456728,
+  "user": "javitodepinypon",
+  "uid": 4223901,
+  "tags": {
+    "building": "chapel",
+    "denomination": "catholic",
+    "historic": "ruins",
+    "name": "Sant Genís de Tapioles"
+  }
+},
+{
+  "type": "way",
+  "id": 34117479,
+  "timestamp": "2018-11-01T08:40:27Z",
+  "version": 8,
+  "changeset": 64070320,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    391081940,
+    391081939,
+    391081938,
+    391081942,
+    3887006183,
+    3887006174,
+    3887006153,
+    3887006163,
+    391081941,
+    3887006140,
+    391081940
+  ],
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:postcode": "08110",
+    "addr:street": "Carretera del Cementiri de Collserola",
+    "building": "chapel",
+    "building:levels": "1",
+    "building:levels:underground": "2",
+    "name": "Oratori",
+    "operator": "Serveis Funeraris de Barcelona"
+  }
+},
+{
+  "type": "way",
+  "id": 165064653,
+  "timestamp": "2018-10-24T09:51:19Z",
+  "version": 4,
+  "changeset": 63825592,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    1766462426,
+    1766462425,
+    1766462436,
+    1766462439,
+    1766462442,
+    1766462426
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "roman_catholic",
+    "historic": "monument",
+    "name": "Santa Creu de Palou",
+    "religion": "christian",
+    "wikidata": "Q11947510"
+  }
+},
+{
+  "type": "way",
+  "id": 178405641,
+  "timestamp": "2016-09-29T19:58:26Z",
+  "version": 3,
+  "changeset": 42527724,
+  "user": "Caronte23",
+  "uid": 3318754,
+  "nodes": [
+    1887537719,
+    1887537710,
+    1887537721,
+    1887537725,
+    1887537719
+  ],
+  "tags": {
+    "building": "chapel",
+    "historic": "monument",
+    "name": "Segona Capella"
+  }
+},
+{
+  "type": "way",
+  "id": 178405642,
+  "timestamp": "2016-09-29T19:58:26Z",
+  "version": 3,
+  "changeset": 42527724,
+  "user": "Caronte23",
+  "uid": 3318754,
+  "nodes": [
+    1887537691,
+    1887537697,
+    1887537699,
+    1887537694,
+    1887537691
+  ],
+  "tags": {
+    "building": "chapel",
+    "historic": "monument",
+    "name": "Primera Capella"
+  }
+},
+{
+  "type": "way",
+  "id": 178695081,
+  "timestamp": "2012-08-30T19:28:36Z",
+  "version": 2,
+  "changeset": 12921893,
+  "user": "ramoncap",
+  "uid": 683490,
+  "nodes": [
+    1890446335,
+    1890446332,
+    1890446353,
+    1890446346,
+    1890446335
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 180310085,
+  "timestamp": "2013-07-21T09:39:44Z",
+  "version": 3,
+  "changeset": 17033371,
+  "user": "dforsi",
+  "uid": 24126,
+  "nodes": [
+    1907415232,
+    1907415221,
+    1907415223,
+    1907415226,
+    1907415231,
+    1907415232
+  ],
+  "tags": {
+    "abandoned": "yes",
+    "building": "chapel",
+    "name": "Mare de Déu de Gràcia"
+  }
+},
+{
+  "type": "way",
+  "id": 181124023,
+  "timestamp": "2018-10-24T09:49:07Z",
+  "version": 4,
+  "changeset": 63825592,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    1915624639,
+    1915624637,
+    1915624638,
+    1915624640,
+    1915624639
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de la Salut",
+    "source": "bing",
+    "wikidata": "Q5836178"
+  }
+},
+{
+  "type": "way",
+  "id": 182922923,
+  "timestamp": "2014-09-08T12:14:55Z",
+  "version": 2,
+  "changeset": 25306237,
+  "user": "geritsel",
+  "uid": 159027,
+  "nodes": [
+    1932789431,
+    1932789433,
+    1932789448,
+    1932789447,
+    1932789455,
+    1932789451,
+    1932789443,
+    1932789444,
+    1932789428,
+    1932789431
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de Sant Antoni"
+  }
+},
+{
+  "type": "way",
+  "id": 216981044,
+  "timestamp": "2020-03-03T10:32:23Z",
+  "version": 4,
+  "changeset": 81722791,
+  "user": "ccamara_import",
+  "uid": 9137444,
+  "nodes": [
+    7260466717,
+    7260466273,
+    7260466526,
+    7260466554,
+    7260466345,
+    2262999313,
+    2262999305,
+    7260466252,
+    7260464010,
+    7260466456,
+    7260466437,
+    7260466259,
+    7260466208,
+    7260466722,
+    7260466401,
+    7260466466,
+    7260466553,
+    7260466634,
+    7260466335,
+    7260466358,
+    7260466689,
+    7260466433,
+    7260466225,
+    7260466719,
+    7260464080,
+    7260466717
+  ],
+  "tags": {
+    "building": "chapel",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 241755377,
+  "timestamp": "2016-02-22T20:24:28Z",
+  "version": 2,
+  "changeset": 37376119,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    2493517032,
+    2493517038,
+    2493517040,
+    2493517033,
+    2493517027,
+    2493517032
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "El Remei"
+  }
+},
+{
+  "type": "way",
+  "id": 279096392,
+  "timestamp": "2018-06-17T16:06:00Z",
+  "version": 2,
+  "changeset": 59918156,
+  "user": "edagbo",
+  "uid": 3165257,
+  "nodes": [
+    2833496990,
+    2833496988,
+    2833496985,
+    5696836629,
+    2833496987,
+    2833496990
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de Sant Aleix"
+  }
+},
+{
+  "type": "way",
+  "id": 280623340,
+  "timestamp": "2018-10-24T11:00:04Z",
+  "version": 4,
+  "changeset": 63827858,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    2847063455,
+    2847063451,
+    2847063456,
+    2847063462,
+    2847063464,
+    2847063461,
+    2847063455
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de Sant Joan de la Muntanya",
+    "wikidata": "Q321855",
+    "wikipedia": "ca:Sant Joan de la Muntanya"
+  }
+},
+{
+  "type": "way",
+  "id": 282354338,
+  "timestamp": "2014-05-16T18:43:33Z",
+  "version": 1,
+  "changeset": 22377020,
+  "user": "poniol",
+  "uid": 248386,
+  "nodes": [
+    2862798445,
+    2862798446,
+    2862798447,
+    2862798448,
+    2862798445
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Capella del Sant Crist"
+  }
+},
+{
+  "type": "way",
+  "id": 294139187,
+  "timestamp": "2014-07-24T09:04:00Z",
+  "version": 1,
+  "changeset": 24326541,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    2977086912,
+    2977086915,
+    2977086916,
+    2977086918,
+    2977086920,
+    2977086921,
+    2977086914,
+    2977086912
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 302309488,
+  "timestamp": "2019-11-05T10:51:32Z",
+  "version": 2,
+  "changeset": 76639709,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    3065695432,
+    3065696235,
+    3065696236,
+    3065696234,
+    3065695432
+  ],
+  "tags": {
+    "addr:city": "Sant Feliu de Buixalleu",
+    "building": "chapel",
+    "height": "583.8",
+    "name": "Ermita de Santa Bàrbara"
+  }
+},
+{
+  "type": "way",
+  "id": 306390829,
+  "timestamp": "2014-10-05T13:57:33Z",
+  "version": 1,
+  "changeset": 25876415,
+  "user": "arnaufp",
+  "uid": 1559939,
+  "nodes": [
+    3112807738,
+    3112807740,
+    3112807739,
+    3112807737,
+    3112807734,
+    3112807733,
+    3112807738
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Capella de Santa Esperança",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 316769911,
+  "timestamp": "2014-12-11T09:42:55Z",
+  "version": 1,
+  "changeset": 27394302,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    3229490948,
+    3229490949,
+    3229490945,
+    3229490944,
+    3229490943,
+    3229490942,
+    3229490941,
+    3229490940,
+    3229490939,
+    3229490948
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Santa Magdalena de Gardilans"
+  }
+},
+{
+  "type": "way",
+  "id": 316769931,
+  "timestamp": "2014-12-11T09:42:57Z",
+  "version": 1,
+  "changeset": 27394302,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    3229490142,
+    3229490145,
+    3229490146,
+    3229490143,
+    3229490142
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 319605610,
+  "timestamp": "2014-12-30T17:56:38Z",
+  "version": 1,
+  "changeset": 27805822,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    3260364033,
+    3260364034,
+    3260364038,
+    3260364039,
+    3260364042,
+    3260364041,
+    3260364033
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Verge de la Mercé de Cirera"
+  }
+},
+{
+  "type": "way",
+  "id": 358309799,
+  "timestamp": "2015-07-03T08:35:24Z",
+  "version": 1,
+  "changeset": 32382119,
+  "user": "jeprubio",
+  "uid": 2175724,
+  "nodes": [
+    3632494616,
+    3632494617,
+    3632494618,
+    3632494619,
+    3632494616
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de Pedralta"
+  }
+},
+{
+  "type": "way",
+  "id": 363759338,
+  "timestamp": "2018-10-24T09:55:18Z",
+  "version": 2,
+  "changeset": 63825592,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3678928961,
+    3678928962,
+    3678928975,
+    3678928973,
+    3678928972,
+    3678928971,
+    3678928969,
+    3678928967,
+    3678928966,
+    3678928964,
+    3678928961
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Sant Salvador del Jou",
+    "religion": "christian",
+    "wikidata": "Q21604550"
+  }
+},
+{
+  "type": "way",
+  "id": 365004748,
+  "timestamp": "2015-08-11T09:22:34Z",
+  "version": 2,
+  "changeset": 33261161,
+  "user": "moray",
+  "uid": 8403,
+  "nodes": [
+    3690389288,
+    3690389289,
+    3690389290,
+    3690389291,
+    3690389292,
+    3690389293,
+    3690389294,
+    3690389295,
+    3690389288
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 372080649,
+  "timestamp": "2017-09-09T17:40:24Z",
+  "version": 4,
+  "changeset": 51886743,
+  "user": "pitort",
+  "uid": 469238,
+  "nodes": [
+    3756161281,
+    5092351484,
+    4415640206,
+    3756161283,
+    3756161281
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita del Roser"
+  }
+},
+{
+  "type": "way",
+  "id": 379488975,
+  "timestamp": "2015-11-10T02:20:01Z",
+  "version": 1,
+  "changeset": 35206194,
+  "user": "friguron",
+  "uid": 843351,
+  "nodes": [
+    3827864767,
+    3827864768,
+    3827864769,
+    3827864770,
+    2688161832,
+    3827864771,
+    3827864767
+  ],
+  "tags": {
+    "addr:city": "Cornellà de Llobregat",
+    "addr:postcode": "08940",
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 382675756,
+  "timestamp": "2015-11-25T14:32:17Z",
+  "version": 1,
+  "changeset": 35572276,
+  "user": "Jose Antonio Fontaneda",
+  "uid": 2130444,
+  "nodes": [
+    3858976639,
+    3858976613,
+    3858976609,
+    3858976612,
+    3858976610,
+    3858976608,
+    3858976605,
+    3858976607,
+    3858976606,
+    3858976603,
+    3858976584,
+    3858976589,
+    3858976582,
+    3858976586,
+    3858976578,
+    3858976588,
+    3858976602,
+    3858976617,
+    3858976620,
+    3858976621,
+    3858976619,
+    3858976618,
+    3858976622,
+    3858976623,
+    3858976624,
+    3858976625,
+    3858976632,
+    3858976628,
+    3858976629,
+    3858976614,
+    3858976615,
+    3858976634,
+    3858976637,
+    3858976636,
+    3858976639
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 391907845,
+  "timestamp": "2016-01-17T15:36:03Z",
+  "version": 2,
+  "changeset": 36635576,
+  "user": "Galifardeu",
+  "uid": 368660,
+  "nodes": [
+    3951694309,
+    3951694310,
+    3951694311,
+    3951694312,
+    3951694309
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Capella",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 407188370,
+  "timestamp": "2016-06-12T02:51:00Z",
+  "version": 4,
+  "changeset": 39963866,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    4092232466,
+    4092232454,
+    4092232455,
+    4092232456,
+    4092232457,
+    4092232458,
+    4092232464,
+    4092232465,
+    4092232459,
+    4092232460,
+    4092232461,
+    4092232462,
+    4092232463,
+    4092232466
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "roman_catholic",
+    "name": "Ermita de Sant Ramon"
+  }
+},
+{
+  "type": "way",
+  "id": 407651451,
+  "timestamp": "2016-04-04T07:38:18Z",
+  "version": 2,
+  "changeset": 38283052,
+  "user": "rieder",
+  "uid": 2048882,
+  "nodes": [
+    4096842790,
+    4096842791,
+    4096842792,
+    4096842793,
+    4096842790
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Tercera Capella"
+  }
+},
+{
+  "type": "way",
+  "id": 407906775,
+  "timestamp": "2016-04-05T09:36:20Z",
+  "version": 1,
+  "changeset": 38312662,
+  "user": "rieder",
+  "uid": 2048882,
+  "nodes": [
+    4099273075,
+    4099273076,
+    4099273077,
+    4099273078,
+    4099273075
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Capella de Sant Nazari"
+  }
+},
+{
+  "type": "way",
+  "id": 411016560,
+  "timestamp": "2018-05-16T17:27:00Z",
+  "version": 2,
+  "changeset": 59025261,
+  "user": "ramonz",
+  "uid": 2047207,
+  "nodes": [
+    4127550604,
+    4127550607,
+    4127550609,
+    4127550612,
+    4127550619,
+    4127550623,
+    4127550627,
+    4127550630,
+    4127550633,
+    4127550636,
+    4127550637,
+    4127550635,
+    4127550632,
+    4127550631,
+    4127550628,
+    4127550626,
+    4127550622,
+    4127550620,
+    4127550616,
+    4127550610,
+    4127550608,
+    4127550606,
+    4127550601,
+    4127550598,
+    4127550596,
+    4127550593,
+    4127550591,
+    4127550388,
+    4127550387,
+    4127550380,
+    4127550590,
+    4127550592,
+    4127550595,
+    4127550597,
+    4127550599,
+    4127550602,
+    4127550603,
+    4127550605,
+    4127550604
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "ermita dels Sants Metges"
+  }
+},
+{
+  "type": "way",
+  "id": 413405605,
+  "timestamp": "2016-05-25T07:35:06Z",
+  "version": 2,
+  "changeset": 39550359,
+  "user": "ramonz",
+  "uid": 2047207,
+  "nodes": [
+    4147344233,
+    4147344237,
+    4147344234,
+    4147344236,
+    4147344233
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita de Sant Antoni"
+  }
+},
+{
+  "type": "way",
+  "id": 424464762,
+  "timestamp": "2016-06-17T02:27:15Z",
+  "version": 4,
+  "changeset": 40081348,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    4238684021,
+    4238684022,
+    4238684024,
+    4247732748,
+    4247732746,
+    4238684023,
+    4247732743,
+    4238684021
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Capella de la Puríssima"
+  }
+},
+{
+  "type": "way",
+  "id": 425915344,
+  "timestamp": "2018-08-06T11:18:40Z",
+  "version": 2,
+  "changeset": 61400406,
+  "user": "nosepas",
+  "uid": 666217,
+  "nodes": [
+    4252278189,
+    4252273583,
+    4252273578,
+    4252273588,
+    4252278190,
+    4252278191,
+    4252278192,
+    4252278189
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 433017358,
+  "timestamp": "2016-07-25T11:36:13Z",
+  "version": 1,
+  "changeset": 41009722,
+  "user": "Paisatges Verticals",
+  "uid": 4054882,
+  "nodes": [
+    4319375015,
+    4319375016,
+    4319375017,
+    4319375018,
+    4319375019,
+    4319375020,
+    4319375021,
+    4319375022,
+    4319375023,
+    4319375024,
+    4319375025,
+    4319375026,
+    4319375027,
+    4319375028,
+    4319375029,
+    4319375030,
+    4319375031,
+    4319375015
+  ],
+  "tags": {
+    "addr:street": "Carrer del Convent",
+    "building": "chapel",
+    "name": "Convent de Sant Sebastià o de Sant Francesc",
+    "website": "https://ca.wikipedia.org/wiki/Convent_de_Sant_Sebasti%C3%A0"
+  }
+},
+{
+  "type": "way",
+  "id": 433833878,
+  "timestamp": "2016-07-27T13:11:18Z",
+  "version": 1,
+  "changeset": 41062581,
+  "user": "oriol",
+  "uid": 346788,
+  "nodes": [
+    4323236661,
+    4323236662,
+    4323236663,
+    4323236664,
+    4323236665,
+    4323236666,
+    4323236661
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Capella de la Divina Pastora"
+  }
+},
+{
+  "type": "way",
+  "id": 442467706,
+  "timestamp": "2018-07-18T13:52:06Z",
+  "version": 4,
+  "changeset": 60838514,
+  "user": "familiapicarol",
+  "uid": 593367,
+  "nodes": [
+    4401460237,
+    4401460235,
+    4401460234,
+    4401460236,
+    4401460237
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Mare de Déu del Carme",
+    "name:ca": "Mare de Déu del Carme",
+    "source": "Institut Cartogràfic de Catalunya"
+  }
+},
+{
+  "type": "way",
+  "id": 459799308,
+  "timestamp": "2016-12-15T10:01:02Z",
+  "version": 1,
+  "changeset": 44419048,
+  "user": "fermí",
+  "uid": 4790958,
+  "nodes": [
+    4555400989,
+    4555400990,
+    4555400991,
+    4555400992,
+    4555400989
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Bernat"
+  }
+},
+{
+  "type": "way",
+  "id": 478498063,
+  "timestamp": "2017-03-04T19:56:51Z",
+  "version": 1,
+  "changeset": 46580998,
+  "user": "5R-MFT",
+  "uid": 3417876,
+  "nodes": [
+    4717140334,
+    4717140333,
+    4717140332,
+    4717140331,
+    4717140334
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 505096795,
+  "timestamp": "2017-07-04T16:53:52Z",
+  "version": 1,
+  "changeset": 50039036,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    4951274583,
+    4951274582,
+    4951274581,
+    4951274580,
+    4951274579,
+    4951274578,
+    4951274577,
+    4951274576,
+    4951274575,
+    4951274574,
+    4951274573,
+    4951274572,
+    4951274583
+  ],
+  "tags": {
+    "alt_name": "ermita de Sant Martí",
+    "building": "chapel",
+    "building:levels": "1",
+    "historic": "monument",
+    "name": "Capella de Sant Martí"
+  }
+},
+{
+  "type": "way",
+  "id": 513901596,
+  "timestamp": "2017-12-29T08:49:07Z",
+  "version": 2,
+  "changeset": 55003597,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    5022094591,
+    5022094592,
+    5022094593,
+    5022094594,
+    5022094595,
+    5022094596,
+    5022094591
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Sebastià",
+    "name:es": "San Sebastián"
+  }
+},
+{
+  "type": "way",
+  "id": 542267146,
+  "timestamp": "2017-11-22T14:25:35Z",
+  "version": 1,
+  "changeset": 54002750,
+  "user": "moray",
+  "uid": 8403,
+  "nodes": [
+    5242787567,
+    5242787568,
+    5242787569,
+    5242787570,
+    5242787571,
+    5242787572,
+    5242787573,
+    5242787574,
+    5242787567
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 566388497,
+  "timestamp": "2019-09-23T08:44:42Z",
+  "version": 8,
+  "changeset": 74794930,
+  "user": "wernerhxxx",
+  "uid": 912240,
+  "nodes": [
+    5454415489,
+    5454471121,
+    5454471122,
+    5454471123,
+    5454471124,
+    5454415490,
+    5454471136,
+    5454471135,
+    5454471134,
+    5454471133,
+    5454415491,
+    5454471127,
+    5454471128,
+    5454471126,
+    5454471125,
+    5454415492,
+    5454471129,
+    5454471130,
+    5454471132,
+    5454471131,
+    5454415489
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Capella de Sant Antoni",
+    "name:ca": "Capella de Sant Antoni",
+    "name:de": "Sankt Antonius-Kapelle",
+    "name:en": "Saint Anthony Chapel",
+    "name:es": "Capilla de San Antonio",
+    "name:fr": "Chapelle Saint Antoine",
+    "religion": "christian",
+    "start_date": "C18"
+  }
+},
+{
+  "type": "way",
+  "id": 608699525,
+  "timestamp": "2018-10-20T20:00:01Z",
+  "version": 2,
+  "changeset": 63713096,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    5766368823,
+    5766368820,
+    5766368819,
+    5766368818,
+    5766368822,
+    5766368817,
+    5766368816,
+    5766368815,
+    5766368814,
+    5766368821,
+    5766368813,
+    5766368812,
+    5766368823
+  ],
+  "tags": {
+    "building": "chapel",
+    "building:use": "residential",
+    "denomination": "catholic",
+    "name": "Capella de l'Assumpta",
+    "religion": "christian",
+    "was:amenity": "place_of_worship",
+    "wikidata": "Q20985341"
+  }
+},
+{
+  "type": "way",
+  "id": 639144774,
+  "timestamp": "2018-10-29T18:16:30Z",
+  "version": 1,
+  "changeset": 63987089,
+  "user": "ramonz",
+  "uid": 2047207,
+  "nodes": [
+    6022940753,
+    6022940754,
+    6022940755,
+    6022940756,
+    6022940757,
+    6022940753
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Jaume de Valdeserves"
+  }
+},
+{
+  "type": "way",
+  "id": 643162805,
+  "timestamp": "2018-11-11T19:23:54Z",
+  "version": 1,
+  "changeset": 64383089,
+  "user": "doktorpixel14_import",
+  "uid": 6176145,
+  "nodes": [
+    2264354596,
+    2264354599,
+    6053180210,
+    2264354595,
+    2264354593,
+    6053180231,
+    2264354591,
+    2544790038,
+    2503270770,
+    6053180258,
+    2264354588,
+    6053181395,
+    2544790036,
+    6053180211,
+    437528363,
+    6053179060,
+    2544790032,
+    6053180209,
+    2264354596
+  ],
+  "tags": {
+    "addr:city": "Barcelona",
+    "addr:housenumber": "10",
+    "addr:street": "Plaça del Rei",
+    "building": "chapel",
+    "building:levels": "2",
+    "name": "Capella de Santa Àgata",
+    "name:en": "Chapel of Santa Àgata",
+    "name:ru": "Часовня Санты Агаты",
+    "tourism": "attraction",
+    "wikidata": "Q3896289",
+    "wikipedia": "ca:Capella de Santa Àgata"
+  }
+},
+{
+  "type": "way",
+  "id": 664584757,
+  "timestamp": "2019-01-19T09:19:01Z",
+  "version": 1,
+  "changeset": 66448539,
+  "user": "Lou Lee",
+  "uid": 9280400,
+  "nodes": [
+    6220559875,
+    6220559876,
+    6220559877,
+    6220559878,
+    6220559879,
+    6220559880,
+    6220559875
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Ermita Sta Margarita de Fontarnau"
+  }
+},
+{
+  "type": "way",
+  "id": 664586412,
+  "timestamp": "2019-01-21T13:47:11Z",
+  "version": 2,
+  "changeset": 66505617,
+  "user": "Gégé66",
+  "uid": 5788536,
+  "nodes": [
+    6220626609,
+    6220626610,
+    6220626611,
+    6220626612,
+    6220626609
+  ],
+  "tags": {
+    "building": "chapel",
+    "denomination": "Chapelle_en_Ruine",
+    "ele": "145",
+    "name": "Sant Pere dels Villars"
+  }
+},
+{
+  "type": "way",
+  "id": 668529148,
+  "timestamp": "2019-02-05T19:36:57Z",
+  "version": 1,
+  "changeset": 66941900,
+  "user": "Gégé66",
+  "uid": 5788536,
+  "nodes": [
+    6260525091,
+    6260525092,
+    6260525093,
+    6260525094,
+    6260525091
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Vinçens"
+  }
+},
+{
+  "type": "way",
+  "id": 676509789,
+  "timestamp": "2019-03-13T10:37:57Z",
+  "version": 1,
+  "changeset": 68094597,
+  "user": "Gégé66",
+  "uid": 5788536,
+  "nodes": [
+    6335192443,
+    6335192444,
+    6335192445,
+    6335192446,
+    6335192447,
+    6335192448,
+    6335192449,
+    6335192443
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Joan de Bossols"
+  }
+},
+{
+  "type": "way",
+  "id": 697825528,
+  "timestamp": "2019-06-17T16:55:57Z",
+  "version": 1,
+  "changeset": 71336915,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6553559039,
+    6553559040,
+    6553559041,
+    6553559042,
+    6553559043,
+    6553559044,
+    6553559045,
+    6553559046,
+    6553559047,
+    6553559048,
+    6553559039
+  ],
+  "tags": {
+    "addr:city": "Sant Feliu de Pallerols",
+    "addr:housenumber": "22",
+    "addr:street": "Plaça del Firal",
+    "building": "chapel",
+    "name": "Capella del Roser"
+  }
+},
+{
+  "type": "way",
+  "id": 699459199,
+  "timestamp": "2019-06-24T16:51:22Z",
+  "version": 1,
+  "changeset": 71568940,
+  "user": "Kikena32",
+  "uid": 442490,
+  "nodes": [
+    6568245009,
+    6568245010,
+    6568245011,
+    6568245012,
+    6568245013,
+    6568245014,
+    6568245015,
+    6568245016,
+    6568245017,
+    6568245018,
+    6568245019,
+    6568245020,
+    6568245021,
+    6568245022,
+    6568245023,
+    6568245024,
+    6568245025,
+    6568245026,
+    6568245027,
+    6568245009
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Santa Maria de la Mora"
+  }
+},
+{
+  "type": "way",
+  "id": 707049195,
+  "timestamp": "2019-07-24T18:08:10Z",
+  "version": 1,
+  "changeset": 72614555,
+  "user": "Barretina",
+  "uid": 545136,
+  "nodes": [
+    6644459283,
+    6644459278,
+    6644459277,
+    6644459276,
+    6644459275,
+    6644459281,
+    6644459280,
+    6644459282,
+    6644459279,
+    6644459283
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 708680629,
+  "timestamp": "2019-07-30T17:12:40Z",
+  "version": 2,
+  "changeset": 72822372,
+  "user": "caminsperfer",
+  "uid": 10187213,
+  "nodes": [
+    6659476756,
+    6659476757,
+    6659476758,
+    6659476759,
+    6659476760,
+    6661649885,
+    6659476756
+  ],
+  "tags": {
+    "addr:city": "l'Hospitalet de Llobregat",
+    "addr:housenumber": "203-205",
+    "addr:postcode": "08902",
+    "addr:street": "Carrer de Santa Eulàlia",
+    "building": "chapel",
+    "building:levels": "1",
+    "building:levels:underground": "0",
+    "building:material": "stone",
+    "ele": "13.14",
+    "height": "7.56",
+    "name": "Església romànica de Santa Eulàlia de Provençana",
+    "start_date": "1101"
+  }
+},
+{
+  "type": "way",
+  "id": 734020752,
+  "timestamp": "2019-10-13T00:53:59Z",
+  "version": 1,
+  "changeset": 75612271,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    6874478143,
+    6874435194,
+    6874437854,
+    6874433939,
+    6874478143
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Jordi"
+  }
+},
+{
+  "type": "way",
+  "id": 756395219,
+  "timestamp": "2019-12-18T00:05:40Z",
+  "version": 1,
+  "changeset": 78549441,
+  "user": "Nastic",
+  "uid": 10514617,
+  "nodes": [
+    7064959055,
+    7064959056,
+    7064959057,
+    7064959058,
+    7064959059,
+    7064959060,
+    7064959061,
+    7064959062,
+    7064959055
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 767746841,
+  "timestamp": "2020-01-29T03:35:41Z",
+  "version": 1,
+  "changeset": 80227855,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    2035567153,
+    2035567150,
+    7168228346,
+    2035567148,
+    2035567154,
+    2035567153
+  ],
+  "tags": {
+    "building": "chapel",
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 778973225,
+  "timestamp": "2020-03-07T12:07:40Z",
+  "version": 2,
+  "changeset": 81897538,
+  "user": "Jeroni de J",
+  "uid": 296086,
+  "nodes": [
+    7273072998,
+    7273072999,
+    7273073000,
+    7273073001,
+    7273072998
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Andreu"
+  }
+},
+{
+  "type": "relation",
+  "id": 6213434,
+  "timestamp": "2018-08-16T09:03:58Z",
+  "version": 4,
+  "changeset": 61708780,
+  "user": "ccamara",
+  "uid": 423535,
+  "members": [
+    {
+      "type": "way",
+      "ref": 418040956,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 418040957,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "alt_name": "Capella del Remei",
+    "building": "chapel",
+    "building:levels": "1",
+    "building:material": "stone",
+    "denomination": "catholic",
+    "heritage:ipac": "28680",
+    "heritage:operator": "Generalitat de Catalunya",
+    "historic": "wayside_shrine",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Esgl%C3%A9sia_de_Sant_Miquel_del_Castell_%28Castellter%C3%A7ol%29_-_1.jpg/1280px-Esgl%C3%A9sia_de_Sant_Miquel_del_Castell_%28Castellter%C3%A7ol%29_-_1.jpg",
+    "name": "Ermita de Sant Miquel",
+    "religion": "christian",
+    "roof:material": "roof_tiles",
+    "type": "multipolygon",
+    "wikidata": "Q18007173",
+    "wikipedia": "ca:Sant Miquel del Castell (Castellterçol)"
+  }
+}
+
+  ]
+}

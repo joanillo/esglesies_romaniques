@@ -1,0 +1,87 @@
+[
+{
+  "type": "way",
+  "id": 734020752,
+  "timestamp": "2019-10-13T00:53:59Z",
+  "version": 1,
+  "changeset": 75612271,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    6874478143,
+    6874435194,
+    6874437854,
+    6874433939,
+    6874478143
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Jordi"
+  }
+},
+{
+  "type": "way",
+  "id": 756395219,
+  "timestamp": "2019-12-18T00:05:40Z",
+  "version": 1,
+  "changeset": 78549441,
+  "user": "Nastic",
+  "uid": 10514617,
+  "nodes": [
+    7064959055,
+    7064959056,
+    7064959057,
+    7064959058,
+    7064959059,
+    7064959060,
+    7064959061,
+    7064959062,
+    7064959055
+  ],
+  "tags": {
+    "building": "chapel"
+  }
+},
+{
+  "type": "way",
+  "id": 767746841,
+  "timestamp": "2020-01-29T03:35:41Z",
+  "version": 1,
+  "changeset": 80227855,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    2035567153,
+    2035567150,
+    7168228346,
+    2035567148,
+    2035567154,
+    2035567153
+  ],
+  "tags": {
+    "building": "chapel",
+    "historic": "ruins"
+  }
+},
+{
+  "type": "way",
+  "id": 778973225,
+  "timestamp": "2020-03-07T12:07:40Z",
+  "version": 2,
+  "changeset": 81897538,
+  "user": "Jeroni de J",
+  "uid": 296086,
+  "nodes": [
+    7273072998,
+    7273072999,
+    7273073000,
+    7273073001,
+    7273072998
+  ],
+  "tags": {
+    "building": "chapel",
+    "name": "Sant Andreu"
+  }
+}
+]
+

@@ -1,0 +1,5356 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.56.1002 b121d216",
+  "osm3s": {
+    "timestamp_osm_base": "2020-03-16T23:45:02Z",
+    "timestamp_areas_base": "2020-03-06T11:03:01Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+
+{
+  "type": "node",
+  "id": 1206224192,
+  "lat": 42.0247906,
+  "lon": 2.8792909,
+  "timestamp": "2014-10-13T14:09:56Z",
+  "version": 2,
+  "changeset": 26048662,
+  "user": "jeprubio",
+  "uid": 2175724,
+  "tags": {
+    "building": "church",
+    "name": "Esglesia de Sant Feliu"
+  }
+},
+{
+  "type": "node",
+  "id": 1460478380,
+  "lat": 41.9893624,
+  "lon": 3.0170799,
+  "timestamp": "2019-12-27T17:22:57Z",
+  "version": 6,
+  "changeset": 78935804,
+  "user": "F Lieutaud",
+  "uid": 10066548,
+  "tags": {
+    "admin_level": "8",
+    "building": "church",
+    "capital": "8",
+    "ele": "43",
+    "name": "Corçà",
+    "place": "village",
+    "population": "1023",
+    "population:date": "2009",
+    "ref:ine": "17057000200",
+    "source": "Instituto Geográfico Nacional",
+    "source:date": "2011-06",
+    "source:ele": "MDT5",
+    "source:file": "http://centrodedescargas.cnig.es/CentroDescargas/equipamiento/BD_Municipios-Entidades.zip",
+    "source:name": "Nomenclátor Geográfico de Municipios y Entidades de Población",
+    "wikidata": "Q13468",
+    "wikipedia": "en:Corçà"
+  }
+},
+{
+  "type": "node",
+  "id": 1892879513,
+  "lat": 42.2609063,
+  "lon": 2.4149011,
+  "timestamp": "2012-09-01T09:29:50Z",
+  "version": 1,
+  "changeset": 12940222,
+  "user": "qgroom",
+  "uid": 616942,
+  "tags": {
+    "building": "church",
+    "name": "Ermita de Sant Feliu del Bac",
+    "source": "GPS"
+  }
+},
+{
+  "type": "node",
+  "id": 2204708909,
+  "lat": 41.9459437,
+  "lon": 2.9033014,
+  "timestamp": "2013-03-16T14:52:45Z",
+  "version": 1,
+  "changeset": 15384777,
+  "user": "Héctor Ugalde",
+  "uid": 1096042,
+  "tags": {
+    "building": "church",
+    "name": "Sant Mateu de Montnegre"
+  }
+},
+{
+  "type": "node",
+  "id": 2820081178,
+  "lat": 41.9726857,
+  "lon": 2.3929026,
+  "timestamp": "2019-09-20T15:45:44Z",
+  "version": 4,
+  "changeset": 74724777,
+  "user": "Max--",
+  "uid": 34555,
+  "tags": {
+    "building": "church",
+    "historic": "ruins",
+    "name": "Sant Romà de Sau",
+    "religion": "christian",
+    "wikidata": "Q11947380",
+    "wikipedia": "ca:Sant Romà de Sau"
+  }
+},
+{
+  "type": "node",
+  "id": 3204198563,
+  "lat": 41.4842590,
+  "lon": 2.2682169,
+  "timestamp": "2014-11-25T08:04:56Z",
+  "version": 1,
+  "changeset": 27015903,
+  "user": "Xevicg",
+  "uid": 2484360,
+  "tags": {
+    "building": "church",
+    "name": "Església de Tiana"
+  }
+},
+{
+  "type": "node",
+  "id": 3617293129,
+  "lat": 41.6479141,
+  "lon": 1.1414980,
+  "timestamp": "2015-06-25T10:58:45Z",
+  "version": 1,
+  "changeset": 32202429,
+  "user": "tongro",
+  "uid": 240473,
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "religion": "christian"
+  }
+},
+{
+  "type": "node",
+  "id": 3673430461,
+  "lat": 41.1821384,
+  "lon": 1.0464332,
+  "timestamp": "2015-07-31T06:19:32Z",
+  "version": 3,
+  "changeset": 32998936,
+  "user": "raves",
+  "uid": 3107598,
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "node",
+  "id": 3877416472,
+  "lat": 41.3609360,
+  "lon": 2.0775007,
+  "timestamp": "2015-12-05T01:13:52Z",
+  "version": 1,
+  "changeset": 35760338,
+  "user": "friguron",
+  "uid": 843351,
+  "tags": {
+    "addr:city": "Cornellà de Llobregat",
+    "addr:postcode": "08940",
+    "addr:street": "Carrer de la Ramoneda",
+    "building": "church",
+    "name": "Iglesia Evangélica Bautista"
+  }
+},
+{
+  "type": "node",
+  "id": 4409494969,
+  "lat": 42.3253148,
+  "lon": 2.8342979,
+  "timestamp": "2016-09-20T11:19:31Z",
+  "version": 3,
+  "changeset": 42295890,
+  "user": "jrome003",
+  "uid": 3452951,
+  "tags": {
+    "building": "church",
+    "name": "de la Mare de Déu de la Salut"
+  }
+},
+{
+  "type": "node",
+  "id": 6896667409,
+  "lat": 41.7942849,
+  "lon": 0.8129144,
+  "timestamp": "2019-10-18T18:47:08Z",
+  "version": 1,
+  "changeset": 75910162,
+  "user": "nilamb",
+  "uid": 10347224,
+  "tags": {
+    "addr:city": "Balaguer",
+    "addr:housenumber": "25",
+    "addr:postcode": "25600",
+    "addr:street": "Carretera de Camarasa",
+    "building": "church",
+    "name": "Església Cristiana Paraula de Fe"
+  }
+},
+{
+  "type": "way",
+  "id": 33115436,
+  "timestamp": "2019-09-17T21:11:38Z",
+  "version": 6,
+  "changeset": 74599172,
+  "user": "CycleStreets",
+  "uid": 141442,
+  "nodes": [
+    373799276,
+    373799279,
+    1874250208,
+    1874250234,
+    6804164322,
+    6804164323,
+    406154802,
+    373799288,
+    373799291,
+    1874250271,
+    1874250272,
+    6804164331,
+    1874250290,
+    1874250287,
+    373799294,
+    1874250285,
+    1874250275,
+    1874250276,
+    1874250273,
+    1874250269,
+    1874250252,
+    373799299,
+    1874250226,
+    373799276
+  ],
+  "tags": {
+    "building": "church",
+    "height": "10"
+  }
+},
+{
+  "type": "way",
+  "id": 35378296,
+  "timestamp": "2018-11-22T15:13:25Z",
+  "version": 5,
+  "changeset": 64785681,
+  "user": "harryA",
+  "uid": 247520,
+  "nodes": [
+    414865348,
+    5424494007,
+    414865351,
+    414865353,
+    414865356,
+    5424494006,
+    5424494005,
+    5424494004,
+    5424494003,
+    414865358,
+    414865361,
+    414865363,
+    5424494002,
+    5424494001,
+    5424494000,
+    5424493999,
+    414865366,
+    414865374,
+    414865377,
+    6082929881,
+    5300670405,
+    414865379,
+    414865348
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 63937730,
+  "timestamp": "2019-08-01T11:03:32Z",
+  "version": 5,
+  "changeset": 72892879,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    789126594,
+    789237187,
+    789062954,
+    789052274,
+    789166228,
+    789105798,
+    789024140,
+    789160545,
+    789097772,
+    789216165,
+    789015532,
+    789151714,
+    789252977,
+    789080466,
+    789144670,
+    789070056,
+    789064351,
+    789197635,
+    789274647,
+    789117043,
+    789056241,
+    789182562,
+    789269340,
+    789111193,
+    789226998,
+    789039767,
+    789262596,
+    789220223,
+    789022119,
+    789159263,
+    789257083,
+    789214847,
+    789012975,
+    789150478,
+    789278595,
+    789126594
+  ],
+  "tags": {
+    "addr:city": "Girona",
+    "building": "church",
+    "local_code": "10456",
+    "name": "Sant Jaume de Campdorà",
+    "source": "Ajuntament de Girona",
+    "wikidata": "Q28057488",
+    "wikipedia": "ca:Sant Jaume de Campdorà"
+  }
+},
+{
+  "type": "way",
+  "id": 97877291,
+  "timestamp": "2012-03-06T15:46:01Z",
+  "version": 2,
+  "changeset": 10891299,
+  "user": "TopoiG",
+  "uid": 601550,
+  "nodes": [
+    1132845569,
+    1132838161,
+    1132850597,
+    1132812756,
+    1132843393,
+    1132839862,
+    1132826993,
+    1132850346,
+    1132837911,
+    1132834473,
+    1132821118,
+    1132816055,
+    1132830502,
+    1132833402,
+    1132845569
+  ],
+  "tags": {
+    "building": "church",
+    "source": "catastro",
+    "tourism": "museum"
+  }
+},
+{
+  "type": "way",
+  "id": 100202789,
+  "timestamp": "2015-09-04T08:52:49Z",
+  "version": 2,
+  "changeset": 33788622,
+  "user": "Waie",
+  "uid": 1795460,
+  "nodes": [
+    1158188744,
+    1158194140,
+    1158218860,
+    1158211157,
+    1158188744
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Bartomeu",
+    "source": "catastro"
+  }
+},
+{
+  "type": "way",
+  "id": 103267201,
+  "timestamp": "2016-01-15T23:55:36Z",
+  "version": 5,
+  "changeset": 36606603,
+  "user": "woodpeck_repair",
+  "uid": 145231,
+  "nodes": [
+    1192492604,
+    1192492311,
+    1192492691,
+    1192493045,
+    1192493353,
+    1192492179,
+    1192492549,
+    1192491922,
+    1192492275,
+    1192492653,
+    1192493002,
+    1192493307,
+    1192492121,
+    1192492604
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Santa Maria de Gardeny"
+  }
+},
+{
+  "type": "way",
+  "id": 105047879,
+  "timestamp": "2019-06-20T07:17:24Z",
+  "version": 2,
+  "changeset": 71430088,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    1210957753,
+    1210957719,
+    1210957800,
+    1210957773,
+    1210957717,
+    1210957568,
+    1210957747,
+    1210957706,
+    1210957679,
+    1210957543,
+    1210957675,
+    1210957786,
+    1210957753
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església de l'Assumpta",
+    "source": "PNOA",
+    "source:date": "20/3/2010"
+  }
+},
+{
+  "type": "way",
+  "id": 122560863,
+  "timestamp": "2017-09-24T12:19:02Z",
+  "version": 7,
+  "changeset": 52327167,
+  "user": "Sioul",
+  "uid": 832276,
+  "nodes": [
+    1369203589,
+    1369203580,
+    1369203574,
+    1369203582,
+    1369203576,
+    1369203565,
+    1369203570,
+    3778569603,
+    3778569602,
+    3778569604,
+    3778569601,
+    1369203595,
+    1369203589
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Miquel del Port",
+    "wikidata": "Q17301260",
+    "wikipedia": "ca:Sant Miquel del Port"
+  }
+},
+{
+  "type": "way",
+  "id": 123194519,
+  "timestamp": "2015-02-09T10:20:15Z",
+  "version": 4,
+  "changeset": 28723497,
+  "user": "pere prlpz",
+  "uid": 1513644,
+  "nodes": [
+    1374638120,
+    1374638101,
+    1374638018,
+    1374638010,
+    1374638002,
+    1374638001,
+    1374638008,
+    1374638020,
+    1374638103,
+    1374638115,
+    1374638120
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 123194561,
+  "timestamp": "2018-10-12T11:02:58Z",
+  "version": 7,
+  "changeset": 63451282,
+  "user": "-WI-",
+  "uid": 102162,
+  "nodes": [
+    5514739621,
+    1374637591,
+    1374637553,
+    5514739111,
+    5514739112,
+    5514739113,
+    1374637710,
+    5514739114,
+    1374637703,
+    1374637719,
+    5514739115,
+    5514739116,
+    1374637728,
+    1374637731,
+    5514739117,
+    1374637721,
+    5514739118,
+    1374637712,
+    5514739119,
+    1374637697,
+    1374637685,
+    5514739120,
+    1374637677,
+    1374637666,
+    1374637662,
+    1374637650,
+    1374637609,
+    5514739105,
+    5514739104,
+    1374637406,
+    5514739103,
+    1374637350,
+    5514739098,
+    5514739106,
+    5514739107,
+    5514739108,
+    5514739109,
+    5514739110,
+    5514739621
+  ],
+  "tags": {
+    "addr:city": "Barcelona",
+    "addr:housenumber": "141-143-145-147-149",
+    "addr:postcode": "08011",
+    "addr:street": "Carrer de la Diputació",
+    "building": "church",
+    "name": "Basílica Sant Josep Oriol",
+    "wikidata": "Q5487409",
+    "wikipedia": "ca:Església de Sant Josep Oriol"
+  }
+},
+{
+  "type": "way",
+  "id": 141795589,
+  "timestamp": "2019-07-12T20:59:39Z",
+  "version": 2,
+  "changeset": 72197734,
+  "user": "JaumeFiguerasCADASTRE",
+  "uid": 9965326,
+  "nodes": [
+    1552044267,
+    1552044275,
+    6610936532,
+    1552044265,
+    1552044262,
+    1552044267
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església del Palá",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 141796902,
+  "timestamp": "2013-04-19T08:13:04Z",
+  "version": 2,
+  "changeset": 15781923,
+  "user": "EliziR",
+  "uid": 605366,
+  "nodes": [
+    1552058821,
+    1552058814,
+    1552058797,
+    1552058818,
+    2272391289,
+    2272391293,
+    1552058821
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Mare de Déu de Montserrat",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 145257114,
+  "timestamp": "2016-12-03T08:38:23Z",
+  "version": 6,
+  "changeset": 44131987,
+  "user": "Galifardeu",
+  "uid": 368660,
+  "nodes": [
+    1586911451,
+    1586911453,
+    1586911455,
+    1586911449,
+    1586911451
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "roman_catholic",
+    "name": "Parròquia de la Sagrada Família"
+  }
+},
+{
+  "type": "way",
+  "id": 146913932,
+  "timestamp": "2019-10-16T08:41:24Z",
+  "version": 3,
+  "changeset": 75762955,
+  "user": "EliziR",
+  "uid": 605366,
+  "nodes": [
+    1601361556,
+    1601361573,
+    1601361571,
+    1601361554,
+    1601361556
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Pere",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 149963441,
+  "timestamp": "2019-07-26T12:47:00Z",
+  "version": 3,
+  "changeset": 72685689,
+  "user": "DavidSBD",
+  "uid": 1895636,
+  "nodes": [
+    1629007999,
+    1629007998,
+    1629008000,
+    1629008001,
+    1629007987,
+    1629007983,
+    1629007984,
+    1629007963,
+    1629007949,
+    1629007965,
+    6650015564,
+    6650015563,
+    1629007959,
+    1629007977,
+    1629007979,
+    1629007985,
+    1629007986,
+    1629007999
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Vicenç de Jonqueres",
+    "operator": "Ajuntament de Sabadell",
+    "wikidata": "Q11947461",
+    "wikipedia": "ca:Sant Vicenç de Jonqueres"
+  }
+},
+{
+  "type": "way",
+  "id": 158941789,
+  "timestamp": "2013-11-06T19:27:55Z",
+  "version": 3,
+  "changeset": 18752976,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    1710575976,
+    1710575972,
+    1710575973,
+    1710575977,
+    1710575976
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Romà de Sidillà",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 160948252,
+  "timestamp": "2020-02-06T15:59:16Z",
+  "version": 8,
+  "changeset": 80651109,
+  "user": "miqbos",
+  "uid": 647547,
+  "nodes": [
+    2668896157,
+    1729149300,
+    1730434434,
+    2668896172,
+    2668896170,
+    1729149305,
+    1730536484,
+    1729149321,
+    1730536474,
+    1729149325,
+    1729149329,
+    1729149332,
+    1729149334,
+    1730536458,
+    1729149335,
+    1730536456,
+    1729149336,
+    1730536453,
+    1729149337,
+    1729149338,
+    1730536449,
+    1730536448,
+    1729149339,
+    1730536446,
+    1729149351,
+    1730536443,
+    1729149353,
+    1730536441,
+    1729149355,
+    1729149357,
+    1730536487,
+    1730536488,
+    2777489425,
+    1730536489,
+    2777489423,
+    2777489422,
+    2777489426,
+    2668896157
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Monestir de Sant Joan de les Abadesses",
+    "website": "http://www.monestirsantjoanabadesses.cat",
+    "wikidata": "Q1530714"
+  }
+},
+{
+  "type": "way",
+  "id": 166566395,
+  "timestamp": "2018-10-20T19:58:46Z",
+  "version": 3,
+  "changeset": 63713096,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    1780145077,
+    1780145096,
+    1780145088,
+    1780145102,
+    1780145080,
+    1780145060,
+    1780145068,
+    1780145066,
+    1780145077
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Ermita de Sant Elm",
+    "wikidata": "Q17601378",
+    "wikipedia": "ca:Ermita de Sant Elm"
+  }
+},
+{
+  "type": "way",
+  "id": 173191401,
+  "timestamp": "2016-03-14T20:24:30Z",
+  "version": 2,
+  "changeset": 37829271,
+  "user": "yopaseopor",
+  "uid": 500572,
+  "nodes": [
+    1840273139,
+    1840273318,
+    1840273095,
+    1840273380,
+    1840273213,
+    1840273219,
+    1840273341,
+    1840273135,
+    1840273319,
+    1840273055,
+    1840273230,
+    1840273117,
+    1840273233,
+    1840273275,
+    1840273031,
+    1840273388,
+    1840273396,
+    1840273139
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Santuari de la Mare de deu de la Fontsanta",
+    "old_name": "Iglesia de San Pedro del Castillo"
+  }
+},
+{
+  "type": "way",
+  "id": 177303479,
+  "timestamp": "2020-03-08T12:19:43Z",
+  "version": 2,
+  "changeset": 81921639,
+  "user": "aseques",
+  "uid": 140745,
+  "nodes": [
+    1877572356,
+    1877572340,
+    1877572334,
+    1877572352,
+    1877572356
+  ],
+  "tags": {
+    "addr:housenumber": "52",
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 178945332,
+  "timestamp": "2012-09-01T11:52:09Z",
+  "version": 1,
+  "changeset": 12941568,
+  "user": "qgroom",
+  "uid": 616942,
+  "nodes": [
+    1893014794,
+    1893014793,
+    1893014791,
+    1893014792,
+    1893014794
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Ermita de la Mare de Déu dels Àngels"
+  }
+},
+{
+  "type": "way",
+  "id": 178996209,
+  "timestamp": "2018-10-20T19:59:51Z",
+  "version": 4,
+  "changeset": 63713096,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    1893377110,
+    1893377111,
+    1893377109,
+    1893377112,
+    1893377110
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Miquel de la Torre",
+    "wikidata": "Q19257475"
+  }
+},
+{
+  "type": "way",
+  "id": 180743543,
+  "timestamp": "2020-02-21T16:09:53Z",
+  "version": 2,
+  "changeset": 81324845,
+  "user": "hofoen",
+  "uid": 52797,
+  "nodes": [
+    1912066070,
+    1912066052,
+    1912066062,
+    1912066073,
+    1912066070
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Esglesia vella de Can Vidal",
+    "wikidata": "Q60166738",
+    "wikipedia": "ca:Església vella del Mas Vidal"
+  }
+},
+{
+  "type": "way",
+  "id": 186793623,
+  "timestamp": "2018-02-05T20:57:14Z",
+  "version": 3,
+  "changeset": 56097070,
+  "user": "Jose Luis Infante",
+  "uid": 126203,
+  "nodes": [
+    1975410439,
+    1975410534,
+    1975410554,
+    1975410617,
+    1975410777,
+    1975410650,
+    1975410640,
+    1975410605,
+    1975410516,
+    1975410493,
+    1975410480,
+    1975410439
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 188009522,
+  "timestamp": "2012-10-28T04:54:18Z",
+  "version": 2,
+  "changeset": 13656753,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    1986347834,
+    1986347828,
+    1986347829,
+    1986347827,
+    1986347830,
+    1986351493,
+    1986347831,
+    1986347832,
+    1986347833,
+    1986347835,
+    1986347836,
+    1986347838,
+    1986347839,
+    1986347837,
+    1986347840,
+    1986347834
+  ],
+  "tags": {
+    "building": "church",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 190279904,
+  "timestamp": "2018-10-24T12:00:01Z",
+  "version": 4,
+  "changeset": 63829505,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    2008786482,
+    2008786474,
+    2008786477,
+    2008786488,
+    2008786482
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "historic": "ruins",
+    "name": "Sant Joan de l'Erm Vell",
+    "ruins": "yes",
+    "wikidata": "Q18006916",
+    "wikipedia": "ca:Sant Joan de l'Erm Vell"
+  }
+},
+{
+  "type": "way",
+  "id": 192544525,
+  "timestamp": "2014-07-21T13:24:28Z",
+  "version": 2,
+  "changeset": 24273340,
+  "user": "salinasjavi",
+  "uid": 1413327,
+  "nodes": [
+    2030962296,
+    2030962290,
+    2030962291,
+    2030962289,
+    2030962284,
+    2030962285,
+    2030962293,
+    2030962298,
+    2030962299,
+    2030962306,
+    2030962307,
+    2030962316,
+    2030962320,
+    2030962319,
+    2030962318,
+    2030962326,
+    2030962325,
+    2030962328,
+    2030962327,
+    2030962321,
+    2030962322,
+    2030962315,
+    2030962314,
+    2030962312,
+    2030962311,
+    2030962310,
+    2030962309,
+    2030962308,
+    2030962300,
+    2030962296
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Iglesia Sant Martí"
+  }
+},
+{
+  "type": "way",
+  "id": 209434630,
+  "timestamp": "2018-06-26T22:55:44Z",
+  "version": 6,
+  "changeset": 60196156,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    2196532397,
+    2196532401,
+    3693853269,
+    3693853266,
+    5721394122,
+    5721357537,
+    2196532403,
+    2196532399,
+    5721394037,
+    2196532400,
+    3693853262,
+    2196532398,
+    5721357769,
+    5721354459,
+    5721357538,
+    5721357770,
+    2196532393,
+    2196532397
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "historic": "ruins",
+    "name": "Sant Sadurní",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 210965477,
+  "timestamp": "2013-06-07T05:20:45Z",
+  "version": 2,
+  "changeset": 16452632,
+  "user": "catastro_gerona",
+  "uid": 617026,
+  "nodes": [
+    2209892217,
+    2209892204,
+    2209892198,
+    2209892187,
+    2334996426,
+    2209892193,
+    2209892191,
+    2209892195,
+    2209892196,
+    2209892200,
+    2209892213,
+    2209892215,
+    2209892218,
+    2209892224,
+    2209892222,
+    2209892220,
+    2209892217
+  ],
+  "tags": {
+    "building": "church",
+    "designation": "BCIN",
+    "historic": "monument",
+    "name": "Priorat de Santa Maria (S-XI)",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 214448192,
+  "timestamp": "2013-03-31T20:06:01Z",
+  "version": 1,
+  "changeset": 15558927,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    2239891300,
+    2239891198,
+    2239891195,
+    2239891186,
+    2239891192,
+    2239891219,
+    2239891207,
+    2239891204,
+    2239891261,
+    2239891270,
+    2239891300
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 216949546,
+  "timestamp": "2018-10-26T08:23:29Z",
+  "version": 3,
+  "changeset": 63891873,
+  "user": "Toni Serra",
+  "uid": 3859465,
+  "nodes": [
+    2262682156,
+    2262682152,
+    2262682144,
+    3140165804,
+    2262682134,
+    2262682136,
+    2262682138,
+    3140165799,
+    3140165796,
+    3140165798,
+    3140165800,
+    3140165803,
+    3140165801,
+    2262682140,
+    3140165805,
+    3140165806,
+    2262682148,
+    3140165807,
+    2262682154,
+    3140165808,
+    2262682164,
+    2262682172,
+    2262682176,
+    2262682156
+  ],
+  "tags": {
+    "building": "church",
+    "building:facade:material": "concrete",
+    "building:levels": "2",
+    "roof:colour": "black"
+  }
+},
+{
+  "type": "way",
+  "id": 216949548,
+  "timestamp": "2018-10-26T08:23:23Z",
+  "version": 4,
+  "changeset": 63891873,
+  "user": "Toni Serra",
+  "uid": 3859465,
+  "nodes": [
+    2262682131,
+    3140165797,
+    3140165802,
+    2262682143,
+    2262682150,
+    2262682166,
+    3140165823,
+    3140165827,
+    3140171432,
+    2262682180,
+    3140171442,
+    2262682184,
+    3140171450,
+    2262682188,
+    3140171454,
+    2262682190,
+    3140171456,
+    3140171459,
+    3140171458,
+    3140171457,
+    3140171455,
+    3140171453,
+    3140171452,
+    3140171451,
+    2262682186,
+    3140171443,
+    2262682182,
+    3140171436,
+    2262682178,
+    3140171430,
+    2262682174,
+    3140165822,
+    2262682168,
+    3140165815,
+    2262682158,
+    3140165811,
+    3140165809,
+    3140165810,
+    3140165812,
+    2262682160,
+    2262682162,
+    3140165813,
+    3662657842,
+    3662657841,
+    3662657840,
+    3662657839,
+    3662657838,
+    3662657837,
+    2262682131
+  ],
+  "tags": {
+    "building": "church",
+    "building:facade:material": "concrete",
+    "building:levels": "3",
+    "building:part": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 217495618,
+  "timestamp": "2018-08-26T07:06:17Z",
+  "version": 5,
+  "changeset": 62000072,
+  "user": "gogster",
+  "uid": 6171291,
+  "nodes": [
+    5858374851,
+    5858374850,
+    2267668034,
+    2267668050,
+    2267668070,
+    2267668072,
+    5858374851
+  ],
+  "tags": {
+    "addr:city": "Barcelona",
+    "addr:housenumber": "307",
+    "addr:postcode": "08029",
+    "addr:street": "Carrer del Comte Borrell",
+    "building": "church",
+    "building:levels": "2",
+    "height": "12",
+    "name": "Agrupació Parroquial Sant Eugeni I"
+  }
+},
+{
+  "type": "way",
+  "id": 219714746,
+  "timestamp": "2019-01-17T22:13:54Z",
+  "version": 3,
+  "changeset": 66409336,
+  "user": "NEBOTOO",
+  "uid": 9325043,
+  "nodes": [
+    2288520977,
+    2288520973,
+    2288520974,
+    2288520975,
+    2288520976,
+    2288520978,
+    2288520977
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Ermita de la Mare de Déu de la Salut"
+  }
+},
+{
+  "type": "way",
+  "id": 221965685,
+  "timestamp": "2013-05-18T11:06:46Z",
+  "version": 1,
+  "changeset": 16178545,
+  "user": "PhQ",
+  "uid": 141978,
+  "nodes": [
+    2309435618,
+    2309435624,
+    2309435623,
+    2309435622,
+    2309435619,
+    2309435617,
+    2309435615,
+    2309435618
+  ],
+  "tags": {
+    "building": "church",
+    "source": "Bing 2013"
+  }
+},
+{
+  "type": "way",
+  "id": 229995227,
+  "timestamp": "2017-10-17T20:29:48Z",
+  "version": 2,
+  "changeset": 53023874,
+  "user": "Bigmorr",
+  "uid": 6802110,
+  "nodes": [
+    2385294323,
+    2385294277,
+    2385294269,
+    2385294283,
+    2385294291,
+    2385294321,
+    2385294323
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 231568950,
+  "timestamp": "2018-10-24T12:00:32Z",
+  "version": 2,
+  "changeset": 63829505,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    2399335857,
+    2399335836,
+    2399335817,
+    2399335842,
+    2399335857
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Jaume",
+    "ruins": "yes",
+    "wikidata": "Q19257424"
+  }
+},
+{
+  "type": "way",
+  "id": 233311642,
+  "timestamp": "2016-10-24T10:34:44Z",
+  "version": 4,
+  "changeset": 43119245,
+  "user": "albjorgui",
+  "uid": 230487,
+  "nodes": [
+    2416995462,
+    2416995443,
+    2416995413,
+    2416995416,
+    2416995411,
+    2416995426,
+    2416995429,
+    2416995434,
+    2416995462
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Esglesia de Sant Jordi"
+  }
+},
+{
+  "type": "way",
+  "id": 244987682,
+  "timestamp": "2013-11-06T20:27:16Z",
+  "version": 1,
+  "changeset": 18753970,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    2522545861,
+    2522545862,
+    2522545866,
+    2522545867,
+    2522545873,
+    2522545872,
+    2522545871,
+    2522545870,
+    2522545869,
+    2522545865,
+    2522545861
+  ],
+  "tags": {
+    "building": "church",
+    "ruins": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 245097435,
+  "timestamp": "2013-11-07T18:55:05Z",
+  "version": 1,
+  "changeset": 18769880,
+  "user": "catastro_tarragona",
+  "uid": 617064,
+  "nodes": [
+    2523472782,
+    2523472790,
+    2523472810,
+    2523472816,
+    2523472822,
+    2523472847,
+    2523472872,
+    2523472869,
+    2523472859,
+    2523472857,
+    2523472841,
+    2523472826,
+    2523472818,
+    2523472787,
+    2523472784,
+    2523472773,
+    2523472770,
+    2523472761,
+    2523472782
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "source": "catastro",
+    "source:date": "2013-01"
+  }
+},
+{
+  "type": "way",
+  "id": 245097456,
+  "timestamp": "2013-11-07T18:55:06Z",
+  "version": 1,
+  "changeset": 18769880,
+  "user": "catastro_tarragona",
+  "uid": 617064,
+  "nodes": [
+    2523472860,
+    2523472873,
+    2523472879,
+    2523472868,
+    2523472833,
+    2523472860
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "source": "catastro",
+    "source:date": "2013-01"
+  }
+},
+{
+  "type": "way",
+  "id": 245097468,
+  "timestamp": "2013-11-07T18:55:06Z",
+  "version": 1,
+  "changeset": 18769880,
+  "user": "catastro_tarragona",
+  "uid": 617064,
+  "nodes": [
+    2523472887,
+    2523472902,
+    2523472908,
+    2523472890,
+    2523472879,
+    2523472873,
+    2523472887
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2",
+    "source": "catastro",
+    "source:date": "2013-01"
+  }
+},
+{
+  "type": "way",
+  "id": 245097471,
+  "timestamp": "2013-11-07T18:55:06Z",
+  "version": 1,
+  "changeset": 18769880,
+  "user": "catastro_tarragona",
+  "uid": 617064,
+  "nodes": [
+    2523472879,
+    2523472890,
+    2523472899,
+    2523472872,
+    2523472847,
+    2523472868,
+    2523472879
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "3",
+    "source": "catastro",
+    "source:date": "2013-01"
+  }
+},
+{
+  "type": "way",
+  "id": 248070280,
+  "timestamp": "2019-12-15T23:28:30Z",
+  "version": 4,
+  "changeset": 78442085,
+  "user": "Nastic",
+  "uid": 10514617,
+  "nodes": [
+    2549192450,
+    2549192478,
+    2549192472,
+    2549192447,
+    2549192481,
+    2549192461,
+    2549192457,
+    2549192469,
+    2549192450
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "5",
+    "building:part": "yes",
+    "roof:levels": "3",
+    "roof:shape": "dome"
+  }
+},
+{
+  "type": "way",
+  "id": 248072326,
+  "timestamp": "2019-12-15T23:28:30Z",
+  "version": 3,
+  "changeset": 78442085,
+  "user": "Nastic",
+  "uid": 10514617,
+  "nodes": [
+    2528492714,
+    2549217856,
+    2549217853,
+    2549217859,
+    2528492714
+  ],
+  "tags": {
+    "building": "church",
+    "building:part": "yes",
+    "name": "Campanar"
+  }
+},
+{
+  "type": "way",
+  "id": 251766941,
+  "timestamp": "2019-09-22T19:39:48Z",
+  "version": 2,
+  "changeset": 74780228,
+  "user": "macjohn-gi",
+  "uid": 10319451,
+  "nodes": [
+    2579477372,
+    2579477362,
+    2579477360,
+    2579477370,
+    2579477372
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Miquel de Coma de Roure"
+  }
+},
+{
+  "type": "way",
+  "id": 255608429,
+  "timestamp": "2017-12-31T16:10:48Z",
+  "version": 3,
+  "changeset": 55061511,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    2612865972,
+    2612865971,
+    2612865969,
+    2612865970,
+    2612865972
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Andreu"
+  }
+},
+{
+  "type": "way",
+  "id": 263780250,
+  "timestamp": "2018-08-11T06:03:34Z",
+  "version": 3,
+  "changeset": 61558222,
+  "user": "ManelG",
+  "uid": 2491053,
+  "nodes": [
+    2694332850,
+    2694332851,
+    2694332852,
+    2694332853,
+    2694332850
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Ermita de Sant Salvador de Casós",
+    "religion": "christian",
+    "wikipedia": "ca:Sant Salvador de Casós"
+  }
+},
+{
+  "type": "way",
+  "id": 264954420,
+  "timestamp": "2014-04-15T09:29:12Z",
+  "version": 2,
+  "changeset": 21705664,
+  "user": "mmorell",
+  "uid": 513768,
+  "nodes": [
+    2706034427,
+    2706034428,
+    2706034432,
+    2706034441,
+    2706034446,
+    2706034426,
+    2706034438,
+    2706034443,
+    2706034433,
+    2706034439,
+    2706034435,
+    2706034429,
+    2706034436,
+    2706034437,
+    2792129687,
+    2792129704,
+    2706034425,
+    2706034430,
+    2706034440,
+    2706034444,
+    2706034427
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 274934874,
+  "timestamp": "2014-04-17T10:30:10Z",
+  "version": 1,
+  "changeset": 21746645,
+  "user": "salinasjavi",
+  "uid": 1413327,
+  "nodes": [
+    2796050600,
+    2796050601,
+    2796050602,
+    2796050603,
+    2796050604,
+    2796050605,
+    2796050606,
+    2796050607,
+    2796050608,
+    2796050609,
+    2796050610,
+    2796050611,
+    2796050612,
+    2796050613,
+    2796050614,
+    2796050615,
+    2796050616,
+    2796050617,
+    2796050600
+  ],
+  "tags": {
+    "addr:city": "Hostalric",
+    "addr:housenumber": "15",
+    "addr:postcode": "17450",
+    "addr:street": "Carrer de la Verge dels Socorrs",
+    "building": "church",
+    "name": "Esglesia Santa María dels Socorrs"
+  }
+},
+{
+  "type": "way",
+  "id": 275335780,
+  "timestamp": "2019-11-06T07:42:21Z",
+  "version": 3,
+  "changeset": 76682787,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    2799758588,
+    6950452897,
+    6950452886,
+    1938162907,
+    6949279722,
+    6949279726,
+    6949279723,
+    2799758591,
+    6949279725,
+    2799758592,
+    6949279724,
+    6950441675,
+    2799758593,
+    6949279728,
+    6950441683,
+    2799758594,
+    2799758595,
+    6950452885,
+    6950441684,
+    6949279727,
+    2799758596,
+    2799758597,
+    2799758598,
+    2799758588
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església parroquial de Sant Hilari"
+  }
+},
+{
+  "type": "way",
+  "id": 276023924,
+  "timestamp": "2019-02-12T06:44:25Z",
+  "version": 2,
+  "changeset": 67121933,
+  "user": "Xevi",
+  "uid": 100124,
+  "nodes": [
+    2806672040,
+    2806672038,
+    2806672034,
+    2806672032,
+    2806672029,
+    2806672031,
+    2806672028,
+    2806672027,
+    2806672024,
+    2806672020,
+    2806672018,
+    2806672016,
+    2806672015,
+    2806672019,
+    2806672022,
+    2806672026,
+    2806672025,
+    2806672021,
+    2806672006,
+    2806672003,
+    2806672004,
+    2806672007,
+    2806672009,
+    2806672013,
+    2806672014,
+    2806672011,
+    2806672008,
+    2806672001,
+    2806672002,
+    2806672005,
+    2806672010,
+    2806672012,
+    2806672017,
+    2806672023,
+    2806672030,
+    2806672033,
+    2806672035,
+    2806672043,
+    2806672042,
+    2806672044,
+    2806672045,
+    2806672041,
+    2806672039,
+    2806672036,
+    2806672040
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Escola El Veïnat"
+  }
+},
+{
+  "type": "way",
+  "id": 282645627,
+  "timestamp": "2019-02-05T17:44:16Z",
+  "version": 2,
+  "changeset": 66938387,
+  "user": "Xevi",
+  "uid": 100124,
+  "nodes": [
+    2865877240,
+    2865877235,
+    2865877237,
+    2865877241,
+    2865877240
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 293284133,
+  "timestamp": "2019-02-02T15:02:56Z",
+  "version": 3,
+  "changeset": 66857598,
+  "user": "lanxana",
+  "uid": 3735848,
+  "nodes": [
+    2968627771,
+    2968627772,
+    2968627773,
+    2968627774,
+    2968627775,
+    2968627776,
+    2968627777,
+    2968627778,
+    2968627779,
+    2968627780,
+    2968627771
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Pere de Llobera",
+    "wikidata": "Q11947316",
+    "wikimedia_commons": "Category:Sant Pere de Llobera",
+    "wikipedia": "ca:Sant Pere de Llobera"
+  }
+},
+{
+  "type": "way",
+  "id": 293290630,
+  "timestamp": "2014-07-18T12:29:27Z",
+  "version": 1,
+  "changeset": 24219802,
+  "user": "Waie",
+  "uid": 1795460,
+  "nodes": [
+    2968695787,
+    2968695788,
+    2968695789,
+    2968695790,
+    2968695787
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Sadurní de la Llena"
+  }
+},
+{
+  "type": "way",
+  "id": 295429158,
+  "timestamp": "2014-08-01T22:10:55Z",
+  "version": 1,
+  "changeset": 24489866,
+  "user": "CarlesGuadall",
+  "uid": 2157773,
+  "nodes": [
+    2991469680,
+    2991469681,
+    2991469682,
+    2991469683,
+    2991469684,
+    2991469685,
+    2991469686,
+    2991469687,
+    2991469688,
+    2991469689,
+    2991469690,
+    2991469691,
+    2991469692,
+    2991469680
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 306673090,
+  "timestamp": "2017-12-25T10:02:33Z",
+  "version": 2,
+  "changeset": 54903322,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    3107567553,
+    3116443401,
+    3116443402,
+    3116443395,
+    3116443396,
+    3116443397,
+    3116443398,
+    3116443399,
+    3116443400,
+    3107567551,
+    3107567552,
+    3107567553
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Joan",
+    "name:es": "San Juan"
+  }
+},
+{
+  "type": "way",
+  "id": 309382745,
+  "timestamp": "2018-10-24T11:02:09Z",
+  "version": 2,
+  "changeset": 63827858,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3147121436,
+    3147121437,
+    3147121438,
+    3147121439,
+    3147121440,
+    3147121441,
+    3147121442,
+    3147121436
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Jaume de Montagut",
+    "wikidata": "Q18006874"
+  }
+},
+{
+  "type": "way",
+  "id": 319615642,
+  "timestamp": "2018-10-24T11:00:42Z",
+  "version": 2,
+  "changeset": 63827858,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3260494990,
+    3260494966,
+    3260494978,
+    3260494980,
+    3260494990
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Ermita de Sant Blai",
+    "wikidata": "Q11919581"
+  }
+},
+{
+  "type": "way",
+  "id": 324953215,
+  "timestamp": "2015-01-28T09:35:45Z",
+  "version": 1,
+  "changeset": 28460924,
+  "user": "fermi_t",
+  "uid": 601281,
+  "nodes": [
+    3316385868,
+    3316385869,
+    3316385870,
+    3316385871,
+    3316385872,
+    3316385873,
+    3316385874,
+    3316385875,
+    3316385868
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Santa Creu de Jutglar",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 325774230,
+  "timestamp": "2015-01-31T17:51:59Z",
+  "version": 1,
+  "changeset": 28528886,
+  "user": "fermi_t",
+  "uid": 601281,
+  "nodes": [
+    3323845793,
+    3323845792,
+    3323845790,
+    3323845791,
+    3323845793
+  ],
+  "tags": {
+    "building": "church",
+    "name": "la Puríssima Concepció"
+  }
+},
+{
+  "type": "way",
+  "id": 330694487,
+  "timestamp": "2016-03-09T22:41:46Z",
+  "version": 3,
+  "changeset": 37722312,
+  "user": "FvGordon",
+  "uid": 161619,
+  "nodes": [
+    3366342556,
+    3376861559,
+    4033578396,
+    4033578400,
+    4033578401,
+    4033578399,
+    4033578397,
+    4033578398,
+    3376861561,
+    3366342556
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església dels Caputxins"
+  }
+},
+{
+  "type": "way",
+  "id": 331304025,
+  "timestamp": "2015-11-29T14:14:19Z",
+  "version": 2,
+  "changeset": 35645967,
+  "user": "yopaseopor",
+  "uid": 500572,
+  "nodes": [
+    3383613332,
+    3383613333,
+    3383613334,
+    3383613335,
+    3383613336,
+    3383613337,
+    3383613338,
+    3383613332
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església Sant Bartomeu"
+  }
+},
+{
+  "type": "way",
+  "id": 331441074,
+  "timestamp": "2015-08-09T14:34:09Z",
+  "version": 2,
+  "changeset": 33220438,
+  "user": "emolistgallifa",
+  "uid": 2276006,
+  "nodes": [
+    3385123468,
+    3385123467,
+    3385123465,
+    3385123466,
+    3385123468
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Parròquia de Lurdes",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 331441075,
+  "timestamp": "2016-08-31T09:10:33Z",
+  "version": 2,
+  "changeset": 41822016,
+  "user": "fermi_t",
+  "uid": 601281,
+  "nodes": [
+    3385123488,
+    3385123490,
+    3385123492,
+    3385123489,
+    3385123485,
+    3385123486,
+    3385123487,
+    3385123488
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "església del Remei",
+    "religion": "christian",
+    "wikidata": "Q20985649",
+    "wikipedia": "ca:Convent del Remei"
+  }
+},
+{
+  "type": "way",
+  "id": 331715786,
+  "timestamp": "2015-03-07T19:51:43Z",
+  "version": 2,
+  "changeset": 29315876,
+  "user": "jconstanti",
+  "uid": 531165,
+  "nodes": [
+    3388106431,
+    3388106428,
+    3388106424,
+    3388106434,
+    3388106431
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Santa Magdalena"
+  }
+},
+{
+  "type": "way",
+  "id": 331715787,
+  "timestamp": "2015-03-07T19:52:08Z",
+  "version": 2,
+  "changeset": 29315876,
+  "user": "jconstanti",
+  "uid": 531165,
+  "nodes": [
+    3388106433,
+    3388106421,
+    3388106425,
+    3388106426,
+    3388106420,
+    3388106427,
+    3388106432,
+    3388106430,
+    3388106429,
+    3388106423,
+    3388106422,
+    3388106435,
+    3388106433
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Sepulcre"
+  }
+},
+{
+  "type": "way",
+  "id": 331718124,
+  "timestamp": "2017-12-25T08:50:45Z",
+  "version": 3,
+  "changeset": 54902148,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    3388137393,
+    3388136981,
+    3388137394,
+    3388136975,
+    3388137393
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Josep",
+    "name:es": "San José"
+  }
+},
+{
+  "type": "way",
+  "id": 331718680,
+  "timestamp": "2017-12-25T10:02:35Z",
+  "version": 3,
+  "changeset": 54903322,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    3388142849,
+    3388142852,
+    3388142850,
+    3388169251,
+    3388142851,
+    3388142849
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Joan Baptista",
+    "name:es": "San Juan Bautista"
+  }
+},
+{
+  "type": "way",
+  "id": 331719081,
+  "timestamp": "2015-03-07T20:10:23Z",
+  "version": 2,
+  "changeset": 29316233,
+  "user": "jconstanti",
+  "uid": 531165,
+  "nodes": [
+    3388152244,
+    3388152247,
+    3388152246,
+    3388152245,
+    3388152244
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Tomàs d'Aquino i Santa Susanna"
+  }
+},
+{
+  "type": "way",
+  "id": 332320055,
+  "timestamp": "2015-03-11T20:10:18Z",
+  "version": 1,
+  "changeset": 29413603,
+  "user": "jconstanti",
+  "uid": 531165,
+  "nodes": [
+    3394358130,
+    3394358131,
+    3394358128,
+    3394358129,
+    3394358130
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Francesc d’Assís"
+  }
+},
+{
+  "type": "way",
+  "id": 332564519,
+  "timestamp": "2015-03-13T18:14:04Z",
+  "version": 2,
+  "changeset": 29454988,
+  "user": "jconstanti",
+  "uid": 531165,
+  "nodes": [
+    3397120429,
+    3397120428,
+    3397120431,
+    3397120834,
+    3397120430,
+    3397120429
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Ermita del Calvari"
+  }
+},
+{
+  "type": "way",
+  "id": 334132700,
+  "timestamp": "2019-03-14T01:56:42Z",
+  "version": 4,
+  "changeset": 68120520,
+  "user": "SerV",
+  "uid": 708973,
+  "nodes": [
+    3412231539,
+    3412231540,
+    3412231541,
+    3412231542,
+    3412231543,
+    3412231544,
+    3412231545,
+    5885863918,
+    3412231546,
+    3412231547,
+    3412231548,
+    3412231549,
+    3412231550,
+    5885863916,
+    5885863917,
+    3412231539
+  ],
+  "tags": {
+    "addr:city": "Manlleu",
+    "addr:postcode": "08560",
+    "addr:street": "Plaça Dalt Vila",
+    "building": "church",
+    "name": "Santa Maria de Manlleu",
+    "religion": "christian",
+    "wikidata": "Q11693408"
+  }
+},
+{
+  "type": "way",
+  "id": 334331355,
+  "timestamp": "2018-10-24T11:54:57Z",
+  "version": 2,
+  "changeset": 63829505,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3414426959,
+    3414426960,
+    3414426961,
+    3414426962,
+    3414426963,
+    3414426964,
+    3414426965,
+    3414426966,
+    3414426967,
+    3414426968,
+    3414426969,
+    3414426970,
+    3414426971,
+    3414426972,
+    3414426973,
+    3414426974,
+    3414426975,
+    3414426959
+  ],
+  "tags": {
+    "alt_name": "Santa Maria d'Aramunt",
+    "building": "church",
+    "name": "Mare de Déu del Camp",
+    "wikidata": "Q8777204"
+  }
+},
+{
+  "type": "way",
+  "id": 334331357,
+  "timestamp": "2018-10-24T11:54:59Z",
+  "version": 2,
+  "changeset": 63829505,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3414426990,
+    3414426991,
+    3414426992,
+    2833459027,
+    3414426990
+  ],
+  "tags": {
+    "building": "church",
+    "historic": "ruins",
+    "name": "Sant Fructuós d'Aramunt",
+    "wikidata": "Q9007064"
+  }
+},
+{
+  "type": "way",
+  "id": 336972780,
+  "timestamp": "2018-03-04T12:05:12Z",
+  "version": 3,
+  "changeset": 56868959,
+  "user": "Salvador Carbó",
+  "uid": 6373412,
+  "nodes": [
+    3440663016,
+    3440663017,
+    5453964665,
+    5453964664,
+    5453964666,
+    5453964663,
+    5453964662,
+    3440663018,
+    5453964672,
+    3440663019,
+    3440663016
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Santa María"
+  }
+},
+{
+  "type": "way",
+  "id": 339772389,
+  "timestamp": "2015-04-21T16:50:29Z",
+  "version": 1,
+  "changeset": 30383811,
+  "user": "janes",
+  "uid": 428521,
+  "nodes": [
+    3469854129,
+    3469854131,
+    3469854128,
+    3469854135,
+    3469854144,
+    3469854140,
+    3469854146,
+    3469854145,
+    3469854139,
+    3469854137,
+    3469854129
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Mare de Déu dels Oms"
+  }
+},
+{
+  "type": "way",
+  "id": 350276253,
+  "timestamp": "2015-05-31T06:21:34Z",
+  "version": 1,
+  "changeset": 31599204,
+  "user": "jconstanti",
+  "uid": 531165,
+  "nodes": [
+    3560182565,
+    3560182560,
+    3560182566,
+    3560182558,
+    3560182570,
+    3560182556,
+    3560182569,
+    3560182580,
+    3560182571,
+    3560182563,
+    3560182567,
+    3560182575,
+    3560182559,
+    3560182577,
+    3560182568,
+    3560182564,
+    3560182572,
+    3560182561,
+    3560182573,
+    3560182565
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Mare de Déu de Montserrat"
+  }
+},
+{
+  "type": "way",
+  "id": 365239886,
+  "timestamp": "2015-08-13T14:40:00Z",
+  "version": 2,
+  "changeset": 33314290,
+  "user": "raves",
+  "uid": 3107598,
+  "nodes": [
+    3673432873,
+    3692794878,
+    3692794879,
+    3673435773,
+    3695435342,
+    3673432876,
+    3673432873
+  ],
+  "tags": {
+    "addr:city": "Maspujols",
+    "addr:postcode": "43382",
+    "building": "church",
+    "name": "Ermita de Sant Antoni"
+  }
+},
+{
+  "type": "way",
+  "id": 365641044,
+  "timestamp": "2015-08-14T07:54:07Z",
+  "version": 1,
+  "changeset": 33330727,
+  "user": "jeprubio",
+  "uid": 2175724,
+  "nodes": [
+    3696468962,
+    3696468971,
+    3696468970,
+    3696468969,
+    3696468968,
+    3696468963,
+    3696468966,
+    3696468967,
+    3696468964,
+    3696468965,
+    3696468962
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Martí de la Mota"
+  }
+},
+{
+  "type": "way",
+  "id": 368880626,
+  "timestamp": "2018-10-20T19:59:38Z",
+  "version": 5,
+  "changeset": 63713096,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3727178988,
+    3727178986,
+    3727178992,
+    3727178996,
+    3727178997,
+    3727178999,
+    3727178993,
+    3727178995,
+    3727178994,
+    3727178990,
+    3727178991,
+    3727178989,
+    3727178987,
+    3727178988
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "heritage": "4",
+    "name": "Santa Maria de Palera",
+    "ref": "IPAC-9922",
+    "religion": "christian",
+    "start_date": "s.XII",
+    "wikidata": "Q18007626",
+    "wikipedia": "ca:Santa Maria de Palera"
+  }
+},
+{
+  "type": "way",
+  "id": 396704083,
+  "timestamp": "2019-04-24T12:15:47Z",
+  "version": 4,
+  "changeset": 69523645,
+  "user": "EliziR",
+  "uid": 605366,
+  "nodes": [
+    3995317487,
+    3995317485,
+    3995317489,
+    3995317490,
+    3995317487
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Palau de l'Abadia"
+  }
+},
+{
+  "type": "way",
+  "id": 397033821,
+  "timestamp": "2018-10-24T12:00:10Z",
+  "version": 2,
+  "changeset": 63829505,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    3998634335,
+    3998634334,
+    3998634333,
+    3998634332,
+    3998634331,
+    3998634330,
+    3998634329,
+    3998634328,
+    3998634327,
+    3998634326,
+    3998634325,
+    3998634324,
+    3998634323,
+    3998634322,
+    3998634321,
+    3998634320,
+    3998634319,
+    3998634318,
+    3998634317,
+    3998634316,
+    3998634315,
+    3998634314,
+    3998634313,
+    3998634312,
+    3998634311,
+    3998634305,
+    3998634307,
+    3998634309,
+    3519189950,
+    3519189949,
+    3998634336,
+    3998634338,
+    3998634337,
+    3998634340,
+    3998634339,
+    3998634335
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Santa Maria de Ribera de Cardós",
+    "wikidata": "Q18007633",
+    "wikipedia": "ca:Santa Maria de Ribera de Cardós"
+  }
+},
+{
+  "type": "way",
+  "id": 401950637,
+  "timestamp": "2016-03-11T14:55:08Z",
+  "version": 2,
+  "changeset": 37761615,
+  "user": "miquelrovira",
+  "uid": 3667443,
+  "nodes": [
+    4043568617,
+    4043568605,
+    4043568607,
+    4043568620,
+    4043568619,
+    4043568618,
+    4043568617
+  ],
+  "tags": {
+    "building": "church",
+    "source": "bing"
+  }
+},
+{
+  "type": "way",
+  "id": 407998431,
+  "timestamp": "2018-10-24T09:54:04Z",
+  "version": 4,
+  "changeset": 63825592,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    4100190059,
+    4100190057,
+    4100190056,
+    4100190051,
+    4100190050,
+    4100190041,
+    4100190044,
+    4100190037,
+    4100190040,
+    4100190045,
+    4100190047,
+    4100190042,
+    4100190046,
+    4100190048,
+    4100190049,
+    4100190052,
+    4100190053,
+    4100190058,
+    4100190059
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Esteve de Palaudàries",
+    "religion": "christian",
+    "wikidata": "Q18696837"
+  }
+},
+{
+  "type": "way",
+  "id": 409269891,
+  "timestamp": "2016-04-10T13:53:03Z",
+  "version": 1,
+  "changeset": 38452193,
+  "user": "pere prlpz",
+  "uid": 1513644,
+  "nodes": [
+    4111738394,
+    4111738395,
+    4111738396,
+    4111738397,
+    4111738394
+  ],
+  "tags": {
+    "amenity": "church",
+    "building": "church",
+    "name": "Sant Miquel"
+  }
+},
+{
+  "type": "way",
+  "id": 413305275,
+  "timestamp": "2016-04-25T10:24:36Z",
+  "version": 1,
+  "changeset": 38852862,
+  "user": "lanxana",
+  "uid": 3735848,
+  "nodes": [
+    4146438244,
+    4146438245,
+    4146438240,
+    4146438241,
+    4146438237,
+    4146438236,
+    4146438239,
+    4146438234,
+    4146438238,
+    4146438233,
+    4146438242,
+    4146438243,
+    4146438246,
+    4146438244
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 414691621,
+  "timestamp": "2016-04-30T18:53:05Z",
+  "version": 1,
+  "changeset": 39004532,
+  "user": "Sangui",
+  "uid": 3750628,
+  "nodes": [
+    4158093252,
+    4158093253,
+    4158093254,
+    4158093255,
+    4158093252
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Baldiri"
+  }
+},
+{
+  "type": "way",
+  "id": 422064131,
+  "timestamp": "2016-05-31T18:32:04Z",
+  "version": 1,
+  "changeset": 39694975,
+  "user": "hubeat",
+  "uid": 457265,
+  "nodes": [
+    4217888890,
+    4217888891,
+    4217888892,
+    4217888893,
+    4217888894,
+    4217888895,
+    4217888896,
+    4217888897,
+    4217888898,
+    4217888899,
+    4217888890
+  ],
+  "tags": {
+    "building": "church",
+    "name": "San Fructuos"
+  }
+},
+{
+  "type": "way",
+  "id": 435329370,
+  "timestamp": "2016-08-04T12:24:41Z",
+  "version": 3,
+  "changeset": 41236527,
+  "user": "ZondeR",
+  "uid": 275003,
+  "nodes": [
+    4332550805,
+    4332550806,
+    4332550807,
+    4332550808,
+    4332550809,
+    4332550810,
+    4332550805
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Santa Maria"
+  }
+},
+{
+  "type": "way",
+  "id": 436784239,
+  "timestamp": "2018-10-24T12:00:07Z",
+  "version": 3,
+  "changeset": 63829505,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "nodes": [
+    4346541647,
+    4346541645,
+    4346541644,
+    4346541646,
+    4346541647
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Santa Anna de Cortscastell",
+    "religion": "christian",
+    "wikidata": "Q18007456",
+    "wikipedia": "ca:Santa Anna de Cortscastell"
+  }
+},
+{
+  "type": "way",
+  "id": 441817349,
+  "timestamp": "2017-12-22T20:53:55Z",
+  "version": 4,
+  "changeset": 54850106,
+  "user": "pedrobv",
+  "uid": 581863,
+  "nodes": [
+    4395141902,
+    4395154300,
+    4395141903,
+    4395141904,
+    4395141905,
+    4395141906,
+    4395141907,
+    4395151579,
+    4395141909,
+    4395141910,
+    4395141911,
+    4395141912,
+    4395141913,
+    4395141914,
+    4395141915,
+    4395141902
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Pere",
+    "name:es": "San Pedro"
+  }
+},
+{
+  "type": "way",
+  "id": 443397674,
+  "timestamp": "2016-09-20T16:00:21Z",
+  "version": 1,
+  "changeset": 42302722,
+  "user": "whochismo",
+  "uid": 201013,
+  "nodes": [
+    4409825720,
+    4409825721,
+    4409825722,
+    4409825723,
+    4409825720
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Ermita de la Mare de Déu de Bellulla (Can Recolons)"
+  }
+},
+{
+  "type": "way",
+  "id": 457212193,
+  "timestamp": "2016-12-02T12:20:29Z",
+  "version": 1,
+  "changeset": 44112949,
+  "user": "jordixv",
+  "uid": 2540372,
+  "nodes": [
+    4533861852,
+    4533861851,
+    4533861850,
+    4533861849,
+    4533861848,
+    4533861847,
+    4533861846,
+    4533861845,
+    4533861844,
+    4533861843,
+    4533861852
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 457412476,
+  "timestamp": "2019-08-29T08:42:31Z",
+  "version": 2,
+  "changeset": 73869774,
+  "user": "sanchi",
+  "uid": 170106,
+  "nodes": [
+    4535646108,
+    4535646115,
+    4535646113,
+    4535646110,
+    4535646109,
+    4535646107,
+    4535646114,
+    4535646105,
+    4535646117,
+    4535646116,
+    4535646112,
+    4535646108
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "email": "santbaldiri641@bisbatsantfeliu.cat",
+    "height": "3",
+    "phone": "+34 93 640 12 02",
+    "source": "catastro",
+    "source:date": "2016-01",
+    "website": "http://www.parroquiadesantbaldiri.org/"
+  }
+},
+{
+  "type": "way",
+  "id": 466427217,
+  "timestamp": "2019-06-10T09:38:39Z",
+  "version": 2,
+  "changeset": 71094904,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    4612234048,
+    4612234049,
+    4612234050,
+    4612234051,
+    4612234052,
+    4612234053,
+    4612234048
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Mare de Déu de Calders"
+  }
+},
+{
+  "type": "way",
+  "id": 474041934,
+  "timestamp": "2017-02-11T19:33:11Z",
+  "version": 1,
+  "changeset": 46005495,
+  "user": "netol",
+  "uid": 3890739,
+  "nodes": [
+    4680657544,
+    4680657545,
+    4680657546,
+    4680657547,
+    4680657544
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Capella de Sant Vicenç",
+    "wikidata": "Q21604566",
+    "wikipedia": "ca:Sant Vicenç d'Aguiló"
+  }
+},
+{
+  "type": "way",
+  "id": 474042357,
+  "timestamp": "2017-02-11T19:37:32Z",
+  "version": 1,
+  "changeset": 46005572,
+  "user": "netol",
+  "uid": 3890739,
+  "nodes": [
+    4680664289,
+    4680664290,
+    4680664291,
+    4680664292,
+    4680664289
+  ],
+  "tags": {
+    "building": "church",
+    "historic": "ruins",
+    "name": "Església de Sant Jaume",
+    "wikidata": "Q21604449",
+    "wikipedia": "ca:Sant Jaume d'Almenara"
+  }
+},
+{
+  "type": "way",
+  "id": 474045203,
+  "timestamp": "2017-12-23T23:39:17Z",
+  "version": 2,
+  "changeset": 54875490,
+  "user": "netol",
+  "uid": 3890739,
+  "nodes": [
+    4680680882,
+    5301423996,
+    4680680883,
+    4680680884,
+    4680680885,
+    4680680882
+  ],
+  "tags": {
+    "building": "church",
+    "historic": "ruins",
+    "name": "Sant Miquel de la Portella",
+    "wikidata": "Q21604505",
+    "wikipedia": "ca:Sant Miquel de la Portella"
+  }
+},
+{
+  "type": "way",
+  "id": 480297040,
+  "timestamp": "2017-03-13T22:17:09Z",
+  "version": 1,
+  "changeset": 46825435,
+  "user": "kikugea",
+  "uid": 5439952,
+  "nodes": [
+    4732953420,
+    4732965421,
+    4732965422,
+    4732965423,
+    4732965424,
+    4732965425,
+    4732965426,
+    4732965427,
+    4732965428,
+    4732965429,
+    4732965430,
+    4732953420
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església de Marata"
+  }
+},
+{
+  "type": "way",
+  "id": 480950375,
+  "timestamp": "2017-03-17T01:13:43Z",
+  "version": 2,
+  "changeset": 46914641,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    4738971063,
+    4738969498,
+    4738973412,
+    4738971062,
+    4738969497,
+    4738973411,
+    4738971061,
+    4738969496,
+    4738972632,
+    4738971060,
+    4739055326,
+    4738969495,
+    4738973410,
+    4738976639,
+    4738970851,
+    4738973409,
+    4739055045,
+    4738971059,
+    4738969494,
+    4738973408,
+    4738971058,
+    4738969493,
+    4739055421,
+    4738971063
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Santuari de Santa Quitèria"
+  }
+},
+{
+  "type": "way",
+  "id": 501220700,
+  "timestamp": "2017-09-04T20:23:42Z",
+  "version": 2,
+  "changeset": 51730627,
+  "user": "jqngarcia",
+  "uid": 5126253,
+  "nodes": [
+    4920886967,
+    4920886968,
+    4920886969,
+    4920886970,
+    4920886967
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Antiga Església de Sant Martí",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 512604980,
+  "timestamp": "2019-08-20T17:50:36Z",
+  "version": 2,
+  "changeset": 73550868,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    6727483384,
+    6727483379,
+    4332571462,
+    4332571463,
+    6727483377,
+    6727483380,
+    6727483382,
+    6727483383,
+    6727483381,
+    6727485185,
+    6727483378,
+    6727485187,
+    6727483384
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 530464928,
+  "timestamp": "2017-10-06T06:16:10Z",
+  "version": 1,
+  "changeset": 52672619,
+  "user": "Marc Ramírez Hurtado",
+  "uid": 3381576,
+  "nodes": [
+    5151091634,
+    5151091635,
+    5151091636,
+    5151091637,
+    5151091638,
+    5151091639,
+    5151091640,
+    5151091641,
+    5151091642,
+    5151091643,
+    5151091644,
+    5151091645,
+    5151091646,
+    5151091647,
+    5151091648,
+    5151091634
+  ],
+  "tags": {
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Convent del Carme"
+  }
+},
+{
+  "type": "way",
+  "id": 531021591,
+  "timestamp": "2017-10-08T13:00:06Z",
+  "version": 1,
+  "changeset": 52730430,
+  "user": "jqngarcia",
+  "uid": 5126253,
+  "nodes": [
+    5155199759,
+    5155199758,
+    5155199757,
+    5155199756,
+    5155199755,
+    5155199754,
+    5155199753,
+    5155199752,
+    5155199751,
+    5155199750,
+    5155199759
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 531153997,
+  "timestamp": "2017-10-09T02:37:28Z",
+  "version": 1,
+  "changeset": 52745559,
+  "user": "Raulvior",
+  "uid": 772916,
+  "nodes": [
+    5156299147,
+    5156299142,
+    5156299123,
+    5156299045,
+    5156299141,
+    5156299166,
+    5156299182,
+    5156299135,
+    5156299137,
+    5156299151,
+    5156299179,
+    5156299120,
+    5156299148,
+    5156299162,
+    5156299114,
+    5156299133,
+    5156299113,
+    5156299175,
+    5156299119,
+    5156299173,
+    5156299116,
+    5156299145,
+    5156299158,
+    5156299187,
+    5156299128,
+    5156299154,
+    5156299169,
+    5156299153,
+    5156299122,
+    5156299139,
+    5156299164,
+    5156299181,
+    5156299134,
+    5156299043,
+    5156299132,
+    5156299147
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "height": "3",
+    "source": "catastro",
+    "source:date": "2017-01"
+  }
+},
+{
+  "type": "way",
+  "id": 533253086,
+  "timestamp": "2017-10-17T20:29:47Z",
+  "version": 1,
+  "changeset": 53023874,
+  "user": "Bigmorr",
+  "uid": 6802110,
+  "nodes": [
+    2385294330,
+    5173687500,
+    5173687499,
+    2385294254,
+    2385294256,
+    2385294224,
+    5173687507,
+    2385294329,
+    2385294330
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 533253089,
+  "timestamp": "2017-10-17T20:29:47Z",
+  "version": 1,
+  "changeset": 53023874,
+  "user": "Bigmorr",
+  "uid": 6802110,
+  "nodes": [
+    5173687506,
+    5173687511,
+    5173687512,
+    5173687513,
+    5173687514,
+    5173687515,
+    5173687519,
+    5173687516,
+    5173687503,
+    5173687505,
+    5173687506
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 533253090,
+  "timestamp": "2017-10-17T20:29:47Z",
+  "version": 1,
+  "changeset": 53023874,
+  "user": "Bigmorr",
+  "uid": 6802110,
+  "nodes": [
+    5173687517,
+    5173687518,
+    5173687508,
+    5173687504,
+    5173687516,
+    5173687519,
+    5173687517
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 558254854,
+  "timestamp": "2018-02-03T13:38:48Z",
+  "version": 1,
+  "changeset": 56029385,
+  "user": "jalum8",
+  "uid": 7558444,
+  "nodes": [
+    5382994655,
+    5382994656,
+    5382994657,
+    5382994658,
+    5382994655
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Parroquia de Santa María"
+  }
+},
+{
+  "type": "way",
+  "id": 571353912,
+  "timestamp": "2019-03-03T17:13:40Z",
+  "version": 3,
+  "changeset": 67739113,
+  "user": "lanxana_imports",
+  "uid": 9055946,
+  "nodes": [
+    5491318378,
+    5491318375,
+    6314603562,
+    5491318376,
+    5491318377,
+    5491318378
+  ],
+  "tags": {
+    "abandoned:amenity": "place_of_worship",
+    "building": "church",
+    "building:levels": "1",
+    "denomination": "catholic",
+    "name": "Sant Esteve de Palau Sardiaca",
+    "religion": "christian",
+    "source": "Institut Cartogràfic i Geològic de Catalunya, cartografia 1:1.000",
+    "wikidata": "Q18006753"
+  }
+},
+{
+  "type": "way",
+  "id": 576230992,
+  "timestamp": "2018-04-04T08:56:49Z",
+  "version": 1,
+  "changeset": 57796070,
+  "user": "Adrià Benitez",
+  "uid": 7952069,
+  "nodes": [
+    5527305621,
+    5527305622,
+    5527305623,
+    5527305624,
+    5527305625,
+    5527305626,
+    5527305627,
+    5527305628,
+    5527305629,
+    5527305621
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 577758065,
+  "timestamp": "2018-04-26T21:43:06Z",
+  "version": 3,
+  "changeset": 58458385,
+  "user": "Gerard Reches",
+  "uid": 7534686,
+  "nodes": [
+    5537909873,
+    5537909874,
+    5537909875,
+    5537909876,
+    5537909877,
+    5537909878,
+    5537909879,
+    5537909880,
+    5537909881,
+    5538090250,
+    5538090249,
+    5538090248,
+    5538090247,
+    5538090246,
+    5538090245,
+    5538090241,
+    5537909882,
+    5538090243,
+    5538090242,
+    5538090244,
+    5537909883,
+    5537909884,
+    5537909873
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Esglesia de Gràcia",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 584692109,
+  "timestamp": "2018-04-30T13:21:18Z",
+  "version": 1,
+  "changeset": 58555030,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    5588487657,
+    5588487474,
+    5588487668,
+    5588488192,
+    5588487293,
+    5588487476,
+    5588487632,
+    5588488187,
+    5588487486,
+    5588487477,
+    5588487278,
+    5588487905,
+    5588487513,
+    5588487516,
+    5588487458,
+    5127006475,
+    5588488189,
+    5588488145,
+    5588488157,
+    5588487316,
+    5588487657
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 609995137,
+  "timestamp": "2018-07-22T16:35:28Z",
+  "version": 1,
+  "changeset": 60956554,
+  "user": "yopaseopor+catastro",
+  "uid": 7570892,
+  "nodes": [
+    5777318711,
+    1734275080,
+    5777318703,
+    5777318687,
+    5777318711
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "historic": "monument",
+    "name": "Campanar",
+    "name:en": "Bell tower"
+  }
+},
+{
+  "type": "way",
+  "id": 610840660,
+  "timestamp": "2018-07-25T15:59:58Z",
+  "version": 1,
+  "changeset": 61061042,
+  "user": "PuigSoler",
+  "uid": 8590846,
+  "nodes": [
+    5784567581,
+    5784567582,
+    5784567583,
+    5784567584,
+    5784567580,
+    5784567585,
+    5784567586,
+    5784567587,
+    5784567581
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Rectoria de l'església parroquial de Sant Vicenç de Castellet"
+  }
+},
+{
+  "type": "way",
+  "id": 615609955,
+  "timestamp": "2018-08-09T18:33:42Z",
+  "version": 1,
+  "changeset": 61510064,
+  "user": "Sorenike",
+  "uid": 1199887,
+  "nodes": [
+    5821224610,
+    2138935787,
+    5821224606,
+    5821224605,
+    5821224607,
+    5821224608,
+    5821224609,
+    2138935784,
+    5821224610
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 619139247,
+  "timestamp": "2019-09-22T19:37:20Z",
+  "version": 2,
+  "changeset": 74780177,
+  "user": "Juan_Carlos_G_F-imports",
+  "uid": 2802925,
+  "nodes": [
+    5851174678,
+    5851174679,
+    5851174683,
+    5851174680,
+    5851174681,
+    5851174682,
+    5851174678
+  ],
+  "tags": {
+    "addr:city": "Palau-solità i Plegamans",
+    "addr:postcode": "08184",
+    "addr:street": "Plaça de Sant Genís",
+    "building": "church",
+    "name": "Església de Sant Genís",
+    "nohousenumber": "yes"
+  }
+},
+{
+  "type": "way",
+  "id": 634389086,
+  "timestamp": "2019-08-31T21:55:54Z",
+  "version": 2,
+  "changeset": 73958977,
+  "user": "Scamarla",
+  "uid": 8204249,
+  "nodes": [
+    5986938196,
+    5986938208,
+    5986938188,
+    5986938187,
+    5986938209,
+    5986938191,
+    5986938185,
+    5986938183,
+    5986938204,
+    5986938199,
+    5986938212,
+    5986938216,
+    5986938186,
+    5986938207,
+    5986938200,
+    5986938219,
+    5986938211,
+    5986938210,
+    5986938215,
+    5986938182,
+    5986938179,
+    5986938190,
+    5986938218,
+    5986938198,
+    5986938195,
+    5986938177,
+    5986938184,
+    5986938214,
+    5986938202,
+    5986938206,
+    5986938181,
+    5986938193,
+    5986938178,
+    5986938201,
+    5986938205,
+    5986938213,
+    5986938203,
+    5986938217,
+    5986938196
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "name": "Roser"
+  }
+},
+{
+  "type": "way",
+  "id": 634429160,
+  "timestamp": "2018-10-15T23:48:53Z",
+  "version": 2,
+  "changeset": 63558590,
+  "user": "javirg",
+  "uid": 1897806,
+  "nodes": [
+    5987234755,
+    5987234748,
+    5987234734,
+    5987234733,
+    5987234746,
+    5987234758,
+    5987234702,
+    5987234700,
+    5987234706,
+    5987234714,
+    5987234719,
+    5987234776,
+    5987234729,
+    5987234764,
+    5987234756,
+    5987234755
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 640257333,
+  "timestamp": "2018-11-02T10:34:39Z",
+  "version": 1,
+  "changeset": 64108237,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    6031729221,
+    6031729199,
+    6031729205,
+    6031729204,
+    6031729202,
+    6031729236,
+    6031729230,
+    6031729225,
+    6031729217,
+    6031729242,
+    6031729235,
+    6031729215,
+    6031729207,
+    6031729219,
+    6031729234,
+    6031729213,
+    6031729210,
+    6031729239,
+    6031729216,
+    6031729232,
+    6031729228,
+    6031729208,
+    6031729222,
+    6031729206,
+    6031729212,
+    6031729233,
+    6031729192,
+    6031729231,
+    6031729195,
+    6031729238,
+    6031729221
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2",
+    "building:levels:underground": "1",
+    "name": "Parroguia de Santa Juliana i Semproniana"
+  }
+},
+{
+  "type": "way",
+  "id": 640257334,
+  "timestamp": "2018-11-02T10:34:40Z",
+  "version": 1,
+  "changeset": 64108237,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    6031729190,
+    6031729201,
+    6031729203,
+    6031729209,
+    6031729197,
+    6031729211,
+    6031729190
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "4",
+    "name": "Parroguia de Santa Juliana i Semproniana"
+  }
+},
+{
+  "type": "way",
+  "id": 641494042,
+  "timestamp": "2018-11-06T19:12:06Z",
+  "version": 2,
+  "changeset": 64241430,
+  "user": "sanchi",
+  "uid": 170106,
+  "nodes": [
+    6041156063,
+    6041156389,
+    6041156178,
+    6041156050,
+    6041155880,
+    6041155878,
+    6041155845,
+    6041156063
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 643967533,
+  "timestamp": "2018-11-13T22:27:00Z",
+  "version": 3,
+  "changeset": 64460037,
+  "user": "illot",
+  "uid": 9051400,
+  "nodes": [
+    6058828150,
+    6058828168,
+    6058828165,
+    6058828291,
+    6058828289,
+    6058828167,
+    6058828300,
+    6058828304,
+    6058828305,
+    6058828183,
+    6058828295,
+    6058828151,
+    6058828160,
+    6058828147,
+    6058828178,
+    6058828159,
+    6058828150
+  ],
+  "tags": {
+    "addr:housenumber": "97",
+    "addr:postcode": "08034",
+    "addr:street": "Avinguda d'Esplugues",
+    "building": "church",
+    "building:levels": "4",
+    "building:levels:underground": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 650093760,
+  "timestamp": "2018-11-28T15:14:45Z",
+  "version": 1,
+  "changeset": 64975319,
+  "user": "illot",
+  "uid": 9051400,
+  "nodes": [
+    6100104242,
+    6100104562,
+    6100104267,
+    6100104225,
+    6100104505,
+    6100104245,
+    6100104259,
+    6100104522,
+    6100104263,
+    6100104242
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 652899147,
+  "timestamp": "2018-12-05T17:23:24Z",
+  "version": 1,
+  "changeset": 65211820,
+  "user": "illot",
+  "uid": 9051400,
+  "nodes": [
+    6119657778,
+    6119664722,
+    6119664688,
+    6119657782,
+    6119664719,
+    6119664721,
+    6119657772,
+    6119664756,
+    6119664705,
+    6119664753,
+    6119657775,
+    6119664716,
+    6119664725,
+    6119664733,
+    6119664726,
+    6119664708,
+    6119664744,
+    6119657778
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2",
+    "denomination": "catholic",
+    "name": "Nostra Senyora del Remei",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 658791477,
+  "timestamp": "2018-12-28T15:47:11Z",
+  "version": 1,
+  "changeset": 65845280,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    6168712895,
+    6168712917,
+    6168712896,
+    6168712899,
+    6168712920,
+    6168712921,
+    6168712912,
+    6168712906,
+    6168712890,
+    6168712914,
+    6168712901,
+    6168712903,
+    6168712909,
+    6168712891,
+    6168712926,
+    6168712892,
+    6168712924,
+    6168712927,
+    6168712919,
+    6168712900,
+    6168712925,
+    6168712916,
+    6168712904,
+    6168709783,
+    6168712886,
+    6168712898,
+    6168712910,
+    6168712905,
+    6168712908,
+    6168712911,
+    6168712885,
+    6168712915,
+    6168712888,
+    6168712922,
+    6168712893,
+    6168709784,
+    6168712907,
+    6168712913,
+    6168712889,
+    6168712928,
+    6168712895
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "name": "Parroquia Sant Bernat de Claravall",
+    "operator": "PES Cruïlla",
+    "social_facility": "outreach"
+  }
+},
+{
+  "type": "way",
+  "id": 665292088,
+  "timestamp": "2019-01-22T11:19:07Z",
+  "version": 1,
+  "changeset": 66534084,
+  "user": "eric6quatre",
+  "uid": 130849,
+  "nodes": [
+    6227033459,
+    6227033460,
+    6227033461,
+    6227033462,
+    6227033463,
+    6227033464,
+    6227033465,
+    6227033466,
+    6227033467,
+    6227033468,
+    6227033459
+  ],
+  "tags": {
+    "addr:city": "Teià",
+    "addr:housenumber": "10",
+    "addr:postcode": "08329",
+    "addr:street": "Plaça Sant Jaume",
+    "building": "church",
+    "name": "Parròquia Sant Marti de Teià"
+  }
+},
+{
+  "type": "way",
+  "id": 668115184,
+  "timestamp": "2019-02-03T19:12:30Z",
+  "version": 1,
+  "changeset": 66884225,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    6256306633,
+    6256306617,
+    6256306603,
+    6256306613,
+    6256306601,
+    6256306700,
+    6256306658,
+    6256306659,
+    6256306720,
+    6256306715,
+    6256306703,
+    6256306716,
+    6256306643,
+    6256306630,
+    6256306707,
+    6256306594,
+    6256306605,
+    6256306712,
+    6256306667,
+    6256306263,
+    6256306676,
+    6256306647,
+    6256306615,
+    6256306657,
+    6256306713,
+    6256306633
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2",
+    "name": "Parroquia Sant Josep Obrer",
+    "religion": "christian"
+  }
+},
+{
+  "type": "way",
+  "id": 672252183,
+  "timestamp": "2019-02-22T08:44:06Z",
+  "version": 2,
+  "changeset": 67457491,
+  "user": "xavigramos",
+  "uid": 8955354,
+  "nodes": [
+    6295164902,
+    6295164910,
+    6295164911,
+    6295164912,
+    6295164913,
+    6295164914,
+    6295164915,
+    6293734070,
+    6293734065,
+    6295164916,
+    6295164901,
+    6295164900,
+    6295164899,
+    6295164898,
+    6295164897,
+    6295164896,
+    6295164895,
+    6295164894,
+    6295164893,
+    6295164892,
+    6295164891,
+    6295164890,
+    6295164902
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Feliu del Racó"
+  }
+},
+{
+  "type": "way",
+  "id": 672253384,
+  "timestamp": "2019-02-22T08:44:06Z",
+  "version": 1,
+  "changeset": 67457491,
+  "user": "xavigramos",
+  "uid": 8955354,
+  "nodes": [
+    6024521863,
+    3077088202,
+    6069176539,
+    6069176540,
+    6295178148,
+    6069176541,
+    3077088203,
+    3077088204,
+    3077088205,
+    3077088206,
+    3077088207,
+    6295178149,
+    6295178150,
+    6295178151,
+    6295178152,
+    6295178153,
+    6295178154,
+    6295178155,
+    6295178156,
+    6295178157,
+    6295178158,
+    6295178159,
+    6295178160,
+    6295178161,
+    3077088201,
+    6069176547,
+    6024521857,
+    6024521858,
+    6024521864,
+    6024521862,
+    6069176538,
+    6024521863
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Esteve de Castellar del Vallès"
+  }
+},
+{
+  "type": "way",
+  "id": 672884615,
+  "timestamp": "2019-02-25T14:09:22Z",
+  "version": 1,
+  "changeset": 67550231,
+  "user": "ccamara_import",
+  "uid": 9137444,
+  "nodes": [
+    6301293454,
+    6301293453,
+    6301293210,
+    6301292890,
+    6301292967,
+    6301293730,
+    6301293196,
+    6301293280,
+    6301292974,
+    6301293117,
+    6301292800,
+    6301293361,
+    6301293731,
+    6301293130,
+    6301293211,
+    6301292814,
+    6301292891,
+    6301293454
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2"
+  }
+},
+{
+  "type": "way",
+  "id": 678699032,
+  "timestamp": "2019-03-22T17:10:44Z",
+  "version": 1,
+  "changeset": 68419864,
+  "user": "PauGM",
+  "uid": 7680801,
+  "nodes": [
+    6354939463,
+    6354939464,
+    6354939465,
+    6354939466,
+    6354939467,
+    6354939468,
+    6354939469,
+    6354939470,
+    6354939471,
+    6354939472,
+    6354939473,
+    6354939474,
+    6354939475,
+    6354939476,
+    6354939477,
+    6354939478,
+    6354939479,
+    6354939480,
+    6354939481,
+    6354939482,
+    6354939483,
+    6354939484,
+    6354941085,
+    6354941086,
+    6354941087,
+    6354939463
+  ],
+  "tags": {
+    "addr:city": "Sant Climent de Llobregat",
+    "addr:housenumber": "22",
+    "addr:postcode": "08849",
+    "addr:street": "Carrer de Esglèsia",
+    "building": "church",
+    "name": "Esglèsia Parroquial de Sant Climent"
+  }
+},
+{
+  "type": "way",
+  "id": 678771597,
+  "timestamp": "2019-03-22T22:45:49Z",
+  "version": 1,
+  "changeset": 68430022,
+  "user": "oriolgv",
+  "uid": 8759000,
+  "nodes": [
+    6355540824,
+    6355540817,
+    6355540816,
+    6355540815,
+    6355540814,
+    6355540813,
+    6355540812,
+    6355540811,
+    6355540810,
+    6355540809,
+    6355540808,
+    6355540807,
+    6355540806,
+    6355540805,
+    6355540804,
+    6355540803,
+    6355540802,
+    6355540801,
+    6355540800,
+    6355540799,
+    6355540798,
+    6355540797,
+    6355540796,
+    6355540795,
+    6355540794,
+    6355540793,
+    6355540792,
+    6355540791,
+    6355540790,
+    6355540789,
+    6355540788,
+    6355540787,
+    6355540786,
+    6355540895,
+    6355540839,
+    6355540838,
+    6355540837,
+    6355540836,
+    6355540835,
+    6355540834,
+    6355540833,
+    6355540832,
+    6355540831,
+    6355540830,
+    6355540829,
+    6355540828,
+    6355540827,
+    6355540825,
+    6355540785,
+    6355540824
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 687474457,
+  "timestamp": "2019-05-03T01:12:45Z",
+  "version": 1,
+  "changeset": 69824243,
+  "user": "NaraJeamfry",
+  "uid": 9847260,
+  "nodes": [
+    6444256089,
+    6444256090,
+    6444256091,
+    6444256092,
+    6444256093,
+    6444256094,
+    6444256095,
+    6444256096,
+    6444256097,
+    6444256098,
+    6444256099,
+    6444256100,
+    6444256101,
+    6444256102,
+    6444256103,
+    6444256104,
+    6444256089
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església del Carme",
+    "wikidata": "Q17389612",
+    "wikipedia": "ca:Església del Carme (Valls)"
+  }
+},
+{
+  "type": "way",
+  "id": 690590428,
+  "timestamp": "2019-05-16T23:34:23Z",
+  "version": 1,
+  "changeset": 70338176,
+  "user": "JojoL",
+  "uid": 9967531,
+  "nodes": [
+    6479425777,
+    6479425778,
+    6479425779,
+    6479425780,
+    6479425781,
+    6479425782,
+    6479425783,
+    6479425784,
+    6479425785,
+    6479425786,
+    6479425787,
+    6479425777
+  ],
+  "tags": {
+    "addr:city": "Fornells de la Selva",
+    "addr:street": "Carrer de Sant Cugat",
+    "building": "church",
+    "name": "Esglèsia de Fornells"
+  }
+},
+{
+  "type": "way",
+  "id": 693546126,
+  "timestamp": "2019-11-30T10:41:50Z",
+  "version": 2,
+  "changeset": 77754913,
+  "user": "caminsperfer",
+  "uid": 10187213,
+  "nodes": [
+    6511378232,
+    7021439527,
+    7021439521,
+    6511378233,
+    6511378234,
+    6511378235,
+    7021439525,
+    6511378236,
+    6511378237,
+    6511378238,
+    6511378239,
+    6511378240,
+    6511378241,
+    6511378242,
+    6511378243,
+    6511378244,
+    7021439524,
+    7021439528,
+    6511378245,
+    7021439523,
+    7021439522,
+    7021439526,
+    7021439520,
+    6511378232
+  ],
+  "tags": {
+    "addr:city": "Taradell",
+    "addr:postcode": "08552",
+    "addr:street": "Carrer de l'Esglèsia",
+    "building": "church",
+    "name": "Església de Sant Genís"
+  }
+},
+{
+  "type": "way",
+  "id": 693892761,
+  "timestamp": "2019-11-27T17:47:08Z",
+  "version": 2,
+  "changeset": 77647420,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6514811314,
+    7015068434,
+    7015068433,
+    7015068435,
+    6514811315,
+    6514811316,
+    6514811317,
+    6514811318,
+    7015068430,
+    7015068431,
+    7015068432,
+    6514811314
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Església Sant Martí de Riudarenes",
+    "religion": "christian",
+    "wikidata": "Q11947209",
+    "wikipedia": "ca:Sant Martí de Riudarenes"
+  }
+},
+{
+  "type": "way",
+  "id": 694169456,
+  "timestamp": "2019-06-03T02:07:10Z",
+  "version": 1,
+  "changeset": 70869346,
+  "user": "idrissi",
+  "uid": 3436983,
+  "nodes": [
+    6517248946,
+    6517240930,
+    6517221833,
+    6517235771,
+    6517248946
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Mamet"
+  }
+},
+{
+  "type": "way",
+  "id": 697697373,
+  "timestamp": "2019-06-17T07:33:32Z",
+  "version": 1,
+  "changeset": 71319314,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6552333006,
+    6552333007,
+    6552333022,
+    6552333008,
+    6552333009,
+    6552333010,
+    6552333011,
+    6552333012,
+    6552333013,
+    6552333006
+  ],
+  "tags": {
+    "addr:city": "Sant Esteve",
+    "building": "church",
+    "name": "Església de Sant Esteve de Llémena",
+    "wikidata": "Q28197049",
+    "wikipedia": "ca:Església de Sant Esteve de Llémena"
+  }
+},
+{
+  "type": "way",
+  "id": 697825498,
+  "timestamp": "2019-06-17T16:55:57Z",
+  "version": 1,
+  "changeset": 71336915,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6553558920,
+    6553558921,
+    6553558991,
+    6553558922,
+    6553558923,
+    6553558924,
+    6553558925,
+    6553558926,
+    6553558927,
+    6553558928,
+    6553558929,
+    6553558930,
+    6553558931,
+    6553558932,
+    6553558933,
+    6553558934,
+    6553558935,
+    6553558920
+  ],
+  "tags": {
+    "addr:city": "Sant Feliu de Pallerols",
+    "addr:housenumber": "1",
+    "addr:street": "Plaça de l'Esglesia",
+    "building": "church",
+    "building:levels": "7",
+    "name": "Església de Sant Feliu de Pallerols",
+    "wikidata": "Q21603983",
+    "wikipedia": "ca:Església de Sant Feliu de Pallerols"
+  }
+},
+{
+  "type": "way",
+  "id": 698173352,
+  "timestamp": "2019-06-19T06:55:40Z",
+  "version": 1,
+  "changeset": 71389875,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6556873572,
+    6556873573,
+    6556873574,
+    6556873575,
+    6556873576,
+    6556873577,
+    6556873578,
+    6556873579,
+    6556873580,
+    6556873581,
+    6556873582,
+    6556873583,
+    6556873584,
+    6556877585,
+    6556877586,
+    6556873572
+  ],
+  "tags": {
+    "addr:city": "Bescanó",
+    "building": "church",
+    "name": "Santa Anna de Bescanó",
+    "wikidata": "Q58461816",
+    "wikipedia": "ca:Santa Anna de Bescanó"
+  }
+},
+{
+  "type": "way",
+  "id": 699459200,
+  "timestamp": "2019-06-24T16:51:22Z",
+  "version": 1,
+  "changeset": 71568940,
+  "user": "Kikena32",
+  "uid": 442490,
+  "nodes": [
+    6568245028,
+    6568245029,
+    6568245030,
+    6568245031,
+    6568245028
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Campanari"
+  }
+},
+{
+  "type": "way",
+  "id": 702519682,
+  "timestamp": "2019-07-08T18:12:58Z",
+  "version": 1,
+  "changeset": 72025614,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6597275043,
+    6597275044,
+    6597275045,
+    6597275046,
+    6597275047,
+    6597275048,
+    6597275049,
+    6597275050,
+    6597275051,
+    6597275052,
+    6597275053,
+    6597275054,
+    6597275043
+  ],
+  "tags": {
+    "addr:city": "Granyanella",
+    "building": "church",
+    "name": "Esglèsia de Sant Salvador"
+  }
+},
+{
+  "type": "way",
+  "id": 702800911,
+  "timestamp": "2019-07-09T14:53:43Z",
+  "version": 1,
+  "changeset": 72059177,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6600117484,
+    6600160685,
+    6600160719,
+    6600117476,
+    6600117477,
+    6600160686,
+    6600160687,
+    6600160688,
+    6600160689,
+    6600160690,
+    6600160691,
+    6600160692,
+    6600160693,
+    6600160694,
+    6600160695,
+    6600117484
+  ],
+  "tags": {
+    "addr:housenumber": "1",
+    "addr:street": "Plaça de l'Ajuntament",
+    "building": "church",
+    "name": "Esglèsia de Sant Esteve"
+  }
+},
+{
+  "type": "way",
+  "id": 705786369,
+  "timestamp": "2019-07-19T15:39:51Z",
+  "version": 1,
+  "changeset": 72437232,
+  "user": "edgar_bcn",
+  "uid": 1726068,
+  "nodes": [
+    6631770914,
+    6631770915,
+    6631770916,
+    6631770917,
+    6631770918,
+    6631770919,
+    6631770920,
+    6631770914
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Mateu de Vall-Llobrega"
+  }
+},
+{
+  "type": "way",
+  "id": 707651256,
+  "timestamp": "2019-07-26T12:47:00Z",
+  "version": 1,
+  "changeset": 72685689,
+  "user": "DavidSBD",
+  "uid": 1895636,
+  "nodes": [
+    6650002858,
+    6650002859,
+    6650002860,
+    6650002861,
+    6650002862,
+    6650002863,
+    6650002864,
+    6650002865,
+    6650002866,
+    6650002867,
+    6650002868,
+    6650002869,
+    6650002858
+  ],
+  "tags": {
+    "architect": "Miquel Pascual i Tintorer",
+    "building": "church",
+    "name": "Santuari de la Mare de Déu de la Salut",
+    "wikidata": "Q11947711",
+    "wikipedia": "ca:Santuari de la Mare de Déu de la Salut (Sabadell)"
+  }
+},
+{
+  "type": "way",
+  "id": 715875976,
+  "timestamp": "2019-08-20T17:50:36Z",
+  "version": 1,
+  "changeset": 73550868,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "nodes": [
+    6727483379,
+    6727483384,
+    6727483376,
+    6727485186,
+    4332571465,
+    4332571464,
+    6727483379
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1"
+  }
+},
+{
+  "type": "way",
+  "id": 717063607,
+  "timestamp": "2019-08-22T08:15:52Z",
+  "version": 1,
+  "changeset": 73610548,
+  "user": "Shard_",
+  "uid": 10222202,
+  "nodes": [
+    6734688770,
+    6734688771,
+    6734688772,
+    6734688773,
+    6734688774,
+    6734688775,
+    6734688770
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 723842017,
+  "timestamp": "2019-09-11T16:37:17Z",
+  "version": 1,
+  "changeset": 74364040,
+  "user": "coriach",
+  "uid": 10250343,
+  "nodes": [
+    6788847219,
+    6788847220,
+    6788847221,
+    6788847222,
+    6788847223,
+    6788847224,
+    6788847225,
+    6788847226,
+    6788847227,
+    6788847228,
+    6788847229,
+    6788847230,
+    6788847231,
+    6788847232,
+    6788847233,
+    6788847219
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Parròquia de Sant Llorenç"
+  }
+},
+{
+  "type": "way",
+  "id": 723847551,
+  "timestamp": "2019-09-11T17:02:12Z",
+  "version": 1,
+  "changeset": 74365023,
+  "user": "coriach",
+  "uid": 10250343,
+  "nodes": [
+    6788933832,
+    6788933833,
+    6788933834,
+    6788933835,
+    6788933836,
+    6788933837,
+    6788933838,
+    6788933839,
+    6788933832
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 724298534,
+  "timestamp": "2019-09-13T11:24:46Z",
+  "version": 1,
+  "changeset": 74432494,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6792682597,
+    3684020285,
+    6792682598,
+    6792682599,
+    6792682600,
+    6792682601,
+    6792682602,
+    6792682597
+  ],
+  "tags": {
+    "addr:city": "Brunyola",
+    "building": "church",
+    "name": "Sant Fruitós de Brunyola",
+    "wikidata": "Q21730834",
+    "wikipedia": "ca:Sant Fruitós de Brunyola"
+  }
+},
+{
+  "type": "way",
+  "id": 724798320,
+  "timestamp": "2019-09-15T20:48:52Z",
+  "version": 1,
+  "changeset": 74506330,
+  "user": "Pere Saguer",
+  "uid": 4351260,
+  "nodes": [
+    6797454771,
+    6797454772,
+    6797454773,
+    6797454774,
+    6797454775,
+    6797454776,
+    6797454777,
+    6797454778,
+    6797454771
+  ],
+  "tags": {
+    "addr:city": "Salitja",
+    "addr:postcode": "17184",
+    "building": "church",
+    "name": "Santa Maria de Salitja"
+  }
+},
+{
+  "type": "way",
+  "id": 725380624,
+  "timestamp": "2019-09-17T13:18:25Z",
+  "version": 1,
+  "changeset": 74580244,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6802242594,
+    6802242603,
+    6802242604,
+    6802242556,
+    6802242605,
+    6802242606,
+    6802242607,
+    6802242608,
+    6802242609,
+    6802242610,
+    6802242611,
+    6802242612,
+    6802242593,
+    6802242594
+  ],
+  "tags": {
+    "addr:city": "Vilobí d'Onyar",
+    "building": "church",
+    "name": "Sant Esteve de Vilobí",
+    "wikidata": "Q18696841",
+    "wikipedia": "ca:Sant Esteve de Vilobí"
+  }
+},
+{
+  "type": "way",
+  "id": 737620859,
+  "timestamp": "2019-10-22T15:20:52Z",
+  "version": 1,
+  "changeset": 76056712,
+  "user": "joanillo",
+  "uid": 10376780,
+  "nodes": [
+    6906255396,
+    6906255397,
+    6906255398,
+    6906255399,
+    6906255396
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Martí de Boatella"
+  }
+},
+{
+  "type": "way",
+  "id": 740028677,
+  "timestamp": "2019-10-29T22:54:29Z",
+  "version": 1,
+  "changeset": 76368241,
+  "user": "Pere Saguer",
+  "uid": 4351260,
+  "nodes": [
+    6928817186,
+    6928817187,
+    6928817188,
+    6928817189,
+    6928817190,
+    6928817191,
+    6928817192,
+    6928817193,
+    6928817194,
+    6928817195,
+    6928817196,
+    6928817197,
+    6928817198,
+    6928817199,
+    6928817200,
+    6928817201,
+    6928817202,
+    6928817203,
+    6928817204,
+    6928817186
+  ],
+  "tags": {
+    "addr:city": "Sant Pere Despuig",
+    "building": "church",
+    "name": "Sant Martí de Solamal",
+    "wikidata": "Q28058808",
+    "wikipedia": "ca:Sant Martí de Solamal"
+  }
+},
+{
+  "type": "way",
+  "id": 740032994,
+  "timestamp": "2019-10-29T23:34:22Z",
+  "version": 1,
+  "changeset": 76369012,
+  "user": "Pere Saguer",
+  "uid": 4351260,
+  "nodes": [
+    6928859652,
+    6928859653,
+    6928859654,
+    6928859655,
+    6928859656,
+    6928859657,
+    6928859658,
+    6928859659,
+    6928859660,
+    6928859661,
+    6928859662,
+    6928859663,
+    6928859664,
+    6928859665,
+    6928859652
+  ],
+  "tags": {
+    "addr:city": "Sant Pere Despuig",
+    "building": "church",
+    "name": "Sant Pere Despuig",
+    "wikidata": "Q10971261",
+    "wikipedia": "ca:Sant Pere Despuig"
+  }
+},
+{
+  "type": "way",
+  "id": 740035011,
+  "timestamp": "2019-10-29T23:55:46Z",
+  "version": 1,
+  "changeset": 76369360,
+  "user": "Pere Saguer",
+  "uid": 4351260,
+  "nodes": [
+    6928874744,
+    6928874745,
+    6928874746,
+    6928874747,
+    6928874744
+  ],
+  "tags": {
+    "building": "church",
+    "ele": "509",
+    "name": "Sant Martí",
+    "wikidata": "Q10971282",
+    "wikipedia": "ca:Sant Martí del Clot"
+  }
+},
+{
+  "type": "way",
+  "id": 742257784,
+  "timestamp": "2019-11-05T17:35:35Z",
+  "version": 1,
+  "changeset": 76660669,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6949073837,
+    6949073838,
+    6949073847,
+    6949073839,
+    6949073840,
+    6949073841,
+    6949073842,
+    6949073843,
+    6949073846,
+    6949073844,
+    6949073845,
+    6949073837
+  ],
+  "tags": {
+    "addr:city": "Vilanova de Sau",
+    "building": "church",
+    "description": "Aquesta construcció presenta una planta baixa i dos pisos, té annexada una segona casa de planta baixa i un primer pis però que es troba pràcticament en ruïnes.",
+    "name": "Rectoria de Sant Pere de Castanyadell"
+  }
+},
+{
+  "type": "way",
+  "id": 742257785,
+  "timestamp": "2019-11-05T17:35:35Z",
+  "version": 1,
+  "changeset": 76660669,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6949073847,
+    6949073848,
+    6949073849,
+    6949073850,
+    6949073851,
+    6949073852,
+    6949073853,
+    6949073854,
+    6949073839,
+    6949073847
+  ],
+  "tags": {
+    "addr:city": "Vilanova de Sau",
+    "building": "church",
+    "description": "És una església que ha sofert nombroses modificacions al llarg dels anys. Actualment és una església de planta rectangular amb unes dimensions de 20x9 metres i orientada de Nord a Sud.",
+    "height": "22",
+    "name": "Esglèsia de Sant Pere de Castanyadell"
+  }
+},
+{
+  "type": "way",
+  "id": 742257796,
+  "timestamp": "2019-11-05T17:35:35Z",
+  "version": 1,
+  "changeset": 76660669,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6949104203,
+    6949104204,
+    6949104205,
+    6949104206,
+    6949104207,
+    6949104208,
+    6949104209,
+    6949104210,
+    6949104211,
+    6949104212,
+    6949104213,
+    6949104214,
+    6949104215,
+    6949104216,
+    6949104203
+  ],
+  "tags": {
+    "addr:city": "Vilanova de Sau",
+    "building": "church",
+    "name": "Rectoría de Sant Andreu de Bancells"
+  }
+},
+{
+  "type": "way",
+  "id": 742257806,
+  "timestamp": "2019-11-05T17:35:35Z",
+  "version": 1,
+  "changeset": 76660669,
+  "user": "psaguer",
+  "uid": 9965586,
+  "nodes": [
+    6949104615,
+    6949104616,
+    6949104617,
+    6949104872,
+    6949104618,
+    6949104619,
+    6949104620,
+    6949104621,
+    6949104622,
+    6949104623,
+    6949104615
+  ],
+  "tags": {
+    "addr:city": "Vilanova de Sau",
+    "addr:postcode": "08519",
+    "building": "church",
+    "wikidata": "Q11947612",
+    "wikipedia": "ca:Santa Maria de Vallclara"
+  }
+},
+{
+  "type": "way",
+  "id": 744749396,
+  "timestamp": "2019-11-12T20:41:39Z",
+  "version": 1,
+  "changeset": 76981214,
+  "user": "expositocv",
+  "uid": 10261351,
+  "nodes": [
+    3338853017,
+    3338853015,
+    6970194268,
+    6970194269,
+    6970194270,
+    6970194271,
+    6970194272,
+    6970194273,
+    6970194274,
+    6970194275,
+    6970194276,
+    6970194277,
+    3338853023,
+    3338853020,
+    3338853017
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 747445798,
+  "timestamp": "2019-11-20T22:13:58Z",
+  "version": 1,
+  "changeset": 77346290,
+  "user": "Pere Saguer",
+  "uid": 4351260,
+  "nodes": [
+    6993855252,
+    6993855253,
+    6993855254,
+    6993855263,
+    6993855262,
+    6993855255,
+    6993855256,
+    6993855257,
+    6993855258,
+    6993855259,
+    6172591787,
+    6993855252
+  ],
+  "tags": {
+    "addr:city": "Fonteta",
+    "addr:street": "Carrer de L'Esglesia",
+    "building": "church",
+    "wikidata": "Q18007595",
+    "wikipedia": "ca:Santa Maria de Fonteta"
+  }
+},
+{
+  "type": "way",
+  "id": 747452484,
+  "timestamp": "2019-11-20T23:17:06Z",
+  "version": 1,
+  "changeset": 77347719,
+  "user": "Pere Saguer",
+  "uid": 4351260,
+  "nodes": [
+    6993908059,
+    6993908060,
+    6993908061,
+    6993908062,
+    6993908063,
+    6993908064,
+    6993908065,
+    6993908066,
+    6993908067,
+    6993908068,
+    6993908069,
+    6993908059
+  ],
+  "tags": {
+    "building": "church"
+  }
+},
+{
+  "type": "way",
+  "id": 749510793,
+  "timestamp": "2019-11-25T16:15:11Z",
+  "version": 1,
+  "changeset": 77534055,
+  "user": "ramonz",
+  "uid": 2047207,
+  "nodes": [
+    7008847731,
+    7008847732,
+    7008847733,
+    7008847734,
+    7008847735,
+    7008847736,
+    7008847737,
+    7008847738,
+    7008847731
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Pau (ruins)"
+  }
+},
+{
+  "type": "way",
+  "id": 778919384,
+  "timestamp": "2020-03-07T12:07:40Z",
+  "version": 3,
+  "changeset": 81897538,
+  "user": "Jeroni de J",
+  "uid": 296086,
+  "nodes": [
+    7272549664,
+    7272549665,
+    7272549666,
+    7272549667,
+    7272549668,
+    7272549669,
+    7272549670,
+    7272549664
+  ],
+  "tags": {
+    "building": "church",
+    "name": "Sant Martí"
+  }
+},
+{
+  "type": "relation",
+  "id": 1006317,
+  "timestamp": "2018-10-20T19:59:54Z",
+  "version": 4,
+  "changeset": 63713096,
+  "user": "Jesús Gómez",
+  "uid": 6389,
+  "members": [
+    {
+      "type": "way",
+      "ref": 63915825,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 63933285,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 63921656,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 63936352,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "local_code": "6051",
+    "name": "Església de Sant Lluc",
+    "name:ca": "Església de Sant Lluc",
+    "source": "Ajuntament de Girona",
+    "type": "multipolygon",
+    "wikidata": "Q19368249"
+  }
+},
+{
+  "type": "relation",
+  "id": 1012027,
+  "timestamp": "2019-06-26T15:33:02Z",
+  "version": 3,
+  "changeset": 71642121,
+  "user": "psaguer",
+  "uid": 9965586,
+  "members": [
+    {
+      "type": "way",
+      "ref": 63921505,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 63937910,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 63927205,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 63916483,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "local_code": "7147",
+    "source": "Ajuntament de Girona",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 5174725,
+  "timestamp": "2019-06-05T17:45:49Z",
+  "version": 2,
+  "changeset": 70962472,
+  "user": "psaguer",
+  "uid": 9965586,
+  "members": [
+    {
+      "type": "way",
+      "ref": 347069021,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 347069018,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "addr:city": "Santa Coloma de Farners",
+    "building": "church",
+    "name": "Església de Sant Sebastià",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8818755,
+  "timestamp": "2018-10-16T00:16:40Z",
+  "version": 2,
+  "changeset": 63558848,
+  "user": "javirg",
+  "uid": 1897806,
+  "members": [
+    {
+      "type": "way",
+      "ref": 634385820,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 634385819,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "name": "Sant Francesc",
+    "religion": "christian",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8928834,
+  "timestamp": "2018-11-14T14:33:55Z",
+  "version": 2,
+  "changeset": 64485982,
+  "user": "illot",
+  "uid": 9051400,
+  "members": [
+    {
+      "type": "way",
+      "ref": 643968188,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 643968186,
+      "role": "inner"
+    },
+    {
+      "type": "way",
+      "ref": 643968182,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2",
+    "building:levels:underground": "1",
+    "denomination": "catholic",
+    "fax": "+34 93 204 4067",
+    "name": "Parròquia de Maria Reina",
+    "phone": "+34 93 203 5539",
+    "religion": "christian",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8996998,
+  "timestamp": "2018-11-19T19:28:51Z",
+  "version": 1,
+  "changeset": 64670287,
+  "user": "illot",
+  "uid": 9051400,
+  "members": [
+    {
+      "type": "way",
+      "ref": 646520538,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 646520537,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "2",
+    "building:levels:underground": "1",
+    "name": "Parròquia Mare de Déu de Port",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 8996999,
+  "timestamp": "2018-11-19T19:28:51Z",
+  "version": 1,
+  "changeset": 64670287,
+  "user": "illot",
+  "uid": 9051400,
+  "members": [
+    {
+      "type": "way",
+      "ref": 646520543,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 646520540,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "1",
+    "name": "Parròquia de Sant Bartomeu",
+    "type": "multipolygon"
+  }
+},
+{
+  "type": "relation",
+  "id": 9126976,
+  "timestamp": "2018-12-19T13:06:27Z",
+  "version": 1,
+  "changeset": 65610799,
+  "user": "jqngarcia_import",
+  "uid": 8079002,
+  "members": [
+    {
+      "type": "way",
+      "ref": 656236567,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 656236552,
+      "role": "inner"
+    }
+  ],
+  "tags": {
+    "building": "church",
+    "building:levels": "5",
+    "building:levels:underground": "1",
+    "name": "Parroquia de la Santísima Trinidad",
+    "type": "multipolygon"
+  }
+}
+
+  ]
+}

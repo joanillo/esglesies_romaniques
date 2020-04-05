@@ -1,0 +1,528 @@
+Sant Andreu d'Angostrina
+Sant Bartomeu de Bajanda
+Mare de Déu de Bell-lloc (Dorres)
+Sant Fruitós de Brangolí
+Sant Romà de Càldegues
+Sant Feliu de Castellvell
+Sant Marçal de Cortvassill
+Sant Joan Evangelista de Dorres
+Sant Martí d'Envalls
+Sant Sadurní d'Enveig
+Mare de Déu d'Er
+Sant Julià d'Estavar
+Sant Fruitós d'Iravals
+Sant Martí d'Ix
+Sant Fructuós de Llo
+Sant Pere d'Oceja
+Sant Martí d'Odelló
+Santa Maria de Palau de Cerdanya
+Sant Joan Baptista de Porta
+Sant Vicenç de Portolers
+Santa Eugènia de Sallagosa
+Església de Santa Llocaia
+Sant Martí d'Ur
+Sant Feliu de Vallcebollera
+Santa Coloma de Vià
+Sant Iscle i Santa Victòria de Vilanova de les Escaldes
+Sant Miquel dels Angles
+Sant Salvador dels Angles
+Santa Maria d'Esposolla
+Sant Sebastià de Font-rabiosa
+Santa Maria de Formiguera
+Sant Pere de Matamala
+Sant Joan Baptista de Puigbalador
+Sant Romà de Ral
+Sant Martí de Riutort
+Santa Maria de Vallsera
+Santa Eulàlia d'Arboçols
+Sant Salvador d'Arboçols
+Sant Andreu de Bell-lloc
+Sant Pere de Bell-lloc
+Santa Coloma de Bordoll
+Sant Jaume de Calaons
+Sant Esteve de Campelles
+Sant Vicenç de Campllong
+Sant Martí de Canavelles
+Sant Martí del Canigó
+Sant Martí de Canoà
+Santa Magdalena del Castell de Conat
+Sant Pere del Castell de Paracolls
+Sant Andreu de Catllà
+Santa Cecília de Celrà
+Sant Joan Baptista de Censà (església vella)
+Sant Climent de Cirac
+Sant Martí de Clarà
+Sant Pau del Claustre
+Sant Feliu de Codalet
+Sant Esteve de Coma
+Santa Creu de Conat
+Sant Joan Baptista de Conat
+Santa Maria de Cornellà de Conflent
+Sant Valentí de Corts
+Sant Miquel de Cuixà
+Nostra Senyora de Domanova
+Sant Joan de Dossorons
+Sant Just i Sant Pastor d'En
+Sant Joan Evangelista d'Entrevalls
+Sant Sadurní d'Eroles
+Santa Maria d'Espirà de Conflent
+Sant Valentí d'Espona
+Sant Esteve d'Estoer
+Sant Vicenç d'Eus (segle XI)
+Sant Andreu d'Èvol
+Sant Feliu de Fillols
+Sant Pere de Fillols
+Santa Coloma de Finestret
+Sant Marcel de Flaçà
+Sant Cristòfol de Fórnols
+Santa Eulàlia de Fullà
+Sant Joan Baptista de Fullà
+Sant Esteve de Glorianes
+Santa Maria de les Grades
+Sant Martí de Jóc (església vella)
+Sant Julià i Santa Basilissa de Jújols
+Sant Vicenç de la Llaguna
+Sant Andreu de Llar (església vella)
+Sant Cristòfol de Llúgols
+Santa Maria de Marcèvol
+Sant Fruitós de Marians
+Santa Maria de Marinyans
+Santa Eulàlia de Marqueixanes
+Sant Vicenç de Mentet
+Santa Maria de Molig
+Santa Margarida de Nabilles
+Sant Martí de Noedes
+Sant Jaume de Nyer
+Sant Jaume de Nyer (capella)
+Sant Esteve d'Orbanyà
+Santa Maria d'Orellà
+Santa Maria del Palau de Cornellà de Conflent
+Sant Pau de Pi
+Santa Maria de Planès
+Sant Miquel dels Plans
+Sant Esteve de Pomers
+Sant Pere de Prada
+Santa Maria de Prats de Balaguer
+Santa Anna dels Quatre Termes
+Sant Julià i Santa Basilissa de Ralleu (església vella)
+Sant Vicenç de Rià
+Santa Eulàlia i Santa Júlia de Rigardà
+Santa Maria de Riquer
+Sant Pere de la Roca (Fullà)
+Sant Valentí de Rodès
+Sant Feliu de Ropidera
+Santa Maria del Roure (els Masos)
+Sant Esteve de Saorra
+Sant Maurici de Sautó
+Sant Joan de Seners
+Sant Cosme i Sant Damià de Serdinyà
+Sant Climent de la Serra
+Santa Eugènia de Soanyes
+Sant Esteve de Sofrunys
+Sant Esteve de Talau
+Sant Andreu de Tarerac
+Sant Fruitós de Taurinyà
+Santa Creu de Torèn
+Sant Genís de Toès
+Sant Andreu de Vallestàvia
+Sant Vicenç de Vallmanya
+Sant Martí Vell (Castell de Vernet)
+Sant Sadurní de Vernet
+Sant Jaume de Vilafranca de Conflent
+Sant Sadurní de Vilallonga
+Santa Eulàlia de Vilella
+Sant Silvestre de Villerac
+Sant Julià i Santa Basilissa de Vinçà
+Sant Julià d'Avellanet
+Sant Jaume de Caramola
+Sant Pere i Sant Pau del Castell de Jóc
+Santa Coloma del Castelló
+Sant Andreu d'Eixalada
+Santa Maria d'Escaró
+Sant Martí d'Escaró
+Sant Martí d'Estanyils
+Sant Just i Sant Pastor de Guixà
+Santa Maria Magdalena de Lentillà
+Sant Salvador de Llec
+Sant Just i Sant Pastor de Llonat
+Sant Esteve d'Ocenys
+Santa Maria de la Perxa
+Sant Esteve del Prat
+Sant Cugat de Soanyes
+Sant Francesc de Vilafranca de Conflent
+Sant Andreu de les Vinyes
+Sant Esteve de Breses
+Santa Maria de Corbiac
+Santa Maria de Jau
+Sant Julià Vell de Mosset
+Santa Maria de Vedrinyans
+
+Santa Maria de les Abelles
+Sant Esteve d'Agusà
+Sant Nicolau d'Aiguaviva
+Sant Cristau d'Albera
+Sant Joan d'Arsós
+Sant Andreu de Bages
+Santa Maria de Baixàs
+Sant Joan Evangelista de Banyuls de la Marenda
+Sant Vicenç de Baó
+Sant Nazari de Barbadell
+Sant Joan Baptista de la Bassa
+Sant Miquel de la Bastida
+La Trinitat de Bellpuig
+Sant Pere del Bosc (Corbera)
+Santa Maria de Brullà
+Sant Sadurní de Bula d'Amunt
+Santa Maria de Bulaternera
+Santa Coloma de Cabanes
+Santa Maria de Cabestany
+Sant Pau de Calce
+Sant Feliu de Calmella
+Sant Fructuós de Cameles
+Santa Maria del Camp
+Sant Quirc i Santa Julita de Cànoes
+Sant Martí de Casafabre
+Sant Pere del Castell (Corbera)
+Sant Llorenç del Castell d'Òpol
+Sant Miquel del Castell de Caladroer
+Santa Maria del Castell de Talteüll
+Sant Martí del Castell (Canet de Rosselló)
+Sant Salvador de Cervera
+Santa Coloma de la Comanda (església)
+Santa Maria de Cosprons
+Santa Agnès de Croanques
+Claustre d'Elna
+Santa Eulàlia i Santa Júlia d'Elna
+Santa Maria d'Espirà de l'Aglí
+Sant Esteve d'Estagell
+Sant Vicenç d'Estagell
+Santa Maria de l'Eula
+Claustre del monestir de Sant Genís de Fontanes
+Sant Genís de Fontanes (monestir)
+Santa Maria de les Fonts
+Sant Martí de Forques
+Sant Sebastià de Forques
+Sant Vicenç de Forques
+Sant Llorenç de Galícia
+Santa Maria de la Garriga
+Sant Martí de Llauró
+Sant Miquel de Llotes (església)
+Sant Tomàs de Llupià
+Santa Maria del Masdéu
+Santa Maria del Mercadal (Castellnou dels Aspres)
+Santa Eulàlia de Millars
+Santa Margarida de Molars
+Sant Miquel de Mollet
+Santa Maria de Montescot
+Sant Sadurní de Montesquiu
+Sant Sadurní de Montoriol d'Avall
+Sant Esteve de Nidoleres
+Sant Martí de Nyils
+Sant Joan Evangelista d'Oms
+Santa Eugènia d'Ortafà
+Santa Maria de Pabirans
+Sant Pere de Paçà
+Sant Pere de la Parada
+Sant Joan Evangelista de Paretstortes
+Sant Miquel de Perellós
+Sant Feliu de Pesillà de la Ribera
+Sant Sadurní de Pesillà de la Ribera
+Sant Martí de Pollestres
+Sant Esteve de Pontellà
+Sant Esteve de Prunet
+Sant Martí de la Riba (Millars)
+Sant Martí de la Riba (Sant Feliu d'Avall)
+Santa Eugènia de la Riba
+Sant Amanç de la Ribera
+Sant Andreu de Ribesaltes (església vella)
+Sant Sebastià de la Roca
+Sant Fructuós de Rocavella
+Santa Maria de la Roure
+Sant Esteve de Salelles (església vella)
+Sant Cebrià de Rosselló (església)
+Sant Mamet de Sant Esteve del Monestir
+Santa Maria de Sant Feliu d'Amunt
+Sant Andreu de Sant Feliu d'Avall
+Sant Joan Evangelista de Sant Joan la Cella
+Sant Marçal de Sant Marçal
+Sant Martí de la Roca (Cameles)
+Sant Julià i Santa Basilissa del Soler
+Sant Aciscle i Santa Victòria de Sureda
+Sant Andreu de Sureda (monestir)
+Santa Maria de Tanyà
+Sant Vicenç de Tatzó d'Amunt
+Sant Pere de Tellet
+Sant Julià i Santa Basilissa de Terrats
+Sant Pere de Tesà
+Sant Joan Evangelista de Teulís
+Santa Maria de Toluges
+Sant Nazari de Torderes
+Sant Julià i Santa Basilissa de Torrelles
+Sant Sadurní de Trasserra
+Santa Eugènia de Tresmals
+Sant Aciscle de Trullars
+Sant Martí de Turà
+La Mare de Déu de la Victòria de Tuïr
+Sant Martí de la Vall
+Sant Miquel de Vallcrosa
+Sant Julià de Vallventosa
+Santa Maria Magdalena de Veda
+Sant Pere de Vilaclara
+Sant Marcel de Vilallonga de la Salanca
+Sant Esteve de Vilallonga dels Monts
+Sant Julià i Santa Basilissa de Vilamulaca
+Sant Julià i Santa Basilissa de Vilanova de Raò
+Sant Pere del Vilar
+Santa Maria del Vilar (Vilallonga dels Monts)
+Sant Esteve de Vila-rasa
+Santa Maria de Vilarmilà
+Santa Maria de Vingrau
+Sant Miquel de Vivers
+Santa Maria del Voló
+
+Santa Maria de les Abelles
+Sant Esteve d'Agusà
+Sant Nicolau d'Aiguaviva
+Sant Cristau d'Albera
+Sant Joan d'Arsós
+Sant Andreu de Bages
+Santa Maria de Baixàs
+Sant Joan Evangelista de Banyuls de la Marenda
+Sant Vicenç de Baó
+Sant Nazari de Barbadell
+Sant Joan Baptista de la Bassa
+Sant Miquel de la Bastida
+La Trinitat de Bellpuig
+Sant Pere del Bosc (Corbera)
+Santa Maria de Brullà
+Sant Sadurní de Bula d'Amunt
+Santa Maria de Bulaternera
+Santa Coloma de Cabanes
+Santa Maria de Cabestany
+Sant Pau de Calce
+Sant Feliu de Calmella
+Sant Fructuós de Cameles
+Santa Maria del Camp
+Sant Quirc i Santa Julita de Cànoes
+Sant Martí de Casafabre
+Sant Pere del Castell (Corbera)
+Sant Llorenç del Castell d'Òpol
+Sant Miquel del Castell de Caladroer
+Santa Maria del Castell de Talteüll
+Sant Martí del Castell (Canet de Rosselló)
+Sant Salvador de Cervera
+Santa Coloma de la Comanda (església)
+Santa Maria de Cosprons
+Santa Agnès de Croanques
+Claustre d'Elna
+Santa Eulàlia i Santa Júlia d'Elna
+Santa Maria d'Espirà de l'Aglí
+Sant Esteve d'Estagell
+Sant Vicenç d'Estagell
+Santa Maria de l'Eula
+Claustre del monestir de Sant Genís de Fontanes
+Sant Genís de Fontanes (monestir)
+Santa Maria de les Fonts
+Sant Martí de Forques
+Sant Sebastià de Forques
+Sant Vicenç de Forques
+Sant Llorenç de Galícia
+Santa Maria de la Garriga
+Sant Martí de Llauró
+Sant Miquel de Llotes (església)
+Sant Tomàs de Llupià
+Santa Maria del Masdéu
+Santa Maria del Mercadal (Castellnou dels Aspres)
+Santa Eulàlia de Millars
+Santa Margarida de Molars
+Sant Miquel de Mollet
+Santa Maria de Montescot
+Sant Sadurní de Montesquiu
+Sant Sadurní de Montoriol d'Avall
+Sant Esteve de Nidoleres
+Sant Martí de Nyils
+Sant Joan Evangelista d'Oms
+Santa Eugènia d'Ortafà
+Santa Maria de Pabirans
+Sant Pere de Paçà
+Sant Pere de la Parada
+Sant Joan Evangelista de Paretstortes
+Sant Miquel de Perellós
+Sant Feliu de Pesillà de la Ribera
+Sant Sadurní de Pesillà de la Ribera
+Sant Martí de Pollestres
+Sant Esteve de Pontellà
+Sant Esteve de Prunet
+Sant Martí de la Riba (Millars)
+Sant Martí de la Riba (Sant Feliu d'Avall)
+Santa Eugènia de la Riba
+Sant Amanç de la Ribera
+Sant Andreu de Ribesaltes (església vella)
+Sant Sebastià de la Roca
+Sant Fructuós de Rocavella
+Santa Maria de la Roure
+Sant Esteve de Salelles (església vella)
+Sant Cebrià de Rosselló (església)
+Sant Mamet de Sant Esteve del Monestir
+Santa Maria de Sant Feliu d'Amunt
+Sant Andreu de Sant Feliu d'Avall
+Sant Joan Evangelista de Sant Joan la Cella
+Sant Marçal de Sant Marçal
+Sant Martí de la Roca (Cameles)
+Sant Julià i Santa Basilissa del Soler
+Sant Aciscle i Santa Victòria de Sureda
+Sant Andreu de Sureda (monestir)
+Santa Maria de Tanyà
+Sant Vicenç de Tatzó d'Amunt
+Sant Pere de Tellet
+Sant Julià i Santa Basilissa de Terrats
+Sant Pere de Tesà
+Sant Joan Evangelista de Teulís
+Santa Maria de Toluges
+Sant Nazari de Torderes
+Sant Julià i Santa Basilissa de Torrelles
+Sant Sadurní de Trasserra
+Santa Eugènia de Tresmals
+Sant Aciscle de Trullars
+Sant Martí de Turà
+La Mare de Déu de la Victòria de Tuïr
+Sant Martí de la Vall
+Sant Miquel de Vallcrosa
+Sant Julià de Vallventosa
+Santa Maria Magdalena de Veda
+Sant Pere de Vilaclara
+Sant Marcel de Vilallonga de la Salanca
+Sant Esteve de Vilallonga dels Monts
+Sant Julià i Santa Basilissa de Vilamulaca
+Sant Julià i Santa Basilissa de Vilanova de Raò
+Sant Pere del Vilar
+Santa Maria del Vilar (Vilallonga dels Monts)
+Sant Esteve de Vila-rasa
+Santa Maria de Vilarmilà
+Santa Maria de Vingrau
+Sant Miquel de Vivers
+Santa Maria del Voló
+Sant Jeroni d'Argelers
+Santa Maria del Castell d'Ultrera
+Sant Pere de la Cellera
+Sant Llorenç del Mont (Argelers)
+Sant Ferriol de la Pava
+Sant Martí i la Santa Creu de Tatzó
+Santa Maria de Torreneules
+Santa Maria de Vallbona (Argelers)
+Sant Ponç de Candell
+Santa Maria de Fontcoberta
+Santa Coloma de Montoriol de les Illes
+Sant Cugat de Queixàs
+Sant Julià del Vilar
+
+Mare de Déu dels Agullons
+Santa Coloma d'Alemanys
+Sant Genís de l'Alentó
+Avalrí
+Sant Joan de Barra
+Sant Andreu de Bigaranes
+Boaçà
+Sant Joan de Brullà
+Sant Miquel i Sant Salvador de Candell
+Sant Salvador de Canomals
+Santa Tecla del Castell Vell
+Sant Pere de Castellnou
+Sant Salvador de Cirà
+Santa Maria de Coberta
+Sant Cristòfol de Cornellà del Bercol
+Capella de Darnac
+Sant Miquel de Fontanes
+Santa Maria de Fontclara
+Sant Miquel de Forques
+Santa Cecília de Genegals
+Santa Creu d'Illa
+Santa Maria de Juegues
+Santa Eugènia de Labejà
+Santa Maria de Malloles
+Sant Andreu de Ministrol
+Santa Eugènia de Montner
+Santa Maria de Montoriol d'Amunt
+Sant Miquel de Montoriol d'Amunt
+Santa Maria de Mossellons
+Sant Sebastià de Mudagons
+Palol d'Avall
+Santuari de la Mare de Déu del Paradís
+Santa Maria del Prat (Sant Andreu de Sureda)
+Sant Esteve de les Vinyes
+Sant Lluc de Puig Rodon
+Sant Joan de Reart
+Sant Martí de la Riba (Elna)
+Sant Martí de la Roca (Talteüll)
+Santa Coloma de Salses (església)
+Sant Miquel de Sant Feliu d'Avall
+Sant Pere del Soler d'Avall
+Santa Eulàlia de Tevolís
+Sant Pere de Torrelles
+Santa Maria de Vallàuria
+Sant Salvador de Vilarmilà
+Vilarnau (Canet de Rosselló)
+Sants Just i Pastor de Casesnoves
+Sant Maurici de Greulera
+Sant Jaume de l'Hospital
+Santa Creu d'Illa
+Santa Maria del Remei d'Illa
+Sant Esteve del Pedreguet
+Sant Climent de Reglella
+Santa Maria la Rodona (Illa)
+Santa Maria i Sant Pere de Castell Rosselló
+Santa Maria dels Còrrecs
+Santa Maria de Malloles
+Sant Esteve d'Orla
+Sant Joan el Vell de Perpinyà
+Sant Miquel de Perpinyà
+Sant Cristòfol del Vernet
+
+Sant Joan d'Albera (església)
+Sant Martí d'Albera (església)
+Santa Maria d'Arles
+Sant Esteve d'Arles
+Sant Salvador d'Arles
+Sant Joan Baptista del Castell de Pladecorts
+Sant Jordi de Ceret
+Sant Pere de Ceret
+Santa Maria de la Clusa
+Santa Margarida de Colldares
+Sant Guillem de Combret
+Sant Martí de Cortsaví
+Santa Cecília de Cos
+Santa Maria de Costoja
+Sant Pau d'Envistadors (església)
+Sant Pere de Laner
+Sant Salvador de la Menera
+Santa Engràcia de Montalbà
+Sant Andreu de Montboló
+Santa Maria de Montferrer
+Sant Lluc de Montferrer
+Sant Martí de Palaldà
+Santa Maria de Panissars
+Sant Joan Baptista de Pladecorts
+Sant Salvador de les Planes
+Santa Justa i Santa Rufina de Prats de Molló
+Sant Vicenç de Reiners
+Sant Pere de Riuferrer
+Santa Cristina de la Serra
+Sant Miquel del Castell de Cabrenç
+Santa Maria de Serrallonga
+Santa Maria del Vilar (Reiners)
+Sant Miquel de Vila-roja
+
+Sant Julià de Bussac
+Sant Llorenç de Cerdans (església)
+Santa Maria de Montalbà
+Sant Joan de Moranells
+Sant Joan Baptista de Perella
+Sant Salvador de la Roca de Montdony
+Sant Pere de Sureda
+Sant Julià de Vilargell
+Sant Martí de Fenollar (església)
+Santa Maria de les Illes
+Sant Joan de Moranells
+Santa Magdalena de Morellàs
+Sant Esteve de Morellàs
+Sant Miquel de Riunoguers
