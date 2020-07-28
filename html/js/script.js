@@ -170,8 +170,12 @@ function init_layer(filt) {
 		});
 		var txt = "";
 		
-		txt += "<img src='img/ruins-16.png' alt='ruins' />&nbsp;"
-
+		if (esglesies[i].ruins == "yes") {
+			txt += "<img src='img/ruins-16.png' alt='ruins' />&nbsp;"
+		} else {
+			txt += "<img src='img/church2-16.png' alt='ruins' />&nbsp;"		
+		}
+		
 		txt += "<b>" + esglesies[i].name + "</b><br />";
 		if(typeof esglesies[i].alt_name !== 'undefined' && esglesies[i].alt_name != '') txt += esglesies[i].alt_name + "<br />";
 		txt += esglesies[i].municipi + "<br />";
