@@ -1,57 +1,132 @@
 [
 {
   "type": "way",
-  "id": 284235970,
-  "timestamp": "2020-03-26T23:30:36Z",
-  "version": 4,
-  "changeset": 82686059,
+  "id": 372792476,
+  "timestamp": "2020-07-24T13:09:38Z",
+  "version": 3,
+  "changeset": 88459955,
   "user": "joanillo",
   "uid": 10376780,
   "nodes": [
-    2879855654,
-    2879855648,
-    2879855646,
-    2879855652,
-    2879855654
+    3763419607,
+    3763419608,
+    3763419609,
+    3763419605,
+    3763419604,
+    3763419603,
+    3763419602,
+    3763419601,
+    3763419600,
+    3763419599,
+    3763419598,
+    3763419606,
+    3763419607
   ],
   "tags": {
-    "alt_name": "Sant Cristòfol de Queralt",
+    "alt_name": "Sant Jaume de Castellbell",
     "amenity": "place_of_worship",
     "building": "church",
     "denomination": "catholic",
-    "name": "Sant Jaume de Queralt",
-    "name:es": "San Cristóbal",
+    "name": "Sant Jaume de Marganell",
     "note": "importacio_esglesies_romaniques_prov",
     "religion": "christian",
-    "wikidata": "Q8342513",
-    "wikipedia": "ca:Castell de Queralt"
+    "wikidata": "Q20888335",
+    "wikipedia": "ca:Sant Jaume de Marganell"
   }
 },
 {
   "type": "way",
-  "id": 784837403,
-  "timestamp": "2020-03-26T16:39:45Z",
-  "version": 1,
-  "changeset": 82673096,
+  "id": 813199967,
+  "timestamp": "2020-07-24T13:12:35Z",
+  "version": 4,
+  "changeset": 88460081,
   "user": "joanillo",
   "uid": 10376780,
   "nodes": [
-    7332260735,
-    7332260736,
-    7332260737,
-    7332260738,
-    7332260735
+    7595965816,
+    7595965817,
+    7595965818,
+    7595965819,
+    7595965820,
+    7595965821,
+    7595965822,
+    7595965823,
+    7595965824,
+    7595965825,
+    7595965826,
+    7595965827,
+    7595965816
   ],
   "tags": {
     "amenity": "place_of_worship",
     "building": "church",
     "denomination": "catholic",
-    "name": "Santa Maria de Corroncui (nova)",
+    "name": "Santa Margarida de Bianya",
     "note": "importacio_esglesies_romaniques_prov",
     "religion": "christian",
-    "wikidata": "Q11947594",
-    "wikipedia": "ca:Santa Maria de Corroncui II"
+    "wikidata": "Q17389630",
+    "wikipedia": "ca:Església de Santa Margarida de Bianya"
+  }
+},
+{
+  "type": "way",
+  "id": 827454025,
+  "timestamp": "2020-07-24T13:14:43Z",
+  "version": 2,
+  "changeset": 88460179,
+  "user": "joanillo",
+  "uid": 10376780,
+  "nodes": [
+    7725166759,
+    7725166758,
+    7725166757,
+    7725166755,
+    7725166754,
+    7725166753,
+    7725166752,
+    7725166751,
+    7725166750,
+    7725166749,
+    7725166756,
+    7725166759
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Santa Llúcia de Vilamitjana",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q8777192",
+    "wikipedia": "ca:Santa Llúcia de Vilamitjana"
+  }
+},
+{
+  "type": "way",
+  "id": 828544710,
+  "timestamp": "2020-07-24T13:16:28Z",
+  "version": 3,
+  "changeset": 88460235,
+  "user": "joanillo",
+  "uid": 10376780,
+  "nodes": [
+    7734640250,
+    7734640251,
+    7734640252,
+    7734640253,
+    7734640254,
+    7734640255,
+    7734640250
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Sant Bartomeu de Matamala",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "wikidata": "Q47170903",
+    "wikipedia": "ca:Sant Bartomeu de Matamala"
   }
 }
 ]
-

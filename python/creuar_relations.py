@@ -3,8 +3,8 @@
 cd /home/joan/projectes/OSM/esglesies_romaniques/python
 PS1="$ "
 
-mysql -u alumne -pkeiL2lai romanic
-mysqldump -i --complete-insert -u alumne -pkeiL2lai -r /home/joan/romanic_200306.sql -v romanic
+mysql -u *** -p*** romanic
+mysqldump -i --complete-insert -u *** -*** -r /home/joan/romanic_200306.sql -v romanic
 '''
 
 import json #parsejar JSON
@@ -20,10 +20,16 @@ from osmapi import OsmApi #create, update node
 
 overpass_url = "http://overpass-api.de/api/interpreter"
 
+pswd = file( "/home/joan/projectes/OSM/esglesies_romaniques/mysql/.passwd", "r" )
+for aLine in pswd:
+	fields= aLine.split( ":" )
+	#print fields[0], fields[1]
+pswd.close()
+
 mydb = mysql.connector.connect(
   host="localhost",
-  user="alumne",
-  passwd="keiL2lai",
+  user=fields[0],
+  passwd=fields[1],
   database="romanic"
 )
      
@@ -70,7 +76,7 @@ def distance(str1, str2):
 
 def preparar_consulta(str):
 	str = str.lower()
-	paraules = ['capella de ',u'parròquia de ', u'església de ', u'esglèsia de ', 'sant ', 'santa ', ' de la ', ' dels ', ' de ', ' la ', ' del ', 'ermita ', 'st. ', 'sta. ','st ','sta ', ' d\'', ' l\'']
+	paraules = ['Mair de Diu ', 'dera ', 'santuari de ', 'capella de ',u'parròquia de ', u'església de ', u'esglèsia de ', u'monestir de ', 'sant ', 'santa ', ' de la ', ' dels ', ' de ', ' la ', ' del ', 'ermita ', 'st. ', 'sta. ','st ','sta ', ' d\'', ' l\'']
 	for paraula in paraules:
 		str = str.replace(paraula,' ')
 	str = str.replace('  ',' ')
@@ -81,8 +87,8 @@ def preparar_consulta(str):
 	for valor in valors:
 		if (i>0):
 			cadsql = cadsql + " and "
-		cadsql = cadsql + "nom like '%" + valor.replace("'","''") + "%'"
-		#nom like '%fai%'"
+		cadsql = cadsql + "esglesia like '%" + valor.replace("'","''") + "%'"
+		#esglesia like '%fai%'"
 		i = i+1
 
 	return cadsql
@@ -101,6 +107,8 @@ num_item = 1;
 for esglesia in esglesies_dict:
 	sortir_bucle=0
 	name = ""
+	name_ca = "" #cas Vall d'Aran
+	alt_name = ""
 	wikipedia = ""
 	wikidata = ""
 	municipi = ""
@@ -111,6 +119,10 @@ for esglesia in esglesies_dict:
 	tags = esglesia["tags"]
 	if ("name" in tags.keys()):
 		name = esglesia['tags']['name'];
+	if ("name:ca" in tags.keys()):
+		name_ca = esglesia['tags']['name:ca'];
+	if ("alt_name" in tags.keys()):
+		alt_name = esglesia['tags']['alt_name'];
 	if ("wikipedia" in tags.keys()):
 		wikipedia = esglesia['tags']['wikipedia'];
 	if ("wikidata" in tags.keys()):
@@ -126,6 +138,10 @@ for esglesia in esglesies_dict:
 		num_item += 1
 		continue
 	print("name: " + name)
+	if (alt_name != ""):
+		print("alt_name: " + alt_name)
+	if (name_ca != ""):
+		print("name_ca: " + name_ca)
 	#print ("(" + str(lat) + "," + str(lon) + ")" + " (" + str(lat) + "/" + str(lon) + ")");
 	print("wikipedia: " + wikipedia)
 	print("wikidata: " + wikidata)
@@ -153,6 +169,8 @@ for esglesia in esglesies_dict:
 	print("municipi: " + municipi)
 	print("name + municipi: " + name + " " + unicode(municipi, "utf-8") + "\n")
 	f.write("name: " + name + " (" + str(osm_id) + ")\n")
+	f.write("alt_name: " + alt_name + "\n")
+	f.write("name_ca: " + name_ca + "\n")
 	f.write("(" + str(lat) + "," + str(lon) + ")" + "\n");
 	f.write("municipi: " + unicode(municipi, "utf-8") + "\n")
 	f.write("---" + "\n")
@@ -161,8 +179,13 @@ for esglesia in esglesies_dict:
 	mycursor = mydb.cursor(dictionary=True) #dictionary=True per tal de tenir array associatiu
 	
 	#print(preparar_consulta(name))
-	cadsql ="SELECT id, nom, municipi, wikipedia FROM esglesia where " + preparar_consulta(name) + " and osm_id IS NULL order by id"
-	#cadsql ="SELECT id, nom, municipi, wikipedia FROM esglesia where id=1150";
+	if (name_ca!=""):
+		cadsql ="SELECT id, esglesia, municipi, wikipedia FROM esglesia where ((" + preparar_consulta(name) + ") or (" + preparar_consulta(name_ca) + ")) and osm_id IS NULL order by id"
+	elif (alt_name!=""):
+		cadsql ="SELECT id, esglesia, municipi, wikipedia FROM esglesia where ((" + preparar_consulta(name) + ") or (" + preparar_consulta(alt_name) + ")) and osm_id IS NULL order by id"
+	else:
+		cadsql ="SELECT id, esglesia, municipi, wikipedia FROM esglesia where " + preparar_consulta(name) + " and osm_id IS NULL order by id"
+	#cadsql ="SELECT id, esglesia, municipi, wikipedia FROM esglesia where id=1150";
 	#print cadsql
 	mycursor.execute(cadsql)
 	myresult = mycursor.fetchall()
@@ -171,18 +194,26 @@ for esglesia in esglesies_dict:
 	print ("resultat de la consulta: " + str(mycursor.rowcount) + " files")
 	for esglesia in myresult:
 		id = esglesia['id']
-		print("bd: " + esglesia['nom'] + " (" + str(esglesia['id']) + ")")
-		f.write("bd: " + esglesia['nom'] + "\n")
+		print("bd: " + esglesia['esglesia'] + " (" + str(esglesia['id']) + ")")
+		f.write("bd: " + esglesia['esglesia'] + "\n")
 		if (esglesia['municipi']):
 			print("(mun: " + esglesia['municipi'] + ")")
 			f.write("(mun: " + esglesia['municipi'] + ")" + "\n")
 		if (esglesia['wikipedia']):
 			print("(wik: " + esglesia['wikipedia'] + ")")
 			f.write("wik: " + esglesia['wikipedia'] + u" (viquipèdia)\n")
-		dist_mitjana = (len(esglesia['nom'])+len(name))/2
-		coincidencia = u"coincidència: " + str(100*abs(dist_mitjana - distance(esglesia['nom'], name))/dist_mitjana) + " %"
+		dist_mitjana = (len(esglesia['esglesia'])+len(name))/2
+		coincidencia = u"coincidència: " + str(100*abs(dist_mitjana - distance(esglesia['esglesia'], name))/dist_mitjana) + " %"
 		print coincidencia
 		f.write(coincidencia + "\n")
+		if (alt_name != ""):
+			coincidencia = u"coincidència: " + str(100*abs(dist_mitjana - distance(esglesia['esglesia'], alt_name))/dist_mitjana) + " %"
+			print coincidencia
+			f.write(coincidencia + "\n")
+		if (name_ca != ""):
+			coincidencia = u"coincidència: " + str(100*abs(dist_mitjana - distance(esglesia['esglesia'], name_ca))/dist_mitjana) + " %"
+			print coincidencia
+			f.write(coincidencia + "\n")
 		print("-----------")
 		f.write("-----------" + "\n")
 		print(u'És aquesta? (y/n)');

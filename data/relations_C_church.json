@@ -1,2 +1,78 @@
 [
+{
+  "type": "relation",
+  "id": 1659215,
+  "timestamp": "2020-07-23T21:14:20Z",
+  "version": 4,
+  "changeset": 88425524,
+  "user": "joanillo",
+  "uid": 10376780,
+  "members": [
+    {
+      "type": "way",
+      "ref": 121208881,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 121208878,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "chapel",
+    "denomination": "catholic",
+    "name": "Ermita de Sant Julià del Llor",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "source": "PNOA",
+    "source:date": "11/7/2011",
+    "type": "multipolygon",
+    "wikidata": "Q21281755",
+    "wikipedia": "ca:Ermita de Sant Julià del Llor"
+  }
+},
+{
+  "type": "relation",
+  "id": 7305390,
+  "timestamp": "2020-07-24T10:15:53Z",
+  "version": 2,
+  "changeset": 88451526,
+  "user": "joanillo",
+  "uid": 10376780,
+  "members": [
+    {
+      "type": "way",
+      "ref": 497883054,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 497883053,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 497883057,
+      "role": "outer"
+    },
+    {
+      "type": "way",
+      "ref": 497883052,
+      "role": "outer"
+    }
+  ],
+  "tags": {
+    "amenity": "place_of_worship",
+    "building": "church",
+    "denomination": "catholic",
+    "name": "Sant Joan Baptista de Borgonyà",
+    "note": "importacio_esglesies_romaniques_prov",
+    "religion": "christian",
+    "type": "multipolygon",
+    "wikidata": "Q22893567",
+    "wikipedia": "ca:Sant Joan Baptista de Borgonyà"
+  }
+}
 ]

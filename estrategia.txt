@@ -9,7 +9,7 @@ out meta;
 
 nodes: 854, vies: 2735, relacions: 120
 
-COMPTE!! També s'ha de cercar per building=chapel
+COMPTE!! També s'ha de cercar per building=chapel (monastery, religious, cathedral)
 
 De moment, el que farem és cercar les esglésies que hi ha a OSM, i actualitzar la informació en els dos sentits: a OSM posaré que són romàniques, i a la meva bd posaré la info que està a OSM.
 
@@ -70,7 +70,7 @@ TODO
 *Cercar les esglésies que tenen per nom 'Església', Esglèsia, Esglesia, Iglesia
 *Quan actualitzi OSM, en ppi els meus noms són millors que els que hi ha a OSM. Però s'haurà d'anar cas per cas, i sobretot anar en compte a la Vall d'Aran.
 *wikipedia: n'hi ha que tenen ca:, i d'altres no
-*Més que building=yes, hauria d'especificar cathedral, church, chapel o religious (més genèric)
+*Més que building=yes, hauria d'especificar cathedral, church, chapel, monastery o religious (més genèric)
 
 3) relations_C.xml
 ------------------
@@ -110,7 +110,7 @@ Sant Andreu de Llorona = Sant Andreu de Lliorona
 Sant Feliu de Carbonils = Sant Feliu de Carbonills
 En aquest cas utilitzem alt_name, i es mira de respectar el nom que ja hi havia a OSM, perquè se suposa que l'edició ve d'alguna persona amb un coneixement local de la zona.
 ---
-Si vull cercar esglésies per cathedral, church, chapel o religious
+Si vull cercar esglésies per cathedral, church, chapel, monastery o religious
 aleshores una església en runes, si poso 
 building=ruins, no la trobaria. És millor posar la combinació:
 building=church
@@ -144,7 +144,14 @@ note=importacio_esglesies_romaniques_prov
 </pre>
 a posteriori, el tag ''note=importacio_esglesies_romaniques_prov'' em servirà per cercar-lo, trobar el osm_id, i actualitzar la bd. (encara no dic res que arquitectura és romànica, això ho faré al final quan tingui totes les esglésies a la bd i a OSM).
 
-Normalment, el fet de que no les pugués emparellar és perquè el nom estava molt mal posat.
+Normalment, el fet de que no les pugués emparellar és perquè el nom estava molt mal posat, i sobretot que l'església no hi era.
+
+[out:json];
+area["name"="Catalunya"]->.boundaryarea;
+(
+nwr(area.boundaryarea)[note=importacio_esglesies_romaniques_prov];
+);
+out meta;
 
 2) si l'església és nova, doncs l'hauré de crear.
 
@@ -258,3 +265,16 @@ ruins=yes
 building:condition=ruinous
 
 són unes runes, i estava catalogat senzillament com a building=yes
+===
+La majoria de les esglésies romàniques ja són les que estan a la viquipèdia, perquè hi ha gent que ha portat a la viquipèdia l'obra de la GEC
+===
+Sant Iscle i Santa Victòria de Montellà i Martinet -> Sant Iscle i Santa Victòria de Béixec
+===
+Cas extrem: església desapareguda
+Església de Sant Llàtzer
+wikipedia=ca:Església de Sant Llàtzer
+41.379722, 2.166389
+
+Santa Maria de La Baells -> no s'ha de posar a OSM
+===
+

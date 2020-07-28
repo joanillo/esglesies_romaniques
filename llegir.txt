@@ -137,3 +137,14 @@ building=chapel (seria una ermita)
 building=religious (és genèric)
 
 Potser el millor és posar building=church de forma genèrica, a no ser que sàpiga que és una ermita.
+---
+a mida que vaig introduint les esglésies, és possible que alguna església que estava llistada com a església romànica, quan es veu la foto i l'entrada de la viquipèdia, de romànic no en queda res. Per ex:
+*Santa Eulàlia d'Hortsavinyà
+*Sant Feliu de Monistrol de Calders
+Encara que l'origen de l'església fos romànic, les transformacions que ha tingut fan que no es pugui considerar romànica.
+---
+Sant Martí de Puig-ermengol
+Església vella de Sant Salvador de Gerb
+Sant Antoni de Susterris
+s'ha esborrat de la bd perquè no en queden restes
+---

@@ -1,10 +1,11 @@
 =================================
-name: Santa Maria de Corroncui (nova) (784837403)
-(42.3338651,0.8523137)
-municipi: el Pont de Suert
+name: Església Vella de Constantí (7744018686)
+alt_name: 
+name_ca: 
+(41.1538845,1.2125446)
+municipi: Constantí
 ---
-bd: Santa Maria de Corroncui (nova)
-(mun: Viu de Llevata)
-wik: ca:Santa Maria de Corroncui II (viquipèdia)
+bd: Església Vella de Constantí
+wik: ca:Església Vella (Constantí) (viquipèdia)
 coincidència: 100 %
 -----------

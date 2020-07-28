@@ -1,0 +1,10 @@
+M'he descarregat:
+bootstrap-4.5.0-examples
+
+i he escollit l'exemple:
+sticky-footer-navbar
+
+perquè conté una capçalera amb un cercador, i un espai molt ample on podré posar el mapa.
+
+Font de Google: Inknut Antiqua
+https://fonts.google.com/specimen/Inknut+Antiqua?query=antiqu&sidebar.open&selection.family=Inknut+Antiqua:wght@700#standard-styles

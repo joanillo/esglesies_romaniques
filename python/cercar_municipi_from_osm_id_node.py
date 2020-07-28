@@ -3,7 +3,7 @@
 cd /home/joan/projectes/OSM/esglesies_romaniques/python
 PS1="$ "
 
-mysql -u alumne -pkeiL2lai romanic
+mysql -u *** -p*** romanic
 '''
 
 import mysql.connector
@@ -13,10 +13,16 @@ from osmapi import OsmApi #create, update node
 
 overpass_url = "http://overpass-api.de/api/interpreter"
 
+pswd = file( "/home/joan/projectes/OSM/esglesies_romaniques/mysql/.passwd", "r" )
+for aLine in pswd:
+	fields= aLine.split( ":" )
+	#print fields[0], fields[1]
+pswd.close()
+
 mydb = mysql.connector.connect(
   host="localhost",
-  user="alumne",
-  passwd="keiL2lai",
+  user=fields[0],
+  passwd=fields[1],
   database="romanic"
 )
 
@@ -62,7 +68,7 @@ for esglesia in myresult:
 	osm_id = esglesia['osm_id']
 	osm_tipus = esglesia['osm_tipus']
 	print
-	print(esglesia['nom'] + " (" + osm_id + ")")
+	print(esglesia['esglesia'] + " (" + osm_id + ")")
 	if (osm_tipus=="node"):
 		overpass_query = "(node(%s););out;foreach(is_in->.a;area.a[admin_level~'[8]']->.a;convert node::=::,::id = id(),municipi=a.set(t['name']);out;);" % (osm_id)
 	else:

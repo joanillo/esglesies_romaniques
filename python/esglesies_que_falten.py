@@ -3,16 +3,22 @@
 cd /home/joan/projectes/OSM/esglesies_romaniques/python
 PS1="$ "
 
-mysql -u alumne -pkeiL2lai romanic
+mysql -u *** -p*** romanic
 '''
 
 import mysql.connector
 import codecs
 
+pswd = file( "/home/joan/projectes/OSM/esglesies_romaniques/mysql/.passwd", "r" )
+for aLine in pswd:
+	fields= aLine.split( ":" )
+	#print fields[0], fields[1]
+pswd.close()
+
 mydb = mysql.connector.connect(
   host="localhost",
-  user="alumne",
-  passwd="keiL2lai",
+  user=fields[0],
+  passwd=fields[1],
   database="romanic"
 )
 
@@ -27,7 +33,7 @@ myresult = mycursor.fetchall()
 print ("resultat de la consulta: " + str(mycursor.rowcount) + " files")
 for esglesia in myresult:
 	print
-	nom = esglesia['nom']
+	nom = esglesia['esglesia']
 
 	print(nom)
 

@@ -1,0 +1,316 @@
+Municipis i comarques de Catalunya
+https://www.idescat.cat/codis/?id=50&n=9
+
+*enganxem la informació a un full de càlcul. Ho fem a través d'un editor de text pla
+*formatem correctament
+*ordenem per codi de la comarca
+*hi ha 42 comarques. Creem un nou full de càlcul amb aquestes comarques. Per tant, ara tenim dos fulls de càlcul: un de municipis; i un de comarques.
+*del full de municipis ens quedem només amb el id de la comarca. El nom de la comarca és redundant.
+
+Al MySQL, creem les taules comarca i municipi:
+
+create table comarca (
+id_comarca smallint primary key,
+comarca varchar(30) not null
+);
+
+create table municipi (
+id_municipi int primary key,
+municipi varchar(50) not null,
+id_comarca smallint references comarca(id_comarca)
+);
+
+*fem servir la comanca CONCAT per tal de generar les comandes INSERT per fer els inserts a les taules que ara mateix crearem.
+
+
+=CONCAT("INSERT INTO comarca(id_comarca, comarca) VALUES (";A1;",'";B1;"'";");")
+
+però aquesta comanda s'ha de millorar per:
+
+=CONCAT("INSERT INTO comarca(id_comarca, comarca) VALUES (";A1;",'";SUBSTITUEIX(B1;"'";"''");"'";");")
+
+*Ara ja podem introduir totes les comarques:
+INSERT INTO comarca(id_comarca, comarca) VALUES (1,'Alt Camp');
+INSERT INTO comarca(id_comarca, comarca) VALUES (2,'Alt Empordà');
+INSERT INTO comarca(id_comarca, comarca) VALUES (3,'Alt Penedès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (4,'Alt Urgell');
+INSERT INTO comarca(id_comarca, comarca) VALUES (5,'Alta Ribagorça');
+INSERT INTO comarca(id_comarca, comarca) VALUES (6,'Anoia');
+INSERT INTO comarca(id_comarca, comarca) VALUES (7,'Bages');
+INSERT INTO comarca(id_comarca, comarca) VALUES (8,'Baix Camp');
+INSERT INTO comarca(id_comarca, comarca) VALUES (9,'Baix Ebre');
+INSERT INTO comarca(id_comarca, comarca) VALUES (10,'Baix Empordà');
+INSERT INTO comarca(id_comarca, comarca) VALUES (11,'Baix Llobregat');
+INSERT INTO comarca(id_comarca, comarca) VALUES (12,'Baix Penedès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (13,'Barcelonès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (14,'Berguedà');
+INSERT INTO comarca(id_comarca, comarca) VALUES (15,'Cerdanya');
+INSERT INTO comarca(id_comarca, comarca) VALUES (16,'Conca de Barberà');
+INSERT INTO comarca(id_comarca, comarca) VALUES (17,'Garraf');
+INSERT INTO comarca(id_comarca, comarca) VALUES (18,'Garrigues');
+INSERT INTO comarca(id_comarca, comarca) VALUES (19,'Garrotxa');
+INSERT INTO comarca(id_comarca, comarca) VALUES (20,'Gironès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (21,'Maresme');
+INSERT INTO comarca(id_comarca, comarca) VALUES (22,'Montsià');
+INSERT INTO comarca(id_comarca, comarca) VALUES (23,'Noguera');
+INSERT INTO comarca(id_comarca, comarca) VALUES (24,'Osona');
+INSERT INTO comarca(id_comarca, comarca) VALUES (25,'Pallars Jussà');
+INSERT INTO comarca(id_comarca, comarca) VALUES (26,'Pallars Sobirà');
+INSERT INTO comarca(id_comarca, comarca) VALUES (27,'Pla d''Urgell');
+INSERT INTO comarca(id_comarca, comarca) VALUES (28,'Pla de l''Estany');
+INSERT INTO comarca(id_comarca, comarca) VALUES (29,'Priorat');
+INSERT INTO comarca(id_comarca, comarca) VALUES (30,'Ribera d''Ebre');
+INSERT INTO comarca(id_comarca, comarca) VALUES (31,'Ripollès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (32,'Segarra');
+INSERT INTO comarca(id_comarca, comarca) VALUES (33,'Segrià');
+INSERT INTO comarca(id_comarca, comarca) VALUES (34,'Selva');
+INSERT INTO comarca(id_comarca, comarca) VALUES (35,'Solsonès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (36,'Tarragonès');
+INSERT INTO comarca(id_comarca, comarca) VALUES (37,'Terra Alta');
+INSERT INTO comarca(id_comarca, comarca) VALUES (38,'Urgell');
+INSERT INTO comarca(id_comarca, comarca) VALUES (39,'Aran');
+INSERT INTO comarca(id_comarca, comarca) VALUES (40,'Vallès Occidental');
+INSERT INTO comarca(id_comarca, comarca) VALUES (41,'Vallès Oriental');
+INSERT INTO comarca(id_comarca, comarca) VALUES (42,'Moianès');
+
+
+*Fem el mateix per als municipis (n'hi ha 947)
+
+=CONCAT("INSERT INTO municipi(id_municipi, municipi, id_comarca) VALUES (";A1;",'";SUBSTITUEIX(B1;"'";"''");"',";C1;");")
+
+INSERT INTO municipi(id_municipi, municipi, id_comarca) VALUES (430017,'Aiguamúrcia',1);
+INSERT INTO municipi(id_municipi, municipi, id_comarca) VALUES (430056,'Alcover',1);
+INSERT INTO municipi(id_municipi, municipi, id_comarca) VALUES (430108,'Alió',1);
+INSERT INTO municipi(id_municipi, municipi, id_comarca) VALUES (430347,'Bràfim',1);
+INSERT INTO municipi(id_municipi, municipi, id_comarca) VALUES (430363,'Cabra del Camp',1);
+...
+
+Comprovem que hi siguin tots els municipis:
+mysql> select count(*) from municipi;
++----------+
+| count(*) |
++----------+
+|      947 |
++----------+
+
+I ara ja podem creuar les dades de municipis i comarques. Per ex, municipis del Berguedà:
+
+select municipi from municipi m, comarca c where m.id_comarca=c.id_comarca and comarca='Berguedà';
+
++---------------------------+
+| municipi                  |
++---------------------------+
+| Avià                      |
+| Bagà                      |
+| Berga                     |
+| Borredà                   |
+| Capolat                   |
+| Casserres                 |
+...
+
+====
+Relacionat amb la base de dades d'esglèsies romàniques, ara podem creuar les esglesies amb les comarques, però en església no tenim el id, sinó que tenim el nom del municipi:
+
+select nom, m.municipi from esglesia e, municipi m where e.municipi=m.municipi;
+1183
+
+amb les comarques:
+select nom, m.municipi, comarca from esglesia e, municipi m, comarca c where e.municipi=m.municipi and m.id_comarca=c.id_comarca;
+1183
+
+esglésies que encara no tenen municipi:
+select * from esglesia where municipi is null;
+358 -> són les esglésies que encara em falten
+
+esglésies que el municipi que tinc registrat (que ve de OSM) no coincideix amb el municipi de la base de dades (que ve de https://www.idescat.cat/codis/?id=50&n=9)
+
+select * from esglesia where municipi!="" and municipi not in (select municipi from municipi);
+n'hi ha 241,
+Típicament, això passa perquè no és el mateix 
+Vall de Boí, la
+que
+la Vall de Boí
+
+Són 68 municipis:
+mysql> select distinct(municipi) from esglesia where municipi!="" and municipi not in (select municipi from municipi);
++--------------------------------+
+| municipi                       |
++--------------------------------+
+| la Palma d'Ebre                |
+| La Selva del Camp              |
+| l'Aldea                        |
+| el Pont d'Armentera            |
+| El Pla de Santa Maria          |
+| el Port de la Selva            |
+| la Jonquera                    |
+| el Far d'Empordà               |
+| la Vajol                       |
+| La Selva de Mar                |
+| l'Escala                       |
+| les Cabanyes                   |
+| el Pla del Penedès             |
+| la Seu d'Urgell                |
+| la Vansa i Fórnols             |
+| Les Valls d'Aguilar            |
+| les Valls de Valira            |
+| el Pont de Suert               |
+| Viu de Llevata                 |
+| la Vall de Boí                 |
+| la Llacuna                     |
+| els Prats de Rei               |
+| el Bruc                        |
+| la Pobla de Claramunt          |
+| la Torre de Claramunt          |
+| el Pont de Vilomara i Rocafort |
+| la Pera                        |
+| la Tallada d'Empordà           |
+| la Bisbal d'Empordà            |
+| La Palma de Cervelló           |
+| el Montmell                    |
+| l'Hospitalet de Llobregat      |
+| la Quar                        |
+| l'Espunyola                    |
+| la Pobla de Lillet             |
+| Serrateix;Viver i Serrateix    |
+| les Piles                      |
+| el Vilosell                    |
+| les Planes d'Hostoles          |
+| les Preses                     |
+| la Vall d'en Bas               |
+| la Vall de Bianya              |
+| l'Estany                       |
+| la Nou de Berguedà             |
+| les Avellanes i Santa Linya    |
+| la Baronia de Rialb            |
+| les Masies de Roda             |
+| el Brull                       |
+| l'Esquirol                     |
+| les Masies de Voltregà         |
+| la Pobla de Segur              |
+| la Torre de Cabdella           |
+| Alt Àneu;València d'Àneu       |
+| La Guingueta d'Àneu            |
+| el Masroig                     |
+| les Llosses                    |
+| els Plans de Sió               |
+| les Oluges                     |
+| la Cellera de Ter              |
+| la Molsosa                     |
+| la Coma i la Pedra             |
+| la Pobla de Montornès          |
+| Arres;Arres de Jos             |
+| es Bòrdes                      |
+| l'Ametlla del Vallès           |
+| les Franqueses del Vallès      |
+| la Roca del Vallès             |
+| el Pont de Bar                 |
+
+Això ho arreglaré manualment creant el camp alt_municipi en la taula municipi, per tal de què es mapegin bé tots els municipis.
+NOTA.
+El problema també és de OSM, perquè no pot ser per exemple que no hi hagi criteri en l'ús de l'article: 
+
+*la Bisbal d'Empordà
+*La Palma de Cervelló
+
+Altres errors de OSM:
+Viu de Llevata -> el muncipi no existeix des de 1970. Ara el municipi és El Pont de Suert
+Serrateix;Viver i Serrateix -> el municipi es diu Viver i Serrateix
+Alt Àneu;València d'Àneu -> Alt Àneu
+Arres;Arres de Jos -> Arres
+
+ALTER TABLE municipi add column alt_municipi varchar(50) not null;
+
+update municipi set alt_municipi=municipi;
+
+I ara fem una modificació manual dels casos:
+
+update municipi set alt_municipi='la Palma d''Ebre' where municipi='Palma d''Ebre, la';
+update municipi set alt_municipi='La Selva del Camp' where municipi='Selva del Camp, La';
+update municipi set alt_municipi='l''Aldea' where municipi='Aldea, l''';
+update municipi set alt_municipi='el Pont d''Armentera' where municipi='Pont d''Armentera, el';
+update municipi set alt_municipi='El Pla de Santa Maria' where municipi='Pla de Santa Maria, el';
+update municipi set alt_municipi='el Port de la Selva' where municipi='Port de la Selva, el';
+update municipi set alt_municipi='la Jonquera' where municipi='Jonquera, la';
+update municipi set alt_municipi='el Far d''Empordà' where municipi='Far d''Empordà, el';
+update municipi set alt_municipi='la Vajol' where municipi='Vajol, la';
+update municipi set alt_municipi='La Selva de Mar' where municipi='Selva de Mar, la';
+update municipi set alt_municipi='l''Escala' where municipi='Escala, l''';
+update municipi set alt_municipi='les Cabanyes' where municipi='Cabanyes, les';
+update municipi set alt_municipi='el Pla del Penedès' where municipi='Pla del Penedès, el';
+update municipi set alt_municipi='la Seu d''Urgell' where municipi='Seu d''Urgell, la';
+update municipi set alt_municipi='la Vansa i Fórnols' where municipi='Vansa i Fórnols, la';
+update municipi set alt_municipi='Les Valls d''Aguilar' where municipi='Valls d''Aguilar, les';
+update municipi set alt_municipi='les Valls de Valira' where municipi='Valls de Valira, les';
+update municipi set alt_municipi='el Pont de Suert' where municipi='Pont de Suert, el';
+
+
+update municipi set alt_municipi='la Vall de Boí' where municipi='Vall de Boí, la';
+update municipi set alt_municipi='la Llacuna' where municipi='Llacuna, la';
+update municipi set alt_municipi='els Prats de Rei' where municipi='Prats de Rei, els';
+update municipi set alt_municipi='el Bruc' where municipi='Bruc, el';
+update municipi set alt_municipi='la Pobla de Claramunt' where municipi='Pobla de Claramunt, la';
+update municipi set alt_municipi='la Torre de Claramunt' where municipi='Torre de Claramunt, la';
+update municipi set alt_municipi='el Pont de Vilomara i Rocafort' where municipi='Pont de Vilomara i Rocafort, el';
+
+update municipi set alt_municipi='la Pera' where municipi='Pera, la';
+update municipi set alt_municipi='la Tallada d''Empordà' where municipi='Tallada d''Empordà, la';
+update municipi set alt_municipi='la Bisbal d''Empordà' where municipi='Bisbal d''Empordà, la';
+update municipi set alt_municipi='La Palma de Cervelló' where municipi='Palma de Cervelló, la';
+update municipi set alt_municipi='el Montmell' where municipi='Montmell, el';
+update municipi set alt_municipi='l''Hospitalet de Llobregat' where municipi='Hospitalet de Llobregat, l''';
+
+update municipi set alt_municipi='la Quar' where municipi='Quar, la';
+update municipi set alt_municipi='l''Espunyola' where municipi='Espunyola, l''';
+update municipi set alt_municipi='la Pobla de Lillet' where municipi='Pobla de Lillet, la';
+
+update municipi set alt_municipi='les Piles' where municipi='Piles, les';
+update municipi set alt_municipi='el Vilosell' where municipi='Vilosell, el';
+update municipi set alt_municipi='les Planes d''Hostoles' where municipi='Planes d''Hostoles, les';
+update municipi set alt_municipi='les Preses' where municipi='Preses, les';
+update municipi set alt_municipi='la Vall d''en Bas' where municipi='Vall d''en Bas, la';
+update municipi set alt_municipi='la Vall de Bianya' where municipi='Vall de Bianya, la';
+update municipi set alt_municipi='l''Estany' where municipi='Estany, l''';
+update municipi set alt_municipi='la Nou de Berguedà' where municipi='Nou de Berguedà, la';
+
+update municipi set alt_municipi='les Avellanes i Santa Linya' where municipi='Avellanes i Santa Linya, les';
+update municipi set alt_municipi='la Baronia de Rialb' where municipi='Baronia de Rialb, la';
+update municipi set alt_municipi='les Masies de Roda' where municipi='Masies de Roda, les';
+update municipi set alt_municipi='el Brull' where municipi='Brull, el';
+update municipi set alt_municipi='l''Esquirol' where municipi='Esquirol, l''';
+update municipi set alt_municipi='les Masies de Voltregà' where municipi='Masies de Voltregà, les';
+update municipi set alt_municipi='la Pobla de Segur' where municipi='Pobla de Segur, la';
+update municipi set alt_municipi='la Torre de Cabdella' where municipi='Torre de Cabdella, la';
+
+update municipi set alt_municipi='La Guingueta d''Àneu' where municipi='Guingueta d''Àneu, la';
+update municipi set alt_municipi='el Masroig' where municipi='Masroig, el';
+update municipi set alt_municipi='les Llosses' where municipi='Llosses, les';
+update municipi set alt_municipi='els Plans de Sió' where municipi='Plans de Sió, els';
+update municipi set alt_municipi='les Oluges' where municipi='Oluges, les';
+update municipi set alt_municipi='la Cellera de Ter' where municipi='Cellera de Ter, la';
+update municipi set alt_municipi='la Molsosa' where municipi='Molsosa, la';
+
+update municipi set alt_municipi='la Coma i la Pedra' where municipi='Coma i la Pedra, la';
+update municipi set alt_municipi='la Pobla de Montornès' where municipi='Pobla de Montornès, la';
+update municipi set alt_municipi='es Bòrdes' where municipi='Bòrdes, Es';
+update municipi set alt_municipi='l''Ametlla del Vallès' where municipi='Ametlla del Vallès, l''';
+update municipi set alt_municipi='les Franqueses del Vallès' where municipi='Franqueses del Vallès, les';
+update municipi set alt_municipi='la Roca del Vallès' where municipi='Roca del Vallès, la';
+update municipi set alt_municipi='el Pont de Bar' where municipi='Pont de Bar, el';
+
+
+mysql> select * from esglesia where municipi!="" and municipi not in (select alt_municipi from municipi);
+0
+
+de moment 0, que significa que totes els municipis de les esglésies estan ben identificats, i que per tant puc associar-ne la coomarca. Oer exemple:
+
+
+recordar que ara he d'utilitzar m.alt_municipi i no m.municipi:
+select nom, m.alt_municipi, comarca from esglesia e, municipi m, comarca c where e.municipi=m.alt_municipi and m.id_comarca=c.id_comarca;
+1424
+
+select count(*) from esglesia where municipi is not null;
+1424
+===
+select nom, municipi, lat, lon, wikipedia, wikidata from esglesia limit 10;
+select nom, e.municipi, comarca, lat, lon, wikipedia, wikidata from esglesia e, municipi m, comarca c where e.municipi=m.alt_municipi and m.id_comarca=c.id_comarca and e.municipi is not null limit 10;
+

@@ -1,0 +1,53 @@
+/* Custom page CSS
+-------------------------------------------------- */
+/* Not required for template or sticky footer method. */
+
+main > .container {
+  padding: 60px 0px 0px 0px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+.footer {
+  background-color: #f5f5f5;
+}
+
+.footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+.navbar {
+	font-family: 'Inknut Antiqua', serif;
+}
+
+.map {
+	width:1200px;
+	height: 800px;
+}
+
+.enllacos {
+  padding: 30px 0px 0px 0px;
+  font-family: 'Inknut Antiqua', serif;
+}
+
+.ol-popup {
+	visibility: hidden;
+	position: fixed;
+	background-color: white;
+	-webkit-filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+	filter: drop-shadow(0 1px 4px rgba(0,0,0,0.2));
+	padding: 15px;
+	border-radius: 10px;
+	border: 1px solid #cccccc;
+	top: 120px;
+	left: 50px;
+	min-width: 240px;
+	z-index: 10;
+}
+
+.ol-popup a {
+	text-decoration: none;
+}
